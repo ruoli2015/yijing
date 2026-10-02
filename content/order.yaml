@@ -1,0 +1,230 @@
+# Content for the 卦序之理 (logic of the order) page.
+
+essays:
+  - id: what
+    title_zh: 什麼是《序卦傳》
+    title_en: What the Xugua is
+    body_zh: >-
+      《序卦傳》是「十翼」之一，也就是解釋《易經》的十篇古傳之一，傳統上歸於孔子，學者一般認為成書於戰國至漢初。
+      它做的事很簡單：為今本六十四卦的排列順序，一卦一卦說明「為什麼這一卦接在那一卦後面」。它常用兩種手法：
+      一是以字釋卦（如「蒙者蒙也」「師者眾也」），二是用因果鏈條把前後卦串起來（如「物生必蒙」「飲食必有訟」）。
+      魏晉的韓康伯注說，序卦所講的並不是《易》最深的義理，而是「因卦之次，託以明義」——借著卦的次序來說明道理。
+      所以讀序卦傳，不必把每一環都當作嚴格的邏輯推論；把它看作一部關於萬物生成、人事興衰的「連續故事」，最能體會它的用意。
+    body_en: >-
+      The Xugua 序卦傳, "Ordering the Hexagrams," is one of the Ten Wings, the ancient commentaries attached
+      to the Book of Changes. Tradition credits Confucius; scholars generally date it to the Warring States
+      or early Han. Its task is simple: for the received order of the sixty-four hexagrams, it explains,
+      one by one, why each hexagram follows the one before. It uses two techniques: glossing a name by a
+      word ("Meng means covered," "Shi means the multitude") and linking neighbors by cause and effect
+      ("what is born is immature," "where there is food there will be disputes"). The commentator Han
+      Kangbo (4th century) remarked that the Xugua does not contain the deepest meaning of the Changes;
+      rather, it "takes the order of the hexagrams as an occasion to explain principles." So don't read
+      every link as strict logic. Read it as one continuous story about how things come to be and how
+      human affairs rise and fall.
+
+  - id: canons
+    title_zh: 上經與下經
+    title_en: The Upper and Lower Canons
+    body_zh: >-
+      六十四卦分為上經三十卦（乾至離）與下經三十四卦（咸至未濟）。數目看似不均，其實很平衡：若把上下顛倒後相同的卦
+      算作一個「卦形」，上經有六個自身對稱的卦（乾、坤、頤、大過、坎、離）加十二對綜卦，共十八形；下經有兩個對稱卦
+      （中孚、小過）加十六對綜卦，也是十八形。上經以乾坤（天地）開篇、以坎離（水火、日月）收尾，偏重天道與自然；
+      下經以咸恆（夫婦）開篇，偏重人倫與人事，最後以既濟、未濟收尾——這兩卦正是坎離的交錯組合，與上經的結尾遙相呼應。
+    body_en: >-
+      The hexagrams are split into the Upper Canon, 30 hexagrams (Qian 乾 to Li 離), and the Lower Canon, 34
+      (Xian 咸 to Wei Ji 未濟). The numbers look uneven but balance perfectly: count each hexagram and its
+      upside-down form as one "shape," and the Upper Canon has six self-symmetrical hexagrams (Qian, Kun,
+      Yi 頤, Da Guo, Kan, Li) plus twelve inverted pairs — 18 shapes; the Lower has two symmetrical ones
+      (Zhong Fu, Xiao Guo) plus sixteen pairs — also 18. The Upper Canon opens with Qian and Kun (heaven
+      and earth) and closes with Kan and Li (water and fire, moon and sun): the way of nature. The Lower
+      opens with Xian and Heng (husband and wife): the way of human life. It ends with Ji Ji and Wei Ji,
+      which are themselves Kan and Li interlaced, echoing the end of the Upper Canon.
+
+  - id: pairs
+    title_zh: 二二相耦，非覆即變
+    title_en: "Paired two by two: inverted or else changed"
+    body_zh: >-
+      唐代孔穎達在《周易正義》中指出：今本卦序「二二相耦，非覆即變」。六十四卦兩兩成對（1–2、3–4……63–64），
+      每對之中，第二卦要麼是第一卦上下顛倒（「覆」，後世稱「綜卦」），要麼在顛倒後不變時，就把六爻陰陽全部反轉
+      （「變」，後世稱「錯卦」）。顛倒成對的有二十八對；只有四對因為卦形上下對稱，只能用陰陽全反配對：乾坤、頤大過、
+      坎離、中孚小過。這是學習卦序最有用的一把鑰匙：記住每對中的第一卦，第二卦往往就是把它倒過來看。
+      另外，泰否、隨蠱、漸歸妹、既濟未濟這四對既是綜卦也是錯卦。
+    body_en: >-
+      The Tang scholar Kong Yingda observed that the received order is "paired two by two: inverted or
+      else changed." The sixty-four form 32 pairs (1–2, 3–4 … 63–64). In each pair, the second hexagram is
+      either the first turned upside down (fu 覆, later called zong 綜, "inverted"), or, when turning it
+      over changes nothing, the first with every line switched between yin and yang (bian 變, later cuo 錯,
+      "complementary"). Twenty-eight pairs are inversions; only four pairs are symmetrical top to bottom
+      and so must be paired by inverting every line: Qian–Kun, Yi–Da Guo, Kan–Li, Zhong Fu–Xiao Guo. This
+      is the single most useful key for learning the order: know the first hexagram of each pair, and the
+      second is usually that same figure seen upside down. Four pairs — Tai–Pi, Sui–Gu, Jian–Gui Mei and
+      Ji Ji–Wei Ji — are both inversions and complements.
+
+  - id: links
+    title_zh: 三種銜接：承、反、補
+    title_en: "Three kinds of link: consequence, reversal, remedy"
+    body_zh: >-
+      細讀序卦傳的六十三句，可以把卦與卦之間的銜接大致分成三類（這是為了方便學習所作的歸納，並非序卦傳原有的術語）：
+      「承」——前一卦自然導致後一卦，如「飲食必有訟」「進必有所傷」；
+      「反」——前一卦的狀態不能持久，物極而反，如「物不可以終通，故受之以否」「剝窮上反下，故受之以復」；
+      「補」——前一卦缺了什麼，後一卦正好補足，如「物穉不可不養也，故受之以需」「有大者不可以盈，故受之以謙」。
+      每一卦的頁面上都標有它屬於哪一種銜接。試著在測驗時先判斷銜接的種類，再回想後一卦，記憶會牢固得多。
+    body_en: >-
+      Reading the Xugua's 63 sentences closely, the links between neighboring hexagrams fall roughly into
+      three kinds. (This grouping is a learning aid of ours, not the Xugua's own terminology.)
+      Consequence 承 — the first naturally leads to the next: "where there is food there will be disputes,"
+      "advance is sure to meet injury."
+      Reversal 反 — the first state cannot last, and at its extreme turns into its opposite: "things cannot
+      flow freely forever, so Pi follows," "when stripping reaches the top it returns to the bottom, so Fu
+      follows."
+      Remedy 補 — the next supplies what the first lacks: "infant things must be nourished, so Xu follows,"
+      "one who has much must not overflow, so Qian 謙 follows."
+      Every hexagram page shows which kind of link brings it in. When you quiz yourself, try naming the
+      kind of link first and then recalling the next hexagram; the order sticks much better.
+
+  - id: reversal
+    title_zh: 物極必反：序卦傳的節奏
+    title_en: "Reversal at the extreme: the rhythm of the Xugua"
+    body_zh: >-
+      序卦傳中最常見的句式是「物不可以終……」：終通（否）、終否（同人）、終盡（復）、終過（坎）、終遯（大壯）、
+      終壯（晉）、終難（解）、終動（艮）、終止（漸）、終離（節）——共十次；另有「升而不已必困」「損而不已必益」
+      「益而不已必決」，以及最後的「物不可窮也」。這些句子構成了卦序的基本節奏：任何狀態發展到極點都會轉向它的反面，
+      而轉向之後又開始新的發展。泰→否、剝→復、損→益、既濟→未濟，是這種節奏最鮮明的例子。
+      序卦傳以「未濟」收尾，不讓故事停在「完成」，正是這種思想的總結：變化永無止境。
+    body_en: >-
+      The Xugua's most frequent formula is "things cannot … forever": cannot flow freely forever (Pi),
+      stay blocked (Tong Ren), be used up (Fu), be in excess (Kan), withdraw (Da Zhuang), stay at full
+      strength (Jin), be in difficulty (Xie), move (Gen), rest (Jian), stay scattered (Jie) — ten times in
+      all. Add "rising without stopping leads to exhaustion," "decrease without end turns to increase,"
+      "increase without end leads to breakthrough," and the final "things can never be exhausted." These
+      sentences set the basic rhythm of the sequence: every state, pushed to its limit, turns into its
+      opposite, and from there a new development begins. Tai→Pi, Bo→Fu, Sun→Yi and Ji Ji→Wei Ji are the
+      clearest cases. Ending with Wei Ji, "not yet complete," rather than letting the story stop at
+      completion, sums up the whole idea: change never ends.
+
+  - id: tips
+    title_zh: 如何記住卦序
+    title_en: How to memorize the order
+    body_zh: >-
+      一、先背朱熹的〈卦名次序歌〉（見下方），把六十四個卦名的順序變成有節奏的韻文。
+      二、按「對」記憶：三十二對中，每對第二卦多半是第一卦倒過來；先在「瀏覽」頁打開「成對」視圖熟悉它們。
+      三、按「段落」記憶：下方把卦序分成十七個小段，每段講一個小故事（如「需訟師比」：吃飯→爭訟→戰爭→結盟）。
+      四、記住幾個錨點：1 乾、11 泰、12 否、23 剝、24 復、29 坎、30 離（上經終）、31 咸（下經始）、41 損、42 益、
+      49 革、50 鼎、63 既濟、64 未濟。
+      五、用「認卦」和「畫卦」測驗反覆練習；答錯的卦會更常出現。
+    body_en: >-
+      1. Learn Zhu Xi's rhyme of hexagram names (below), which turns the sequence into rhythmic verse.
+      2. Learn in pairs: in most of the 32 pairs the second hexagram is the first upside down. Open the
+      "pairs" view on the Browse page to get familiar with them.
+      3. Learn in stages: below, the sequence is divided into seventeen short stages, each telling a small
+      story (e.g. Xu–Song–Shi–Bi: food → dispute → war → alliance).
+      4. Fix a few anchors: 1 Qian, 11 Tai, 12 Pi, 23 Bo, 24 Fu, 29 Kan, 30 Li (end of the Upper Canon),
+      31 Xian (start of the Lower), 41 Sun, 42 Yi, 49 Ge, 50 Ding, 63 Ji Ji, 64 Wei Ji.
+      5. Drill with the Identify and Draw quizzes; hexagrams you miss come back more often.
+
+stages:
+  - range: [1, 2]
+    title_zh: 天地定位
+    title_en: Heaven and Earth
+    summary_zh: 乾坤是一切的起點：創生與承載，天與地。
+    summary_en: Qian and Kun are the starting point of everything — creating and receiving, heaven and earth.
+  - range: [3, 8]
+    title_zh: 生成與群聚
+    title_en: Birth, growth and community
+    summary_zh: 萬物初生（屯）→幼稚（蒙）→需要養育（需）→為飲食爭訟（訟）→爭端擴大為戰爭（師）→戰後結盟（比）。
+    summary_en: Birth (Zhun) → infancy (Meng) → nourishment (Xu) → disputes over food (Song) → war (Shi) → alliance (Bi).
+  - range: [9, 12]
+    title_zh: 積累、禮制、通塞
+    title_en: Accumulation, order, flow and blockage
+    summary_zh: 團結而有積蓄（小畜）→有積蓄而知禮（履）→循禮而通泰（泰）→通極而閉塞（否）。
+    summary_en: Unity brings stores (Xiao Xu) → stores bring propriety (Lü) → propriety brings peace (Tai) → peace turns to stagnation (Pi).
+  - range: [13, 16]
+    title_zh: 和同與豐有
+    title_en: Fellowship and abundance
+    summary_zh: 打破閉塞要與人和同（同人）→眾人歸附而大有（大有）→大有不可自滿（謙）→謙而和樂（豫）。
+    summary_en: Breaking stagnation needs fellowship (Tong Ren) → people rally, bringing abundance (Da You) → abundance must not overflow (Qian 謙) → modesty brings joy (Yu).
+  - range: [17, 20]
+    title_zh: 隨從、整治與治理
+    title_en: Following, repair and leadership
+    summary_zh: 和樂使人相隨（隨）→盲目相隨生弊（蠱）→整治而壯大（臨）→壯大而可觀（觀）。
+    summary_en: Joy draws followers (Sui) → careless following breeds decay (Gu) → repair makes one great (Lin) → greatness is worth beholding (Guan).
+  - range: [21, 24]
+    title_zh: 合、飾、剝、復
+    title_en: Union, ornament, decay, return
+    summary_zh: 可觀而求合，要咬斷阻隔（噬嗑）→合須有文飾（賁）→文飾過度而剝落（剝）→剝盡而一陽來復（復）。
+    summary_en: Union requires biting through obstacles (Shi He) → union needs grace (Bi 賁) → too much ornament ends in decay (Bo) → decay complete, light returns (Fu).
+  - range: [25, 28]
+    title_zh: 誠、畜、養、過
+    title_en: Sincerity, accumulation, nourishment, excess
+    summary_zh: 復歸正道而無妄（无妄）→真誠方能大畜（大畜）→有積蓄才能養（頤）→養足而有非常之舉（大過）。
+    summary_en: Return brings sincerity (Wu Wang) → sincerity allows great stores (Da Xu) → stores allow nourishment (Yi 頤) → the nourished can do extraordinary things (Da Guo).
+  - range: [29, 30]
+    title_zh: 水火終篇
+    title_en: Water and fire
+    summary_zh: 過度則陷入險（坎）→陷險須有所附麗（離）。上經以水火、日月作結。
+    summary_en: Excess falls into danger (Kan) → in danger one must cling to something (Li). The Upper Canon closes with water and fire, moon and sun.
+  - range: [31, 32]
+    title_zh: 夫婦之道
+    title_en: The way of husband and wife
+    summary_zh: 下經從人倫開始：男女相感（咸）→夫婦之道須長久（恆）。
+    summary_en: The Lower Canon begins with human bonds — attraction (Xian) → marriage must endure (Heng).
+  - range: [33, 36]
+    title_zh: 進退之道
+    title_en: Retreat and advance
+    summary_zh: 不可久居其位而退（遯）→退極復壯（大壯）→壯而前進（晉）→進而受傷（明夷）。
+    summary_en: One cannot stay put forever, so one retreats (Dun) → retreat turns to strength (Da Zhuang) → strength advances (Jin) → advance gets hurt (Ming Yi).
+  - range: [37, 40]
+    title_zh: 家道與患難
+    title_en: Family, estrangement and hardship
+    summary_zh: 受傷回家（家人）→家道窮而乖離（睽）→乖離生患難（蹇）→患難終將解除（解）。
+    summary_en: The wounded come home (Jia Ren) → a failing household drifts apart (Kui) → estrangement brings hardship (Jian 蹇) → hardship is released (Xie).
+  - range: [41, 44]
+    title_zh: 損益與決遇
+    title_en: Decrease, increase, breakthrough, encounter
+    summary_zh: 鬆懈而有損（損）→損極轉益（益）→益極而決（夬）→決後又遇（姤）。
+    summary_en: Slackening brings loss (Sun) → loss turns to gain (Yi 益) → gain overflows into breakthrough (Guai) → after parting, a new meeting (Gou).
+  - range: [45, 48]
+    title_zh: 聚、升、困、返本
+    title_en: Gathering, rising, exhaustion, the source
+    summary_zh: 相遇而聚（萃）→聚而上升（升）→升而不已則困（困）→困於上者返歸於下（井）。
+    summary_en: Meeting leads to gathering (Cui) → gathering rises (Sheng) → endless rising exhausts (Kun 困) → the exhausted turn back down to the well (Jing).
+  - range: [49, 52]
+    title_zh: 變革與動靜
+    title_en: Revolution, renewal, movement, stillness
+    summary_zh: 井須淘洗而變革（革）→變革以鼎取新（鼎）→主鼎者為長子（震）→動極而止（艮）。
+    summary_en: The well must be renewed (Ge) → the cauldron establishes the new (Ding) → the eldest son presides over it (Zhen) → movement comes to rest (Gen).
+  - range: [53, 56]
+    title_zh: 歸宿與盛衰
+    title_en: Belonging, abundance and wandering
+    summary_zh: 止極復進（漸）→進必有所歸（歸妹）→得其所歸而豐大（豐）→盛極失居而為旅（旅）。
+    summary_en: Rest turns to gradual advance (Jian 漸) → advance seeks a home (Gui Mei) → belonging brings abundance (Feng) → overreaching ends in wandering (Lü 旅).
+  - range: [57, 60]
+    title_zh: 入、悅、散、節
+    title_en: Entering, joy, scattering, measure
+    summary_zh: 旅人以柔順而入（巽）→入而相悅（兌）→悅而渙散（渙）→散而須節（節）。
+    summary_en: The traveler enters by gentleness (Xun) → acceptance brings joy (Dui) → joy loosens into dispersal (Huan) → dispersal needs limits (Jie).
+  - range: [61, 64]
+    title_zh: 誠信與終始
+    title_en: Trust, action, completion, the unfinished
+    summary_zh: 有節而有信（中孚）→有信必行而小過（小過）→過人者必濟（既濟）→物不可窮，終於未濟（未濟）。
+    summary_en: Measure builds trust (Zhong Fu) → trust acts and slightly overshoots (Xiao Guo) → those who go beyond succeed (Ji Ji) → nothing is ever finished (Wei Ji).
+
+song:
+  title_zh: 上下經卦名次序歌
+  source_zh: 朱熹《周易本義》卷首
+  title_en: Rhyme of the hexagram names in order (Zhu Xi)
+  lines:
+    - 乾坤屯蒙需訟師，
+    - 比小畜兮履泰否。
+    - 同人大有謙豫隨，
+    - 蠱臨觀兮噬嗑賁。
+    - 剝復无妄大畜頤，
+    - 大過坎離三十備。
+    - 咸恆遯兮及大壯，
+    - 晉與明夷家人睽。
+    - 蹇解損益夬姤萃，
+    - 升困井革鼎震繼。
+    - 艮漸歸妹豐旅巽，
+    - 兌渙節兮中孚至。
+    - 小過既濟兼未濟，
+    - 是為下經三十四。

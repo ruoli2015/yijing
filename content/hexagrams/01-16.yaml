@@ -1,0 +1,318 @@
+# Authored content for each hexagram. Classical texts live in content/classics.json.
+#   link: how this hexagram follows the previous one —
+#     承 consequence (A naturally leads to B) · 反 reversal (A cannot last, turns into B)
+#     補 remedy (B supplies what A lacks) · 始 a beginning (乾, 坤, 咸)
+#   xugua_en: English translation of this hexagram's 序卦傳 sentence
+#   logic_zh / logic_en: modern explanation of why this hexagram comes here
+
+- num: 1
+  name: 乾
+  pinyin: qián
+  en: The Creative
+  en_alt: Heaven
+  gist_zh: 純陽剛健，自強不息的創生之力。
+  gist_en: Pure yang — the strong, unceasing creative force.
+  link: 始
+  xugua_en: There are heaven and earth, and only then do the myriad things come into being.
+  logic_zh: >-
+    序卦傳沒有直接寫出乾、坤的名字，只以「有天地」一語帶過：乾為天，坤為地，二者是一切生成的前提，
+    所以不需要任何「理由」來引出——它們本身就是起點。乾居首位，代表純粹的創生力量：剛健、主動、不息。
+    整個卦序的故事，從這股力量開始。
+  logic_en: >-
+    The Xugua never names Qian 乾 and Kun 坤; it only says "there are heaven and earth." Qian is heaven
+    and Kun is earth, the precondition of everything that follows, so they need no justification: they
+    are the starting point itself. Qian stands first as pure creative energy — strong, active, unceasing.
+    The whole story of the sequence begins from this force.
+
+- num: 2
+  name: 坤
+  pinyin: kūn
+  en: The Receptive
+  en_alt: Earth
+  gist_zh: 純陰柔順，厚德載物的承受之力。
+  gist_en: Pure yin — the yielding power that receives and sustains all things.
+  link: 始
+  xugua_en: There are heaven and earth, and only then do the myriad things come into being.
+  logic_zh: >-
+    坤與乾是一對「錯卦」（六爻全反）：乾六爻皆陽，坤六爻皆陰。有創生必有承載，有天必有地——乾發動，坤成就。
+    序卦傳把兩者合為一句「有天地」，正說明它們不可分離，是一體兩面。從第三卦開始，天地交合而萬物生，
+    故事才真正展開。
+  logic_en: >-
+    Kun 坤 is the mirror image of Qian 乾, with every line inverted: all yin against all yang. Creation
+    needs something to receive and complete it — heaven initiates, earth brings to fruition. By folding
+    both into the single phrase "heaven and earth," the Xugua treats them as two sides of one reality.
+    From hexagram 3 on, heaven and earth interact, things are born, and the story proper begins.
+
+- num: 3
+  name: 屯
+  pinyin: zhūn
+  en: Difficult Beginnings
+  en_alt: Sprouting
+  gist_zh: 萬物初生，艱難之中蘊藏生機。
+  gist_en: Life pushes through the soil — beginnings are hard but full of promise.
+  link: 承
+  xugua_en: >-
+    What fills the space between heaven and earth is nothing but the myriad things; therefore Zhun
+    follows. Zhun means filling; Zhun is things just beginning to be born.
+  logic_zh: >-
+    天地既立，其間便被萬物充滿。「屯」字像草芽破土而出、捲曲未伸，正是新生命掙扎著誕生的樣子。
+    所以屯有兩層意思：充盈（萬物湧現）與初生之難（剛剛冒頭，處境艱難）。卦象上坎（險）下震（動），
+    動於險中——任何開始都伴隨著混亂與困難。
+  logic_en: >-
+    With heaven and earth in place, the space between them fills with living things. The character 屯
+    pictures a sprout pushing through the soil, still curled. So Zhun means both fullness — life welling
+    up — and the hardship of birth. Its image, Water (danger) above Thunder (movement), is movement inside
+    danger: every beginning comes with chaos and struggle.
+
+- num: 4
+  name: 蒙
+  pinyin: méng
+  en: Youthful Folly
+  en_alt: Immaturity
+  gist_zh: 蒙昧初開，需要啟蒙與教育。
+  gist_en: The unformed young mind, in need of teaching.
+  link: 承
+  xugua_en: >-
+    Things that are born are necessarily immature; therefore Meng follows. Meng means covered over; it is
+    things in their infancy.
+  logic_zh: >-
+    生命誕生之後，首先是懵懂無知的幼年。「蒙」本指被覆蓋、看不清，引申為蒙昧、稚嫩。剛出生的東西必然未開化，
+    需要啟蒙和教育——所以蒙卦的卦辭講師生關係：「匪我求童蒙，童蒙求我。」屯與蒙互為綜卦（上下顛倒），
+    一個講出生，一個講幼年。
+  logic_en: >-
+    After birth comes the unknowing stage of childhood. Meng originally means covered or veiled, hence
+    dim and immature. Anything newly born is undeveloped and must be taught, which is why Meng's judgment
+    is about teacher and pupil: "It is not I who seek the young fool; the young fool seeks me." Zhun 屯 and
+    Meng 蒙 are an inverted pair — birth, then infancy.
+
+- num: 5
+  name: 需
+  pinyin: xū
+  en: Waiting
+  en_alt: Nourishment
+  gist_zh: 雲在天上而雨未降——耐心等待，涵養待時。
+  gist_en: Clouds gather but rain has not yet fallen — patient waiting and nourishment.
+  link: 補
+  xugua_en: >-
+    Things in their infancy must be nourished; therefore Xu follows. Xu is the way of food and drink.
+  logic_zh: >-
+    幼小的生命首先需要養育。序卦傳把「需」解作「飲食之道」——人最基本的需要就是吃喝。卦象乾（剛健）在下、
+    坎（雲雨）在上：雲已在天，雨尚未降，所以需又有「等待」之意。滋養需要時間，不能揠苗助長，
+    要耐心等待時機成熟。
+  logic_en: >-
+    Young life must first be fed. The Xugua glosses Xu as "the way of food and drink," the most basic
+    need of all. Its image puts Heaven (strength) below Water (clouds): the clouds have gathered but the
+    rain has not yet fallen, so Xu also means waiting. Nourishment takes time; you cannot tug the shoots
+    to make them grow, but must wait for the right moment.
+
+- num: 6
+  name: 訟
+  pinyin: sòng
+  en: Conflict
+  en_alt: Contention
+  gist_zh: 利益相爭而起訴訟，宜適可而止。
+  gist_en: Disputes over interests — know when to stop.
+  link: 承
+  xugua_en: Where there is food and drink there will be disputes; therefore Song follows.
+  logic_zh: >-
+    有了資源就有分配，有分配就有爭執。為了飲食（引申為一切利益），人們必然發生爭訟。需與訟互為綜卦：
+    需是坎在乾上，耐心等待；訟是乾在坎上——天往上走，水往下流，背道而馳，象徵立場相違、各不相讓。
+    卦辭說「中吉，終凶」：爭訟要適可而止。
+  logic_en: >-
+    Where there are resources there is distribution, and where there is distribution there is dispute.
+    Over food — and by extension every interest — people inevitably quarrel. Xu 需 and Song 訟 are an
+    inverted pair. In Song, Heaven rises while Water flows down; they move apart, like two parties who will
+    not yield. The judgment advises: "stopping halfway brings good fortune; pressing to the end brings
+    misfortune."
+
+- num: 7
+  name: 師
+  pinyin: shī
+  en: The Army
+  en_alt: The Multitude
+  gist_zh: 爭端擴大為群體衝突；用兵須正，將帥須賢。
+  gist_en: Conflict grows into war — it needs a just cause and a capable leader.
+  link: 承
+  xugua_en: Disputes are sure to stir up the masses; therefore Shi follows. Shi means the multitude.
+  logic_zh: >-
+    個人之間的爭訟一旦擴大，就會牽動群體，演變成集體衝突——戰爭。「師」本義是眾人、軍隊。卦象坤（地、眾）在上，
+    坎（水）在下：地中有水，如同兵藏於民。全卦唯一的陽爻九二居下卦之中，代表統率眾人的將帥。
+    用兵的關鍵在於「貞」：正當的目的與得力的領導。
+  logic_en: >-
+    When private disputes escalate, they draw in whole groups and become collective conflict — war. Shi
+    originally means the multitude, an army. Earth (the masses) lies over Water: water hidden in the earth,
+    like soldiers hidden among the people. The single yang line, in the second place, is the general who
+    leads the many. Military action is good only with a right cause and a capable leader.
+
+- num: 8
+  name: 比
+  pinyin: bǐ
+  en: Holding Together
+  en_alt: Alliance
+  gist_zh: 眾人親附於一個中心，團結凝聚。
+  gist_en: People rally and bond around a center.
+  link: 承
+  xugua_en: The multitude must have something to join with; therefore Bi follows. Bi means closeness.
+  logic_zh: >-
+    眾人聚在一起，不能一盤散沙，必須互相親附、團結在一個中心周圍。「比」是親近、依附。師與比互為綜卦：
+    師的唯一陽爻在下卦（將帥在下統兵），比的唯一陽爻在九五（君主在上，萬民歸附）。戰爭之後要建立聯盟與秩序，
+    從軍事組織轉向政治凝聚。
+  logic_en: >-
+    A gathered multitude cannot stay a loose crowd; people must bond and unite around a center. Bi means
+    closeness, attachment. Shi 師 and Bi 比 are an inverted pair: in Shi the single yang line is low (a
+    general commanding troops); in Bi it sits in the fifth place (a ruler to whom the people rally). After
+    war comes alliance: from military organization to political cohesion.
+
+- num: 9
+  name: 小畜
+  pinyin: xiǎo chù
+  en: Small Accumulation
+  en_alt: Minor Restraint
+  gist_zh: 初步的積蓄，力量尚小——密雲不雨。
+  gist_en: A first, modest accumulation — dense clouds, no rain yet.
+  link: 承
+  xugua_en: Closeness is sure to lead to accumulation; therefore Xiao Xu follows.
+  logic_zh: >-
+    人們團結親附之後，就能積聚力量與財富。「畜」有蓄積和畜止兩層意思。但這種積蓄還是「小」的：
+    全卦只有一個陰爻（六四）去畜止五個陽爻，力量有限，如同卦辭所說「密雲不雨」——雲已密布，雨還下不來。
+    這是初步的積累，還不足以成大事。
+  logic_en: >-
+    Once people bond together they can accumulate strength and wealth. 畜 means both storing up and
+    restraining. But this accumulation is still small: a single yin line (fourth place) tries to hold back
+    five yang lines. Its power is limited, as in the judgment's "dense clouds but no rain." It is a first
+    accumulation, not yet enough for great things.
+
+- num: 10
+  name: 履
+  pinyin: lǚ
+  en: Treading
+  en_alt: Conduct
+  gist_zh: 循禮而行，如履虎尾而不被咬。
+  gist_en: Proper conduct — treading on the tiger's tail without being bitten.
+  link: 承
+  xugua_en: When things have been accumulated, there is ritual propriety; therefore Lü follows.
+  logic_zh: >-
+    「倉廩實而知禮節」——物質有了積累，才談得上禮儀規範。「履」本是踩、行走，引申為行為、實踐；
+    序卦傳把它和「禮」聯繫起來：禮就是人應當踐行的道路。卦辭「履虎尾，不咥人」，說明只要循禮而行、謹慎小心，
+    即使處境危險也能安然無恙。小畜與履互為綜卦。
+  logic_en: >-
+    "When the granaries are full, people know propriety": only after material accumulation can rules of
+    conduct take hold. Lü 履 means to tread, hence conduct, and the Xugua links it to li 禮, ritual — the
+    path one ought to walk. "Treading on the tiger's tail, it does not bite": careful, proper conduct keeps
+    you safe even in danger. Xiao Xu 小畜 and Lü 履 are an inverted pair.
+
+- num: 11
+  name: 泰
+  pinyin: tài
+  en: Peace
+  en_alt: Pervading
+  gist_zh: 天地相交，上下通達，太平安泰。
+  gist_en: Heaven and earth meet; everything flows — a time of peace.
+  link: 承
+  xugua_en: >-
+    Treading properly brings ease, and then there is security; therefore Tai follows. Tai means
+    flowing through.
+  logic_zh: >-
+    人人循禮而行，社會便通達安定。泰卦是坤（地）在上、乾（天）在下：看似顛倒，其實天氣下降、地氣上升，
+    兩者相交，所以萬物亨通。這是上經的第一個高峰——上下溝通、陰陽調和的太平景象。
+  logic_en: >-
+    When everyone conducts themselves properly, society flows and is at ease. Tai 泰 places Earth above
+    Heaven. This looks upside down, but heaven's energy descends and earth's rises, so they meet and
+    everything flows. It is the first high point of the Upper Canon: communication between high and low,
+    yin and yang in harmony.
+
+- num: 12
+  name: 否
+  pinyin: pǐ
+  en: Stagnation
+  en_alt: Obstruction
+  gist_zh: 天地不交，上下隔絕，閉塞不通。
+  gist_en: Heaven and earth drift apart — nothing gets through.
+  link: 反
+  xugua_en: Things cannot flow freely forever; therefore Pi follows.
+  logic_zh: >-
+    這是序卦傳第一次出現「物不可以終……」的句式：任何狀態都不能永遠持續，盛極必衰。泰與否互為綜卦，
+    也互為錯卦。天在上、地在下，看似「正位」，實則天氣上升、地氣下沉，各走各的，上下不交而閉塞不通。
+    太平之後便是閉塞，這是《易》「物極必反」的典型。
+  logic_en: >-
+    Here the Xugua first uses its signature formula, "things cannot … forever": no state lasts, and every
+    peak turns. Tai 泰 and Pi 否 are both inverted and opposite versions of each other. Heaven above, Earth
+    below looks "correct," but heaven's energy rises and earth's sinks; they drift apart and nothing gets
+    through. After peace comes blockage — the classic case of reversal at the extreme.
+
+- num: 13
+  name: 同人
+  pinyin: tóng rén
+  en: Fellowship
+  en_alt: Union of People
+  gist_zh: 與人和同，胸懷廣大，打破隔閡。
+  gist_en: Joining with others, openly and widely, to break through isolation.
+  link: 反
+  xugua_en: Things cannot remain blocked forever; therefore Tong Ren follows.
+  logic_zh: >-
+    閉塞也不會永遠持續。要打破隔閡，就要與人和同、團結志同道合者。同人卦乾（天）在上、離（火）在下：
+    火焰向上，與天同性，象徵人與人同心。卦辭「同人于野」——在曠野中與人和同，強調胸懷廣大、不分親疏，
+    這樣才能走出否塞。
+  logic_en: >-
+    Blockage does not last forever either. To break out of isolation, people must join with others of
+    like mind. Tong Ren 同人 is Heaven above Fire: flames rise toward heaven and share its nature — people of
+    one heart. "Fellowship in the open country" stresses breadth: uniting without favoritism is how
+    stagnation is overcome.
+
+- num: 14
+  name: 大有
+  pinyin: dà yǒu
+  en: Great Possession
+  en_alt: Abundance
+  gist_zh: 如日中天，眾人歸附，擁有廣大。
+  gist_en: Like the sun high in the sky — people gather and abundance follows.
+  link: 承
+  xugua_en: >-
+    Those who are one with others — things will surely come to them; therefore Da You follows.
+  logic_zh: >-
+    能夠與人和同的人，眾人和萬物自然歸附於他，於是擁有廣大。大有卦離（火、日）在天上，如太陽高照，萬物畢見；
+    唯一的陰爻居於尊位六五，以柔順虛心統領五陽。同人與大有互為綜卦：先有人心的凝聚，然後才有財富與力量的豐盛。
+  logic_en: >-
+    Whoever can unite with others draws people and things to them, and so comes to possess much. Da You
+    大有 is Fire (the sun) high in heaven, lighting everything. Its one yin line sits in the ruler's place,
+    leading five yang lines through openness and receptivity. Tong Ren 同人 and Da You 大有 are an inverted
+    pair: first hearts are united, then abundance follows.
+
+- num: 15
+  name: 謙
+  pinyin: qiān
+  en: Modesty
+  en_alt: Humility
+  gist_zh: 高山藏於地下——有而不居，高而能下。
+  gist_en: A mountain hidden beneath the earth — great, yet humble.
+  link: 補
+  xugua_en: One who possesses greatness must not be full to overflowing; therefore Qian follows.
+  logic_zh: >-
+    擁有很多時，最大的危險是自滿。滿則溢，所以必須謙虛。謙卦是艮（山）在坤（地）之下：高山藏於地下，
+    有而不居，高而能下。謙是六十四卦中唯一六爻皆吉或无不利的卦，可見古人對謙德的重視。
+  logic_en: >-
+    The great danger of having much is complacency: what is full overflows, so one must be modest. Qian
+    謙 places Mountain beneath Earth — a high mountain hidden below ground, possessing without displaying.
+    It is the only hexagram in which all six lines are favorable, a sign of how highly the tradition prized
+    modesty.
+
+- num: 16
+  name: 豫
+  pinyin: yù
+  en: Delight
+  en_alt: Enthusiasm
+  gist_zh: 春雷出地，萬物和樂；樂而不可縱。
+  gist_en: Spring thunder bursts from the earth — joy, but not indulgence.
+  link: 承
+  xugua_en: >-
+    Possessing greatness and able to remain modest, one is sure to be at ease; therefore Yu follows.
+  logic_zh: >-
+    富有而又謙虛，人心和樂，自然安逸愉悅。「豫」有安樂、喜悅，也有預備之意。豫卦震（雷）出地上，春雷發動，
+    萬物歡欣。謙與豫互為綜卦：謙是內在的修養，豫是它帶來的和樂。但安樂之中也藏著放縱的危險——
+    初六「鳴豫，凶」便是警告。
+  logic_en: >-
+    Great and yet modest, one has people's goodwill and naturally feels ease and joy. Yu 豫 means
+    contentment and delight, and also preparedness. Thunder bursts out of the Earth: spring thunder that
+    makes everything rejoice. Qian 謙 and Yu 豫 are an inverted pair: modesty is the inner cultivation,
+    delight the harmony it brings. Yet ease hides the danger of indulgence, as the first line warns:
+    "proclaiming one's delight — misfortune."

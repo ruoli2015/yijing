@@ -1,0 +1,297 @@
+- num: 33
+  name: 遯
+  pinyin: dùn
+  en: Retreat
+  en_alt: Withdrawal
+  gist_zh: 陰長陽消，君子及時退避，保存實力。
+  gist_en: Yin advances — the wise withdraw in time and preserve their strength.
+  link: 反
+  xugua_en: >-
+    Things cannot stay in their place for long; therefore Dun follows. Dun means withdrawing.
+  logic_zh: >-
+    恆講長久，但事物不可能永遠停留在同一位置，時勢變化就要知所進退。遯卦二陰自下而上增長，陰長陽消，
+    小人勢力漸盛，君子應當及時退避。退不是逃避，而是保存實力、等待時機——象傳說「君子以遠小人，不惡而嚴」。
+  logic_en: >-
+    Heng 恆 is about lasting, but nothing can stay in one place forever; when circumstances change you must
+    know when to step back. In Dun 遯 two yin lines grow from below — yin waxing, yang waning, petty forces
+    gaining ground — and the superior person should withdraw in time. Retreat is not escape but preserving
+    strength and waiting: "keep petty people at a distance, not with hatred but with dignity."
+
+- num: 34
+  name: 大壯
+  pinyin: dà zhuàng
+  en: Great Strength
+  en_alt: Great Power
+  gist_zh: 雷在天上，聲勢浩大；強盛更要守正。
+  gist_en: Thunder in the sky — great power, which must stay upright.
+  link: 反
+  xugua_en: Things cannot withdraw forever; therefore Da Zhuang follows.
+  logic_zh: >-
+    退避不能是永遠的，退到一定程度就會重新壯大。遯與大壯互為綜卦：遯是二陰長而陽退；大壯是四陽長、陽氣強盛，
+    雷在天上，聲勢浩大。但壯盛之時最易恃強妄動，卦辭只說「利貞」，象傳說「君子以非禮弗履」——強大更要守正。
+  logic_en: >-
+    Retreat cannot last forever; at some point strength builds again. Dun 遯 and Da Zhuang 大壯 are an
+    inverted pair: in Dun yin grows and yang retreats; in Da Zhuang four yang lines have grown — thunder in
+    the sky, mighty and loud. But power tempts reckless action, so the judgment says only "beneficial to be
+    correct," and the Image adds, "the superior person does not tread where propriety forbids."
+
+- num: 35
+  name: 晉
+  pinyin: jìn
+  en: Progress
+  en_alt: Advance
+  gist_zh: 旭日東昇，光明漸進，步步高升。
+  gist_en: The sun rises over the earth — steady, bright advance.
+  link: 反
+  xugua_en: Things cannot stay at full strength forever; therefore Jin follows. Jin means advancing.
+  logic_zh: >-
+    壯盛不能停滯不動，力量必須轉化為前進。晉卦離（日）出地上，旭日東昇，光明漸進。程頤認為事物壯盛之後必然前進，
+    所以晉接在大壯之後。卦辭描繪臣子受君主賞識、步步高升：「康侯用錫馬蕃庶，晝日三接。」
+  logic_en: >-
+    Strength cannot simply stand still; it must turn into advance. Jin 晉 is the Sun rising over the Earth:
+    dawn, light steadily advancing. Cheng Yi explains that what has grown strong must move forward, which
+    is why Jin follows Da Zhuang 大壯. The judgment pictures a minister honored and promoted by the ruler:
+    "the marquis is given many horses and received three times in a single day."
+
+- num: 36
+  name: 明夷
+  pinyin: míng yí
+  en: Darkening of the Light
+  en_alt: Brightness Wounded
+  gist_zh: 日入地中，光明受傷——用晦而明，艱難守正。
+  gist_en: The sun sinks into the earth — hide your light and stay true in hard times.
+  link: 承
+  xugua_en: Advance is sure to meet with injury; therefore Ming Yi follows. Yi means wounding.
+  logic_zh: >-
+    一味前進，必然遭遇挫傷。晉與明夷互為綜卦：晉是日出地上，明夷是日入地中，光明被遮蔽、受傷害。
+    這是賢者處於昏暗時代的處境，如文王被囚、箕子佯狂。卦辭「利艱貞」，象傳說「用晦而明」：外表隱晦、內心光明，
+    在逆境中保全自己。
+  logic_en: >-
+    Relentless advance is bound to be hurt. Jin 晉 and Ming Yi 明夷 are an inverted pair: the sun rising over
+    the earth, then the sun sinking into it — light hidden and wounded. This is the worthy person in a dark
+    age, like King Wen imprisoned or Jizi feigning madness. "Beneficial to be steadfast in hardship"; the
+    Image says to "use darkness to remain bright": dim your light outwardly, keep it bright within, and
+    survive adversity.
+
+- num: 37
+  name: 家人
+  pinyin: jiā rén
+  en: The Family
+  gist_zh: 回到家中；家道正，則天下定。
+  gist_en: Coming home — set the family right, and the world is settled.
+  link: 承
+  xugua_en: Those wounded abroad are sure to return home; therefore Jia Ren follows.
+  logic_zh: >-
+    在外受了傷，人自然會回到家中尋求庇護與療癒。家人卦講治家之道：六二居內卦之中，九五居外卦之中，
+    彖傳說「男女正，天地之大義也」。家是社會的基本單位，家道正則天下定——故事從個人的挫折轉回最根本的人倫關係。
+  logic_en: >-
+    Wounded in the outside world, a person naturally comes home for shelter and healing. Jia Ren 家人 is
+    about ordering the household: a yin line centered within (second place), a yang line centered without
+    (fifth place). The Tuan says, "When man and woman are in their proper places, that is the great
+    principle of heaven and earth." The family is the basic unit of society; set it right and the world is
+    settled. From personal setback the story turns back to the most basic human bond.
+
+- num: 38
+  name: 睽
+  pinyin: kuí
+  en: Opposition
+  en_alt: Estrangement
+  gist_zh: 火上澤下，背道而馳；異中求同。
+  gist_en: Fire rises, water sinks — estrangement, yet common ground within difference.
+  link: 承
+  xugua_en: >-
+    When the way of the family is exhausted, estrangement is sure to follow; therefore Kui follows. Kui
+    means estrangement.
+  logic_zh: >-
+    家道一旦衰落，家人之間就會離心離德、彼此乖違。家人與睽互為綜卦。睽卦離（火）在上、兌（澤）在下：
+    火往上燒，水往下流，背道而馳；又是中女、少女同居一處，「其志不同行」。但彖傳指出「天地睽而其事同也」——
+    差異之中仍可求同，小事仍然吉。
+  logic_en: >-
+    When the household's way runs down, its members drift apart and turn against each other. Jia Ren 家人
+    and Kui 睽 are an inverted pair. Kui is Fire above Lake: fire burns upward, water seeps downward, moving
+    apart; it is also two sisters living together whose "wills do not go the same way." Yet the Tuan
+    observes that "heaven and earth are opposed, yet their work is the same": common ground can be found
+    within difference, and small matters still go well.
+
+- num: 39
+  name: 蹇
+  pinyin: jiǎn
+  en: Obstruction
+  en_alt: Hardship
+  gist_zh: 前有水，後有山，進退兩難；反身修德。
+  gist_en: Water ahead, mountain behind — stuck; turn inward and cultivate yourself.
+  link: 承
+  xugua_en: Estrangement is sure to bring hardship; therefore Jian follows. Jian means difficulty.
+  logic_zh: >-
+    人心乖離，必然陷入困境。「蹇」本義是跛腳、行走艱難。卦象坎（險）在前、艮（山）在後——前有大水、後有高山，
+    進退兩難。卦辭「利見大人」，象傳說「君子以反身修德」：遇到困難時先反省自己，並尋求賢人的幫助。
+  logic_en: >-
+    When hearts are estranged, difficulties follow. Jian 蹇 originally means lame, walking with difficulty.
+    Water (danger) lies ahead and the Mountain behind — a river in front, a mountain at your back, stuck
+    either way. "Beneficial to see the great person"; and the Image: "the superior person turns back to
+    cultivate virtue." In hardship, first examine yourself, then seek the help of the wise.
+
+- num: 40
+  name: 解
+  pinyin: xiè
+  en: Deliverance
+  en_alt: Release
+  gist_zh: 雷雨交作，冰雪消融——險難解除，及時復常。
+  gist_en: A spring storm breaks the winter — danger released; return to normal promptly.
+  link: 反
+  xugua_en: Things cannot be in difficulty forever; therefore Xie follows. Xie means relief.
+  logic_zh: >-
+    困難不會永遠持續，終將迎來解脫。蹇與解互為綜卦：蹇是止於險前，解是動而出險——震（雷）在上、坎（雨）在下，
+    雷雨交作，萬物舒展，冬去春來。「緩」是緊張後的鬆弛。卦辭「无所往，其來復吉；有攸往，夙吉」：
+    危機解除後要及時恢復常態，還有事就要早辦。
+  logic_en: >-
+    Hardship does not last forever; release comes. Jian 蹇 and Xie 解 are an inverted pair: Jian halts
+    before danger, Xie moves out of it — Thunder above Rain, a spring storm that loosens everything after
+    winter. "Relief" is the slackening after tension. The judgment advises returning to normal once the
+    crisis passes, and dealing promptly with whatever remains.
+
+- num: 41
+  name: 損
+  pinyin: sǔn
+  en: Decrease
+  gist_zh: 損下益上；減少慾望與浪費，誠則簡亦足。
+  gist_en: Decreasing below to increase above — less desire, less waste; sincerity makes simplicity enough.
+  link: 承
+  xugua_en: Slackening is sure to bring loss; therefore Sun follows.
+  logic_zh: >-
+    鬆懈下來，難免有所損失。但損卦的深意在於「損下益上」——下卦原本是乾，減去一陽給上卦，成了兌下艮上。
+    有時減少正是必要的：減少忿怒、慾望與浪費，象傳說「君子以懲忿窒欲」。卦辭「二簋可用享」：只要心誠，簡樸也足以祭祀。
+  logic_en: >-
+    Once things slacken, some loss is unavoidable. But Sun 損's deeper meaning is "decreasing below to
+    increase above": the lower trigram was Heaven, gave one yang line to the upper, and so became Lake below
+    Mountain. Sometimes decrease is exactly what is needed — less anger, desire and waste: "the superior
+    person restrains anger and curbs desire." "Two simple bowls suffice for the offering": with sincerity,
+    simplicity is enough.
+
+- num: 42
+  name: 益
+  pinyin: yì
+  en: Increase
+  gist_zh: 損上益下；真正的增益來自給予。
+  gist_en: Decreasing above to increase below — real gain comes from giving.
+  link: 反
+  xugua_en: When decrease goes on without end, increase is sure to follow; therefore Yi follows.
+  logic_zh: >-
+    減損到了極點，必然轉為增益——損與益互為綜卦，循環往復。益卦是「損上益下」：在上者減損自己來增益百姓，
+    這才是真正的「益」，所以彖傳說「民說无疆」。這是深刻的政治與人生道理：真正的增益來自給予，而非攫取。
+  logic_en: >-
+    Decrease carried to its limit turns into increase: Sun 損 and Yi 益 are an inverted pair that cycle
+    into each other. Yi is "decreasing above to increase below": those on top reduce themselves to benefit
+    the people, and that is true increase — "the people's joy is boundless." A deep principle for politics
+    and life alike: real gain comes from giving, not taking.
+
+- num: 43
+  name: 夬
+  pinyin: guài
+  en: Breakthrough
+  en_alt: Resoluteness
+  gist_zh: 五陽決一陰——公開、誠信地決斷，不恃武力。
+  gist_en: Five yang push out one yin — act decisively, openly and without force.
+  link: 承
+  xugua_en: >-
+    When increase goes on without end, a breakthrough is sure to come; therefore Guai follows. Guai means
+    breaking through.
+  logic_zh: >-
+    增益不止，就像水位不斷上漲，終會決堤。夬卦五陽在下、一陰在上，陽氣盛長到極點，要把最後一個陰爻決除——
+    象徵君子去除小人。但卦辭強調「揚于王庭，孚號有厲」：要公開、誠信地處理，而不是以武力取勝（「不利即戎」）。
+  logic_en: >-
+    Unchecked increase is like water rising until the dyke bursts. Guai 夬 has five yang lines below a
+    single yin: yang has grown to its peak and is about to push out the last yin — the superior person
+    removing a petty one. But the judgment insists on doing it openly and sincerely, "proclaimed at the
+    king's court," not by force: "it is not beneficial to take up arms."
+
+- num: 44
+  name: 姤
+  pinyin: gòu
+  en: Coming to Meet
+  en_alt: Encounter
+  gist_zh: 一陰生於下，不期而遇；慎防微小之始。
+  gist_en: One yin appears below, an unexpected meeting — watch small beginnings.
+  link: 承
+  xugua_en: A breakthrough is sure to lead to an encounter; therefore Gou follows. Gou means meeting.
+  logic_zh: >-
+    決斷分離之後，必有新的相遇。夬與姤互為綜卦：夬是最後一陰將被去除，姤則是一陰在最下方重新出現——
+    陰氣回來了，與五陽「不期而遇」。這與剝、復的結構完全對稱，只是陰陽互換。卦辭「女壯，勿用取女」，
+    警惕陰柔勢力在細微之處滋長。
+  logic_en: >-
+    After parting comes a new encounter. Guai 夬 and Gou 姤 are an inverted pair: in Guai the last yin is
+    about to be expelled; in Gou a single yin reappears at the bottom — yin is back, meeting five yang
+    unexpectedly. Structurally it mirrors Bo 剝 and Fu 復 (23–24) with yin and yang swapped. "The woman is
+    strong; do not marry such a woman": beware the small beginnings of a growing force.
+
+- num: 45
+  name: 萃
+  pinyin: cuì
+  en: Gathering Together
+  gist_zh: 澤在地上，眾水匯聚；聚眾須有中心，也須防變。
+  gist_en: A lake over the earth, waters collecting — a gathering needs a center and vigilance.
+  link: 承
+  xugua_en: When things meet, they then gather; therefore Cui follows. Cui means gathering.
+  logic_zh: >-
+    相遇之後，便聚集成群。萃卦兌（澤）在地上，水匯聚成澤；九五、九四兩陽為眾陰所歸。聚集需要中心和凝聚力，
+    卦辭「王假有廟」——以宗廟祭祀凝聚人心。象傳提醒「除戎器，戒不虞」：人多的地方易生變亂，要預防意外。
+  logic_en: >-
+    After meeting, things gather into groups. Cui 萃 is Lake over the Earth, water collecting into a marsh;
+    the yang lines in the fifth and fourth places draw the yin lines to them. A gathering needs a center:
+    "the king approaches his temple," uniting hearts through shared ritual. The Image warns to "repair
+    weapons and guard against the unforeseen": crowds breed unrest.
+
+- num: 46
+  name: 升
+  pinyin: shēng
+  en: Pushing Upward
+  en_alt: Ascending
+  gist_zh: 木生地中，日日向上；積小以成高大。
+  gist_en: A tree grows up from the earth — small steps add up to great height.
+  link: 承
+  xugua_en: Gathering and rising upward is called ascending; therefore Sheng follows.
+  logic_zh: >-
+    聚集起來的力量向上發展，就是上升。萃與升互為綜卦。升卦巽（木）在坤（地）下，樹木從地中生長，日日向上，
+    象傳說「君子以順德，積小以高大」。這種上升是順勢、漸進的，不靠強力，而是一步一步累積而成。
+  logic_en: >-
+    Gathered energy that moves upward is ascent. Cui 萃 and Sheng 升 are an inverted pair. Sheng is Wood
+    beneath the Earth: a tree growing up out of the ground day by day — "the superior person follows virtue,
+    piling up small things to become high and great." This rise is gradual and goes with the grain; it is
+    built step by step, not forced.
+
+- num: 47
+  name: 困
+  pinyin: kùn
+  en: Oppression
+  en_alt: Exhaustion
+  gist_zh: 澤中無水，窮困窘迫；困境考驗人格。
+  gist_en: A lake without water — in dire straits, character is tested.
+  link: 承
+  xugua_en: Ascending without stopping, one is sure to be exhausted; therefore Kun follows.
+  logic_zh: >-
+    一味上升不知止，終將力竭受困。困卦兌（澤）在上、坎（水）在下——「澤无水」，澤中的水漏到下面去了，乾涸窘迫。
+    剛爻被陰爻所掩蔽，君子處困。但卦辭說「亨，貞，大人吉」：困境是對人格的考驗；象傳說「君子以致命遂志」，
+    即使付出生命也要實現志向。
+  logic_en: >-
+    Rising without knowing when to stop ends in exhaustion. Kun 困 is Lake above Water — "the lake without
+    water": the water has drained out below, leaving it dry. Firm lines are hemmed in by yielding ones; the
+    superior person is in straits. Yet the judgment says "success; steadfastness; good fortune for the
+    great person": hardship tests character. "The superior person stakes their life to fulfill their will."
+
+- num: 48
+  name: 井
+  pinyin: jǐng
+  en: The Well
+  gist_zh: 改邑不改井——回歸根本，養人無窮。
+  gist_en: The town may move but the well stays — back to the source that feeds everyone.
+  link: 反
+  xugua_en: One exhausted above must turn back down; therefore Jing follows.
+  logic_zh: >-
+    在上面受困、走投無路，就要回到下面、回歸根本。井在地下，向下深挖才有水源。困與井互為綜卦：
+    困是澤中無水，井是取之不盡的水源。卦辭「改邑不改井」——城邑可以遷移，井卻一直在那裡供養眾人，
+    象徵恆常的根本與無私的奉獻。
+  logic_en: >-
+    Stuck at the top with nowhere to go, one must turn back down to the foundations. A well lies below
+    ground; only by digging down does one reach water. Kun 困 and Jing 井 are an inverted pair: a lake with
+    no water, then an inexhaustible source. "The town may be moved, but not the well": settlements come and
+    go while the well stays and nourishes all — an image of enduring foundations and selfless giving.

@@ -1,0 +1,305 @@
+- num: 49
+  name: 革
+  pinyin: gé
+  en: Revolution
+  en_alt: Molting
+  gist_zh: 水火相息，去故更新；變革須順天應人。
+  gist_en: Fire and water quench each other — renewal that must fit the times and win trust.
+  link: 補
+  xugua_en: The way of the well cannot but be renewed; therefore Ge follows.
+  logic_zh: >-
+    井用久了，泥沙淤積，必須定期淘洗更新，否則水會污濁。由此推廣：任何制度用久了都需要變革。革卦離（火）在下、
+    兌（澤）在上，水火相息，必然產生變化。「革」本義是去毛的獸皮，引申為變革。彖傳說「湯武革命，順乎天而應乎人」：
+    變革必須順應天時、得到人心，時機成熟（「已日乃孚」）。
+  logic_en: >-
+    A well used for long silts up and must be cleaned out, or the water turns foul. More broadly, any
+    institution in long use needs reform. Ge 革 has Fire beneath Lake: water and fire extinguish each
+    other, so change is inevitable. 革 originally means a hide stripped of hair, hence transformation.
+    "Tang and Wu changed the mandate, in accord with heaven and in response to the people": revolution must
+    fit the times and win people's trust, and wait until the moment is ripe.
+
+- num: 50
+  name: 鼎
+  pinyin: dǐng
+  en: The Cauldron
+  gist_zh: 烹飪轉化，取新立制；正位凝命。
+  gist_en: Cooking transforms — the new order is founded and secured.
+  link: 承
+  xugua_en: Nothing transforms things like the cauldron; therefore Ding follows.
+  logic_zh: >-
+    能夠徹底改變事物的，莫過於鼎——生食放進鼎中烹煮，就變成熟食。革與鼎互為綜卦：革是去故，鼎是取新。
+    鼎又是國家的重器、權力的象徵，變革之後要建立新的秩序，象傳說「君子以正位凝命」。卦形本身就像一隻鼎：
+    初爻為足，二三四為腹，五為耳，上為鉉。
+  logic_en: >-
+    Nothing changes things more thoroughly than the cauldron: raw food goes in and comes out cooked. Ge 革
+    and Ding 鼎 are an inverted pair: Ge removes the old, Ding establishes the new. The ding was also the
+    state's sacred vessel and the symbol of legitimate power; after revolution a new order must be founded —
+    "the superior person rectifies positions and secures the mandate." The hexagram even looks like a ding:
+    legs at the bottom, belly in lines two to four, ears at the fifth, and the carrying bar on top.
+
+- num: 51
+  name: 震
+  pinyin: zhèn
+  en: The Arousing
+  en_alt: Thunder, Shock
+  gist_zh: 雷聲震動，恐懼修省；戒慎之後，談笑自若。
+  gist_en: Shock upon shock — fear brings self-examination, and then calm laughter.
+  link: 承
+  xugua_en: >-
+    No one is more fit to preside over the vessels than the eldest son; therefore Zhen follows. Zhen means
+    movement.
+  logic_zh: >-
+    鼎是祭祀的重器，主持祭祀、繼承重器的是長子。震在八卦中代表長男，所以鼎之後是震。震為雷，上下皆雷，
+    雷聲震動，令人驚懼。卦辭「震來虩虩，笑言啞啞」：雷聲來時令人恐懼戒慎，因戒慎而無過失，事後便能談笑自若——
+    象傳說「君子以恐懼修省」。
+  logic_en: >-
+    The ding was the great ritual vessel, and the one who presided over the rites and inherited the
+    vessels was the eldest son. Among the eight trigrams Zhen 震 is the eldest son, so Zhen follows Ding 鼎.
+    Zhen is thunder, doubled: shock upon shock. "Thunder comes — fear and trembling; then laughing words":
+    shock makes us cautious, caution keeps us from error, and afterward we can laugh. "The superior person,
+    in fear and trembling, cultivates and examines themselves."
+
+- num: 52
+  name: 艮
+  pinyin: gèn
+  en: Keeping Still
+  en_alt: Mountain
+  gist_zh: 兩山重疊，時止則止，時行則行。
+  gist_en: Mountain upon mountain — stop when it is time to stop, move when it is time to move.
+  link: 反
+  xugua_en: >-
+    Things cannot move forever; they are brought to rest; therefore Gen follows. Gen means stopping.
+  logic_zh: >-
+    運動不能永無休止，動極則靜。震與艮互為綜卦：震是一陽在下奮動，艮是一陽在上而止。艮為山，兩山重疊，安然不動。
+    艮的「止」是彖傳所說「時止則止，時行則行」，知道該停在哪裡；象傳說「君子以思不出其位」。宋明儒者特別重視此卦的修養意義。
+  logic_en: >-
+    Motion cannot go on forever; at its extreme it turns to stillness. Zhen 震 and Gen 艮 are an inverted
+    pair: a yang line surging up from below, then a yang line at rest on top. Gen is mountain, doubled: two
+    peaks, utterly still. Its stillness means "stopping when it is time to stop, moving when it is time to
+    move" — knowing where to rest. "The superior person does not let their thoughts go beyond their
+    position." Song and Ming Confucians prized it for self-cultivation.
+
+- num: 53
+  name: 漸
+  pinyin: jiàn
+  en: Gradual Progress
+  en_alt: Development
+  gist_zh: 山上之木，鴻雁漸飛——循序漸進。
+  gist_en: Trees on the mountain, geese rising stage by stage — step-by-step progress.
+  link: 反
+  xugua_en: Things cannot be at rest forever; therefore Jian follows. Jian means advancing.
+  logic_zh: >-
+    靜止之後又要前進，但這次是循序漸進。漸卦巽（木）在艮（山）上，山上的樹木慢慢長高。卦辭「女歸吉」，
+    以女子出嫁要依禮按步驟進行來比喻漸進之道；六爻都以鴻雁為象，從水邊、磐石、陸地、樹木、山陵一步步升高。
+    這和晉卦的「進」不同，漸強調次序與耐心。
+  logic_en: >-
+    After stillness comes advance again, but now step by step. Jian 漸 is Wood on the Mountain, trees
+    growing slowly on a slope. "The maiden goes to marry; good fortune": a proper marriage proceeds through
+    ordered stages. All six lines use the wild goose, moving up from the shore to a rock, dry land, a tree,
+    a hill and the heights. Unlike the advance of Jin 晉 (35), Jian stresses sequence and patience.
+
+- num: 54
+  name: 歸妹
+  pinyin: guī mèi
+  en: The Marrying Maiden
+  gist_zh: 少女急於歸嫁，以悅而動；有歸宿也須循正道。
+  gist_en: A young girl eager to marry — even a destination must be reached the right way.
+  link: 承
+  xugua_en: Advance must have a destination; therefore Gui Mei follows.
+  logic_zh: >-
+    前進總要有個歸宿。「歸」是女子出嫁，「妹」是少女。漸與歸妹互為綜卦，也互為錯卦：漸是依禮漸進的婚姻；
+    歸妹則是少女（兌）主動追隨長男（震），以悅而動，不依常禮，所以卦辭說「征凶，无攸利」。它提醒人：
+    急於找到歸宿而不循正道，往往有始無終——象傳說「君子以永終知敝」。
+  logic_en: >-
+    Every advance needs a place to arrive. 歸 is a woman going to marry; 妹 is a young girl. Jian 漸 and
+    Gui Mei 歸妹 are both inverted and opposite versions of each other: Jian is marriage proceeding by proper
+    stages, while in Gui Mei the young girl (Lake) eagerly follows the eldest son (Thunder), moved by
+    delight rather than ritual — so "going forth brings misfortune." Grabbing at a destination without the
+    right path rarely ends well: "the superior person understands the lasting end and knows what wears
+    things out."
+
+- num: 55
+  name: 豐
+  pinyin: fēng
+  en: Abundance
+  en_alt: Fullness
+  gist_zh: 雷電交作，如日中天；盛極將昃。
+  gist_en: Thunder and lightning together, the sun at noon — the peak before decline.
+  link: 承
+  xugua_en: >-
+    One who finds where they belong is sure to become great; therefore Feng follows. Feng means great.
+  logic_zh: >-
+    找到合適的歸宿，便能興旺壯大。豐卦震（雷）在上、離（電）在下，雷電交作，聲光盛大。卦辭「王假之，勿憂，宜日中」——
+    到了鼎盛之時，如同正午的太陽。但彖傳立即提醒「日中則昃，月盈則食」：豐盛的頂點，也就是衰落的開始。
+  logic_en: >-
+    Finding where one belongs leads to prosperity and greatness. Feng 豐 is Thunder above Lightning (Fire):
+    sound and light at full strength. "The king attains it; do not worry; be like the sun at midday" — a
+    time of peak abundance. But the Tuan adds at once: "when the sun reaches noon it starts to set; when the
+    moon is full it starts to wane." The height of abundance is the start of decline.
+
+- num: 56
+  name: 旅
+  pinyin: lǚ
+  en: The Wanderer
+  en_alt: The Traveler
+  gist_zh: 山上之火，過而不留；客居他鄉，柔順守正。
+  gist_en: Fire on the mountain moves on — far from home, be gentle and upright.
+  link: 承
+  xugua_en: One who exhausts greatness is sure to lose their home; therefore Lü follows.
+  logic_zh: >-
+    盛大到了極點而不知收斂，必然失去安身之所，流落他鄉。豐與旅互為綜卦。旅卦離（火）在艮（山）上，
+    山上的火燒過即走、不能久留，如同旅人。羈旅在外，處處受限，卦辭說「小亨，旅貞吉」：客居他鄉，要謙和柔順、守正自持。
+  logic_en: >-
+    Push greatness to the limit without restraint and you lose your place and end up wandering. Feng 豐 and
+    Lü 旅 are an inverted pair. Lü is Fire on the Mountain: a brush fire that burns through and moves on,
+    never staying — like a traveler. Away from home everything is constrained: "small success; for the
+    traveler, steadfastness brings good fortune." A guest abroad should be gentle, humble and upright.
+
+- num: 57
+  name: 巽
+  pinyin: xùn
+  en: The Gentle
+  en_alt: Wind, Penetrating
+  gist_zh: 隨風而入，無孔不入——以柔順深入人心。
+  gist_en: Wind gets in everywhere — reaching hearts through gentleness.
+  link: 補
+  xugua_en: The traveler has nowhere to be taken in; therefore Xun follows. Xun means entering.
+  logic_zh: >-
+    旅人無處容身，只有謙遜柔順，才能被接納、進入。巽為風，風無孔不入；上下皆巽，柔順至極。巽卦的「入」，
+    是以柔順謙遜的態度深入人心；象傳說「君子以申命行事」——如風之吹拂，反覆申明，使政令深入人心。
+  logic_en: >-
+    A traveler with nowhere to stay can be taken in only by being humble and yielding. Xun 巽 is wind,
+    which gets in everywhere; doubled, it is gentleness itself. Its "entering" means reaching people's
+    hearts through a gentle, modest manner. "The superior person repeats commands and carries out affairs"
+    — like wind blowing again and again until the message sinks in.
+
+- num: 58
+  name: 兌
+  pinyin: duì
+  en: The Joyous
+  en_alt: Lake
+  gist_zh: 兩澤相連，互相滋潤；朋友講習之樂。
+  gist_en: Two lakes joined, refreshing each other — the joy of learning with friends.
+  link: 承
+  xugua_en: Having entered, there is then delight; therefore Dui follows. Dui means delight.
+  logic_zh: >-
+    被接納、融入之後，人與人之間便有了喜悅（「說」即「悅」）。巽與兌互為綜卦。兌為澤，兩澤相連，互相滋潤，
+    象傳說「君子以朋友講習」——朋友之間互相切磋，是最大的快樂。彖傳強調喜悅要「剛中而柔外」：以誠信為內核，而不是諂媚取悅。
+  logic_en: >-
+    Once accepted and at home, people find joy together (說 here is 悅, delight). Xun 巽 and Dui 兌 are an
+    inverted pair. Dui is lake, doubled: two lakes joined, refreshing each other. "The superior person joins
+    with friends for discussion and practice" — learning with friends is the greatest joy. The Tuan says
+    true delight is "firm within, gentle without," grounded in sincerity rather than flattery.
+
+- num: 59
+  name: 渙
+  pinyin: huàn
+  en: Dispersion
+  en_alt: Dissolution
+  gist_zh: 風行水上，波紋四散；人心離散時，須重新凝聚。
+  gist_en: Wind over water, ripples spreading — when people scatter, gather them again.
+  link: 承
+  xugua_en: After delight comes dispersal; therefore Huan follows. Huan means scattering.
+  logic_zh: >-
+    喜悅使人心舒展、鬆散開來，到頭來便會渙散離析。渙卦巽（風）行坎（水）上，風吹水面，波紋四散。
+    但渙散也有積極的一面：化解鬱結、消散險難。卦辭「王假有廟，利涉大川」——人心離散之時，要以宗廟祭祀重新凝聚，
+    共同渡過大川。
+  logic_en: >-
+    Joy relaxes and loosens people, and in the end loosening becomes dispersal. Huan 渙 is Wind moving over
+    Water: ripples spreading in every direction. But dispersal has a positive side too, dissolving
+    blockages and dangers. "The king approaches his temple; beneficial to cross the great river": when
+    people drift apart, shared ritual can gather them again to cross the great river together.
+
+- num: 60
+  name: 節
+  pinyin: jié
+  en: Limitation
+  en_alt: Measure
+  gist_zh: 澤容水有限——節制有度，苦節不可貞。
+  gist_en: A lake holds only so much — measure and moderation, but not harsh restraint.
+  link: 反
+  xugua_en: Things cannot stay scattered forever; therefore Jie follows.
+  logic_zh: >-
+    渙散不能沒有止境，必須加以節制。渙與節互為綜卦。節卦坎（水）在兌（澤）上，澤容水有限，滿則溢出，所以要有節度。
+    「節」本是竹節，一段一段有分寸。卦辭也提醒「苦節不可貞」——節制過度，令人痛苦，也不能長久，貴在適中。
+  logic_en: >-
+    Dispersal cannot go on without limit; it needs regulating. Huan 渙 and Jie 節 are an inverted pair.
+    Jie is Water above Lake: a lake holds only so much and overflows when full, so there must be measure.
+    節 originally means the joints of bamboo that divide it into segments. But "bitter limitation should
+    not be persisted in": excessive restraint is painful and cannot last. The key is moderation.
+
+- num: 61
+  name: 中孚
+  pinyin: zhōng fú
+  en: Inner Truth
+  en_alt: Sincerity
+  gist_zh: 中虛而中實——內心誠信，感及豚魚。
+  gist_en: Empty at the core, firm at the center — sincerity that moves even pigs and fish.
+  link: 承
+  xugua_en: With limits, one is trusted; therefore Zhong Fu follows.
+  logic_zh: >-
+    有了節度，人們便能相互信任。「中孚」是內心誠信。卦形兩陰在中、四陽在外，中虛象徵心中無私；九二、九五兩陽
+    又各居上下卦之中，象徵中心誠實。卦辭「豚魚吉」：誠信感化的力量，甚至能及於豬和魚。中孚與小過是一對錯卦。
+  logic_en: >-
+    With measure and limits, people can trust one another. Zhong Fu 中孚 means inner sincerity. Two yin
+    lines sit at the center inside four yang lines — emptiness at the core, a heart without selfishness —
+    while yang lines hold the center of each trigram: firm sincerity within. "Pigs and fish: good fortune"
+    — the power of sincerity reaches even pigs and fish. Zhong Fu 中孚 and Xiao Guo 小過 are a complementary
+    pair (every line inverted).
+
+- num: 62
+  name: 小過
+  pinyin: xiǎo guò
+  en: Small Excess
+  en_alt: Preponderance of the Small
+  gist_zh: 小事可稍過，大事不可；飛鳥宜下不宜上。
+  gist_en: Small things may go a little too far, great ones not — the bird should fly low.
+  link: 承
+  xugua_en: Those who have trust are sure to act on it; therefore Xiao Guo follows.
+  logic_zh: >-
+    有了誠信，必定付諸行動；而行動難免有所過度。小過是「小的過度」——四陰在外、二陽在內，陰柔稍過於陽剛。
+    卦辭「可小事，不可大事。飛鳥遺之音，不宜上，宜下」：小事上稍稍過分無妨，象傳說「行過乎恭，喪過乎哀，用過乎儉」，
+    但不宜好高騖遠。
+  logic_en: >-
+    Those who have faith inevitably act on it, and action easily goes a little too far. Xiao Guo 小過 is
+    "small excess": four yin lines outside and two yang within, the yielding slightly outweighing the firm.
+    "Small matters may be done, not great ones. The flying bird leaves its call: it should not go up but
+    down." Erring slightly in small things is fine — "too courteous in conduct, too sorrowful in mourning,
+    too frugal in spending" — but do not overreach.
+
+- num: 63
+  name: 既濟
+  pinyin: jì jì
+  en: After Completion
+  gist_zh: 六爻皆當位，事已成；初吉終亂，守成更難。
+  gist_en: Every line in place, the task complete — yet order at the start, disorder at the end.
+  link: 承
+  xugua_en: Those who go beyond others are sure to succeed; therefore Ji Ji follows.
+  logic_zh: >-
+    能夠超越常人、有所作為的人，必然能成就事業。「濟」是渡河，引申為成功。既濟卦六爻陰陽各得其位（陽爻在奇數位、
+    陰爻在偶數位），是六十四卦中唯一完全「當位」的卦，代表一切都已完成。但卦辭說「初吉終亂」：完成之時，
+    就是混亂的開始，守成比創業更難。（序卦原文此句作「故受之既濟」，比其他句子少一個「以」字。）
+  logic_en: >-
+    Those who can go beyond the ordinary are sure to accomplish things. 濟 means crossing a river, hence
+    success. In Ji Ji 既濟 every line is in its proper place (yang in odd positions, yin in even) — the only
+    hexagram so perfectly ordered, everything completed. Yet "good fortune at the beginning, disorder at the
+    end": the moment of completion is where disorder starts, and keeping success is harder than winning it.
+    (The Xugua text reads 故受之既濟, lacking the 以 found in every other sentence.)
+
+- num: 64
+  name: 未濟
+  pinyin: wèi jì
+  en: Before Completion
+  gist_zh: 六爻皆不當位，一切重新開始——終即是始。
+  gist_en: Every line out of place, everything begins anew — the end is a beginning.
+  link: 反
+  xugua_en: Things can never be exhausted; therefore Wei Ji follows — and there the sequence ends.
+  logic_zh: >-
+    事物不可能有窮盡的時候，所以六十四卦不以「既濟」（已完成）作結，而以「未濟」（尚未完成）收尾。
+    既濟與未濟互為綜卦，也互為錯卦：未濟六爻皆不當位，一切又重新開始。這是整個卦序最深刻的一筆——
+    宇宙與人生永遠在途中，結束即是新的開端。
+  logic_en: >-
+    Things can never be exhausted, so the sixty-four hexagrams end not with Ji Ji 既濟, "already complete,"
+    but with Wei Ji 未濟, "not yet complete." The two are both inverted and opposite versions of each other:
+    in Wei Ji every line is out of place, and everything begins anew. This is the sequence's most profound
+    stroke — the cosmos and human life are always on the way, and every ending is a new beginning.

@@ -1,0 +1,15 @@
+{
+  "name": "yijing",
+  "private": true,
+  "type": "module",
+  "description": "PWA for learning the 64 hexagrams of the 周易 and the logic of their order (序卦傳)",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.js",
+    "serve": "python3 -m http.server 8080 -d app"
+  },
+  "devDependencies": {
+    "opencc-js": "^1.0.5",
+    "yaml": "^2.9.1"
+  }
+}
