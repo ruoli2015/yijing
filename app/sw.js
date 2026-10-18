@@ -1,14 +1,16 @@
 // Service worker: offline support. VERSION and FILES are stamped by scripts/build.mjs.
-const VERSION = '25ed6c3698';
+const VERSION = 'bb4a903586';
 const FILES = [
   "./",
   "css/app.css",
+  "data/audiobook.json",
   "data/yijing.json",
   "icons/apple-touch-icon.png",
   "icons/icon-192.png",
   "icons/icon-512.png",
   "icons/icon-maskable-512.png",
   "index.html",
+  "js/audiobook.js",
   "js/divine.js",
   "js/hex.js",
   "js/main.js",
@@ -21,6 +23,7 @@ const FILES = [
   "js/ui/draw.js",
   "js/ui/home.js",
   "js/ui/identify.js",
+  "js/ui/listen.js",
   "js/ui/order.js",
   "js/ui/progress.js",
   "js/ui/reveal.js",
@@ -67,6 +70,8 @@ self.addEventListener('fetch', (e) => {
     return;
   }
   if (url.origin !== self.location.origin) return;
+  // The audiobook streams with range requests straight from the network; it is too large to precache.
+  if (url.pathname.includes('/audio/')) return;
 
   // App shell and data: cache-first (a new service worker version brings new files).
   e.respondWith(

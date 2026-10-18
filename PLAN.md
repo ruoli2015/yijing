@@ -67,7 +67,12 @@ Hosted on GitHub Pages, installable on iPhone, Android and desktop.
    - Shows 本卦 → 之卦 with the changing lines marked.
    - Highlights which texts to read, following 朱熹《易學啟蒙·考變占》 (0–6 changing lines, 用九/用六).
    - A journal with notes, saved on the device.
-9. **進度 Progress.** Mastery grid for each quiz, accuracy, the English on/off setting, and backup export/import/reset.
+9. **聽卦序 Audiobook.**
+   - One chapter per hexagram: 「第三卦，水雷屯。」 → 序卦傳 sentence for the next hexagram → its modern reading → 「下一卦：第四卦，山水蒙。」
+   - Script generated from the content (`scripts/audiobook/script.mjs`), recorded with Azure Yunyi (`scripts/audiobook/make.py`) into one MP3 plus a timing manifest.
+   - Transcript highlights the sentence being read; tap a sentence to jump there. Chapter grid, ±15 s, speed, lock-screen controls (Media Session), resume where you stopped, mini player on other pages.
+   - The MP3 is not precached (about 10 MB); it streams.
+10. **進度 Progress.** Mastery grid for each quiz, accuracy, the English on/off setting, and backup export/import/reset.
 
 ## Status (2026-10-01)
 

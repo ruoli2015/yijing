@@ -16,6 +16,15 @@ export const byLines = (lines) => BY_LINES[lines] || null;
 export const trigram = (name) => TRIGRAM[name];
 export const trigrams = () => DATA.trigrams;
 
+const NUM_ZH = ['', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
+// 1 → 一, 31 → 三十一
+export function numZh(n) {
+  if (n < 10) return NUM_ZH[n];
+  const t = Math.floor(n / 10);
+  const u = n % 10;
+  return (t > 1 ? NUM_ZH[t] : '') + '十' + (u ? NUM_ZH[u] : '');
+}
+
 export const prevOf = (n) => (n > 1 ? n - 1 : null);
 export const nextOf = (n) => (n < 64 ? n + 1 : null);
 

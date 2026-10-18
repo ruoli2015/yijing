@@ -11,6 +11,7 @@ import { Identify } from './ui/identify.js';
 import { Draw } from './ui/draw.js';
 import { Divine } from './ui/divine.js';
 import { Progress } from './ui/progress.js';
+import { Listen, MiniPlayer } from './ui/listen.js';
 
 function parseHash() {
   const h = location.hash.replace(/^#\/?/, '');
@@ -55,9 +56,10 @@ function App() {
   else if (p0 === 'draw') page = html`<${Draw} />`;
   else if (p0 === 'divine') page = html`<${Divine} sub=${p1} />`;
   else if (p0 === 'progress') page = html`<${Progress} />`;
+  else if (p0 === 'listen') page = html`<${Listen} />`;
   else page = html`<${Home} />`;
 
-  const navKey = p0 === 'h' ? 'browse' : p0 === 'identify' || p0 === 'draw' ? '' : p0;
+  const navKey = p0 === 'h' ? 'browse' : p0 === 'identify' || p0 === 'draw' || p0 === 'listen' ? '' : p0;
   return html`
     <header class="top">
       ${TOP.has(p0) && !p1
@@ -66,6 +68,7 @@ function App() {
       <span class="title">周易六十四卦 <small>The 64 Hexagrams</small></span>
     </header>
     <main>${page}</main>
+    ${p0 !== 'listen' ? html`<${MiniPlayer} />` : null}
     <nav class="tabs">
       ${NAV.map(([path, zh, en, d]) => html`<a class=${navKey === path ? 'on' : ''} href=${'#/' + path}>
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d=${d} /></svg>

@@ -27,6 +27,7 @@ export function Order({ params }) {
       <h1>卦序之理 <small>The Logic of the Order</small></h1>
       <${Bi} zh="《序卦傳》用一連串因果把六十四卦串成一個故事。這裡先讀幾篇導論，再逐段走過整個卦序。"
         en="The Xugua strings the sixty-four hexagrams into one story through a chain of causes. Start with the short essays, then walk the whole sequence stage by stage." />
+      <a class="listen-link" href="#/listen">▶ 聽卦序 <small>Listen to the whole sequence</small></a>
       <div class="link-counts">
         ${['承', '反', '補', '始'].map((k) => html`<span class=${`chip link-${k}`}>${k} ${linkLabel[k].long}${en ? html` <small>${linkLabel[k].en}</small>` : null} · ${counts[k] || 0}</span>`)}
       </div>

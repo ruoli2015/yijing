@@ -1,0 +1,71 @@
+# The audiobook 聽卦序: the 64 hexagrams read in order. scripts/audiobook/script.mjs turns this and
+# the hexagram data into content/audiobook/script.json (+ script.md to read); scripts/audiobook/make.py
+# records it with Azure (zh-CN-YunyiMultilingualNeural).
+#
+# Each hexagram n is one chapter:
+#   第n卦，<full name>。 → 序卦傳說：「<sentence of n+1>」 → <logic_zh of n+1> → 下一卦：第n+1卦，<full name>。
+# Only the intro, the canon break and the outro are written here; everything else comes from
+# content/classics.json and content/hexagrams/*.yaml.
+
+title_zh: 聽卦序
+title_en: The Sequence, Read Aloud
+
+intro_zh: >-
+  周易六十四卦卦序。這部有聲書依照今本的次序，從第一卦乾，讀到第六十四卦未濟。
+  每一卦先讀卦序和卦名，再引《序卦傳》說明為什麼接下一卦，附上簡短的今解，最後讀出下一卦。
+intro_en: >-
+  The sixty-four hexagrams of the Zhouyi, in the received order, from hexagram 1, Qian, to hexagram 64,
+  Wei Ji. For each hexagram you hear its number and name, then the Xugua sentence that explains why the
+  next one follows, a short modern reading, and finally the next hexagram's number and name.
+
+# Spoken in chapter 30, before 「下一卦」.
+upper_end_zh: 上經三十卦到此結束。
+upper_end_en: This ends the thirty hexagrams of the Upper Canon.
+lower_start_zh: 下經由此開始。
+lower_start_en: The Lower Canon begins here.
+
+# Chapter 64 ends with this instead of a next hexagram.
+outro_zh: >-
+  六十四卦到此讀完。序卦傳以「終焉」二字作結，卦序卻停在「未濟」，也就是尚未完成。
+  終點也是起點，下一輪又從第一卦乾開始。
+outro_en: >-
+  That is all sixty-four. The Xugua closes with the words "and there it ends," yet the sequence stops
+  on Wei Ji, "not yet across." The end is also a beginning: the next round starts again with Qian.
+
+# Pronunciation. The voice guesses the reading of a polyphonic character from context and often
+# guesses wrong for hexagram names (否 as fǒu, 屯 as tún). Each rule pins a reading with SSML <phoneme>.
+#   match: a JavaScript regex; every character it matches gets one syllable of `say`.
+#   say:   pinyin with tone marks, one syllable per matched character (same spelling as the app).
+#   where: everywhere (default) or classical (only inside 序卦傳 quotations).
+pronounce:
+  - { match: '乾(?!涸)', say: qián, why: 卦名；「乾涸」讀 gān }
+  - { match: '坤', say: kūn, why: 卦名 }
+  - { match: '屯', say: zhūn, why: 卦名，不讀 tún }
+  - { match: '蒙', say: méng, why: 卦名，不讀 mēng }
+  - { match: '否(?!則)', say: pǐ, why: 卦名，不讀 fǒu；「否則」除外 }
+  - { match: '畜', say: chù, why: 小畜、大畜，與 app 所標拼音一致 }
+  - { match: '嗑', say: kè, why: 噬嗑，與 app 所標拼音一致 }
+  - { match: '賁', say: bì, why: 卦名，不讀 bēn }
+  - { match: '剝', say: bō, why: 卦名，不讀 bāo }
+  - { match: '艮', say: gèn, why: 卦名，不讀 gěn }
+  - { match: '濟', say: jì, why: 既濟、未濟，不讀 jǐ }
+  - { match: '中(?=孚)', say: zhōng, why: 中孚 }
+  - { match: '麗', say: lì, why: 「離者麗也」，附麗，不讀 lí }
+  - { match: '解(?=[互是卦與])|(?<=[與蹇「])解(?![作為釋脫除])', say: xiè, why: 卦名讀 xiè；「解作」「解除」等仍讀 jiě }
+  - { match: '(?<=[乾坤坎離震艮巽兌])為', say: wéi, why: 「乾為天」「坎為水」 }
+  - { match: '綜', say: zōng, why: 綜卦；試錄時被讀成 zèng }
+  - { match: '夬', say: guài, why: 卦名；錄音核對時被讀成 jué }
+  - { match: '革', say: gé, why: 卦名；錄音核對時被讀成 jí }
+  - { match: '(?<=利|其)見', say: jiàn, why: 「利見大人」「其見天地之心」；「萬物畢見」仍讀 xiàn }
+  - { match: '橈', say: náo, why: 「棟橈」 }
+  - { match: '給(?!予)', say: gěi, why: 「減去一陽給上卦」；「給予」仍讀 jǐ }
+  - { match: '(?<=[卦彖象易辭])傳', say: zhuàn, why: 序卦傳、彖傳、象傳是經傳之「傳」 }
+  - { match: '長(?=[男女子])|(?<=[陰陽盛])長', say: zhǎng, why: 長男、長女、長子；陰長、陽長 }
+  - { match: '重重', say: chóng chóng, why: 重重險難 }
+  - { match: '(?<=民)說(?=无)|(?<=「)說(?=」)', say: yuè, why: 「民說无疆」「說」即「悅」 }
+  - { match: '(?<=[險危]|之)難', say: nàn, why: 險難、危難、屯之難 }
+  - { match: '說', say: yuè, where: classical, why: 「入而后說之」「兌者說也」「說而后散之」，說即悅 }
+  - { match: '難', say: nàn, where: classical, why: 「乖必有難」「蹇者難也」，災難之難 }
+  - { match: '長', say: zhǎng, where: classical, why: 「主器者莫若長子」 }
+  - { match: '解', say: xiè, where: classical, why: 「解者緩也」，卦名 }
+  - { match: '穉', say: zhì, where: classical, why: 「物之穉也」，稚 }

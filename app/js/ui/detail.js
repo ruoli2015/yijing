@@ -1,15 +1,8 @@
 // One hexagram: figure, names, trigrams, 序卦 links in and out, 卦辭, 彖傳, 大象, 爻辭 with 小象.
 import { html, useEffect, useRef } from '../../vendor/preact.js';
-import { hex, trigram, data } from '../hex.js';
+import { hex, trigram, data, numZh } from '../hex.js';
 import { HexSvg, TriSvg, Bi, L, LinkChip, RelChip, useEn } from './common.js';
-
-const NUM_ZH = ['', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
-export function numZh(n) {
-  if (n < 10) return NUM_ZH[n];
-  const t = Math.floor(n / 10);
-  const u = n % 10;
-  return (t > 1 ? NUM_ZH[t] : '') + '十' + (u ? NUM_ZH[u] : '');
-}
+import { ListenFrom } from './listen.js';
 
 // Header block: figure + names + trigram composition
 export function HexHeader({ n, size = 96, hideName = false }) {
@@ -108,7 +101,8 @@ export function Detail({ n }) {
       <${XuguaLink} to=${n} />
       ${n < 64
         ? html`<h2 class="sub"><${L} zh="往何處去" en="where it leads" /></h2><${XuguaLink} to=${n + 1} dir="out" open=${false} />
-          <a class="more" href=${`#/h/${n + 1}`}>${hex(n + 1).name}之今解 · read on ›</a>`
+          <a class="more" href=${`#/h/${n + 1}`}>${hex(n + 1).name}之今解 · read on ›</a>
+          <${ListenFrom} n=${n} />`
         : html`<p class="muted">未濟為六十四卦之終——「終焉」。 Wei Ji closes the sequence.</p>`}
     </section>
 

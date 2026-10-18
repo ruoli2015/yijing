@@ -8,6 +8,7 @@ import { HexSvg, Bi, useEn } from './common.js';
 const MODES = [
   { href: '#/identify', fig: '100010', zh: '認卦', en: 'Identify', dzh: '看卦象，說出卦名、卦序與前後卦', den: 'See a hexagram: name it, number it, give its neighbors' },
   { href: '#/draw', fig: '010001', zh: '畫卦', en: 'Draw', dzh: '看卦名，畫出卦象並說出卦序', den: 'See a name: draw the hexagram and give its number' },
+  { href: '#/listen', fig: '100100', zh: '聽卦序', en: 'Listen', dzh: '依序朗讀六十四卦：卦名、序卦傳與今解', den: 'All 64 read in order: names, the Xugua and modern readings' },
   { href: '#/order', fig: '111000', zh: '卦序之理', en: 'Logic of the order', dzh: '序卦傳原文與今解，逐段讀懂卦序', den: 'The Xugua with modern explanations, stage by stage' },
   { href: '#/browse', fig: '000111', zh: '六十四卦', en: 'All hexagrams', dzh: '依卦名、卦象或卦序查找，閱讀彖傳與象傳', den: 'Find by name, figure or number; read the Tuan and Xiang' },
   { href: '#/divine', fig: '101010', zh: '占卦', en: 'Divination', dzh: '三錢起卦，依朱熹占法讀卦', den: 'Three-coin cast, read by Zhu Xi’s rules' },

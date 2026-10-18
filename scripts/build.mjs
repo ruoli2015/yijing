@@ -9,6 +9,7 @@ import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { parse } from 'yaml';
 import * as OpenCC from 'opencc-js';
+import { makeScript, scriptMarkdown } from './audiobook/script.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CONTENT = join(ROOT, 'content');
@@ -167,6 +168,24 @@ const version = createHash('sha256').update(JSON.stringify(body)).digest('hex').
 writeFileSync(join(APP, 'data', 'yijing.json'), JSON.stringify({ version, ...body }));
 console.log(`✓ wrote app/data/yijing.json (version ${version})`);
 
+// ---------- audiobook script (recorded separately by scripts/audiobook/make.py) ----------
+{
+  const book = parse(readFileSync(join(CONTENT, 'audiobook.yaml'), 'utf8'));
+  const script = makeScript(hexagrams, book);
+  const json = JSON.stringify(script, null, 1);
+  writeFileSync(join(CONTENT, 'audiobook', 'script.json'), json);
+  writeFileSync(join(CONTENT, 'audiobook', 'script.md'), scriptMarkdown(script, hexagrams));
+  const scriptHash = createHash('sha256').update(json).digest('hex').slice(0, 10);
+  let recorded = null;
+  try {
+    recorded = JSON.parse(readFileSync(join(APP, 'data', 'audiobook.json'), 'utf8')).script;
+  } catch {}
+  const cues = script.chapters.reduce((k, c) => k + c.cues.length, 0);
+  console.log(`✓ wrote content/audiobook/script.json (${script.chapters.length} chapters, ${cues} cues, script ${scriptHash})`);
+  if (recorded !== scriptHash)
+    console.warn(`⚠ the audiobook was recorded from script ${recorded ?? '(none)'}; re-record with: ~/.cache/sbt-tts/env/bin/python scripts/audiobook/make.py`);
+}
+
 // ---------- service worker: precache list + version stamp ----------
 function walk(dir) {
   return readdirSync(dir).flatMap((f) => {
@@ -176,7 +195,7 @@ function walk(dir) {
 }
 const files = walk(APP)
   .map((p) => relative(APP, p).split('\\').join('/'))
-  .filter((p) => p !== 'sw.js' && !p.endsWith('.DS_Store'))
+  .filter((p) => p !== 'sw.js' && !p.endsWith('.DS_Store') && !p.startsWith('audio/')) // audio streams from the network
   .sort();
 const hash = createHash('sha256');
 for (const f of files) hash.update(f).update(readFileSync(join(APP, f)));
