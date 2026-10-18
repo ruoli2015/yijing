@@ -1,18 +1,22 @@
 // The audiobook player: one <audio> element for the whole app, so listening continues while you browse.
-// Chapter i of data/audiobook.json is hexagram i (0 is the introduction). The position is remembered.
+// data/audiobook.json holds two books: 'full' (chapter 0 is the introduction, then hexagrams 1–64) and 'names'
+// (hexagrams 1–64, names only). state.chapter is an index into the current book; state.n is its hexagram.
+// The position in each book is remembered.
 import { hex, numZh } from './hex.js';
 
 const POS_KEY = 'yijing.audiobook';
 export const RATES = [0.8, 1, 1.25, 1.5];
 
-let book = null;
+let all = null; // the manifest
+let book = null; // the book being played
+let positions = {}; // book id → seconds
 let loading = null;
 let pendingSeek = null;
 let lastSaved = 0;
 const audio = globalThis.Audio ? new Audio() : null; // null under Node, where the tests import locate()
 if (audio) audio.preload = 'none';
 
-let state = { ready: false, started: false, playing: false, waiting: false, t: 0, chapter: 0, cue: -1, rate: 1, error: null };
+let state = { ready: false, started: false, playing: false, waiting: false, book: 'full', t: 0, chapter: 0, n: 0, cue: -1, rate: 1, error: null };
 const subs = new Set();
 const set = (patch) => {
   state = { ...state, ...patch };
@@ -20,7 +24,8 @@ const set = (patch) => {
 };
 
 export const get = () => state;
-export const manifest = () => book;
+export const manifest = () => all;
+export const current = () => book;
 export function subscribe(fn) {
   subs.add(fn);
   return () => subs.delete(fn);
@@ -35,7 +40,8 @@ function readPos() {
 }
 function savePos() {
   try {
-    localStorage.setItem(POS_KEY, JSON.stringify({ t: Math.round(state.t), rate: state.rate }));
+    positions[state.book] = Math.round(state.t);
+    localStorage.setItem(POS_KEY, JSON.stringify({ book: state.book, positions, rate: state.rate }));
   } catch {
     /* private mode */
   }
@@ -49,7 +55,17 @@ export function locate(t, b = book) {
   const cues = cs[i].cues;
   let k = -1;
   while (k + 1 < cues.length && cues[k + 1].start <= t + 0.05) k++;
-  return { chapter: i, cue: k };
+  return { chapter: i, n: cs[i].n, cue: k };
+}
+
+// Point the audio element at book `id`, at its remembered position.
+function useBook(id) {
+  book = all.books.find((b) => b.id === id) || all.books[0];
+  const t = Math.min(positions[book.id] || 0, book.duration - 1);
+  audio.src = book.audio;
+  audio.playbackRate = state.rate;
+  pendingSeek = t || null;
+  set({ book: book.id, t, ...locate(t) });
 }
 
 export function load() {
@@ -58,16 +74,14 @@ export function load() {
       if (!r.ok) throw new Error(`audiobook.json ${r.status}`);
       return r.json();
     })
-    .then((b) => {
-      book = b;
+    .then((m) => {
+      all = m;
       const saved = readPos();
-      const t = Math.min(saved.t || 0, b.duration - 1);
-      const rate = RATES.includes(saved.rate) ? saved.rate : 1;
-      audio.src = b.audio;
-      audio.playbackRate = rate;
-      pendingSeek = t || null;
-      set({ ready: true, t, rate, ...locate(t, b) });
-      return b;
+      positions = saved.positions || { full: saved.t || 0 };
+      state.rate = RATES.includes(saved.rate) ? saved.rate : 1;
+      useBook(saved.book || 'full');
+      set({ ready: true });
+      return m;
     })
     .catch((e) => {
       loading = null;
@@ -99,12 +113,23 @@ export function seek(t) {
 export const skip = (dt) => seek(state.t + dt);
 export const goChapter = (i) => book && seek(book.chapters[Math.max(0, Math.min(i, book.chapters.length - 1))].start);
 export const next = () => goChapter(state.chapter + 1);
+// Switch recordings; keeps playing if it was playing (call it inside the tap).
+export function setBook(id) {
+  if (!all || id === state.book) return;
+  const wasPlaying = !audio.paused;
+  savePos();
+  useBook(id);
+  savePos();
+  if (wasPlaying) play();
+}
 export function prev() {
   const start = book?.chapters[state.chapter].start ?? 0;
   goChapter(state.t - start > 3 ? state.chapter : state.chapter - 1);
 }
-export function playChapter(i) {
-  goChapter(i);
+// Play hexagram n (0: the introduction) in the current book.
+export function playChapter(n) {
+  const i = book?.chapters.findIndex((c) => c.n === n) ?? -1;
+  goChapter(i >= 0 ? i : 0);
   play();
 }
 export function setRate(r) {
@@ -113,8 +138,8 @@ export function setRate(r) {
   savePos();
 }
 
-export function chapterTitle(i) {
-  return i === 0 ? '開場' : `第${numZh(i)}卦 ${hex(i).full}`;
+export function chapterTitle(n) {
+  return n === 0 ? '開場' : `第${numZh(n)}卦 ${hex(n).full}`;
 }
 
 // ---------- audio events ----------
@@ -126,7 +151,7 @@ audio?.addEventListener('timeupdate', () => {
   if (pendingSeek != null || !book) return;
   const t = audio.currentTime;
   const where = locate(t);
-  if (where.chapter !== state.chapter) mediaMeta(where.chapter);
+  if (where.chapter !== state.chapter) mediaMeta(where.n);
   set({ t, ...where });
   if (Math.abs(t - lastSaved) > 5) {
     lastSaved = t;
@@ -135,7 +160,7 @@ audio?.addEventListener('timeupdate', () => {
 });
 audio?.addEventListener('play', () => {
   set({ playing: true });
-  mediaMeta(state.chapter);
+  mediaMeta(state.n);
 });
 audio?.addEventListener('pause', () => {
   set({ playing: false });
@@ -152,10 +177,10 @@ audio?.addEventListener('error', () => {
 });
 
 // ---------- lock screen and headphone controls ----------
-function mediaMeta(i) {
+function mediaMeta(n) {
   if (!('mediaSession' in navigator) || !book) return;
   navigator.mediaSession.metadata = new MediaMetadata({
-    title: chapterTitle(i),
+    title: chapterTitle(n),
     artist: `${book.titleZh} · ${book.titleEn}`,
     album: '周易六十四卦',
     artwork: [{ src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png' }],

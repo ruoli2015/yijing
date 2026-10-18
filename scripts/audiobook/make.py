@@ -1,4 +1,4 @@
-"""Record the audiobook: content/audiobook/script.json → app/audio/xugua.mp3 + app/data/audiobook.json.
+"""Record the audiobooks: content/audiobook/script.json → app/audio/<book>.mp3 + app/data/audiobook.json.
 
   ~/.cache/sbt-tts/env/bin/python scripts/audiobook/make.py           synthesize what's new, then build
   ~/.cache/sbt-tts/env/bin/python scripts/audiobook/make.py tts       only synthesize
@@ -16,11 +16,10 @@ import numpy as np, requests, soundfile as sf
 
 ROOT = Path(__file__).resolve().parents[2]
 SCRIPT = ROOT / 'content' / 'audiobook' / 'script.json'
-MP3 = ROOT / 'app' / 'audio' / 'xugua.mp3'
+AUDIO = ROOT / 'app' / 'audio'
 MANIFEST = ROOT / 'app' / 'data' / 'audiobook.json'
 CACHE = Path.home() / '.cache' / 'yijing-tts'
 VOICE, RATE, KBPS, SR = 'zh-CN-YunyiMultilingualNeural', '-5%', 32, 24000
-CHAPTER_GAP = 2.0  # seconds of silence between chapters
 
 
 def env():
@@ -99,10 +98,11 @@ def trim(a, floor_db=-45):
     return a[max(0, loud[0] - pad):loud[-1] + pad]
 
 
-def build(script, script_hash):
+def build_book(book, script_hash):
+    """One MP3 per book; returns its manifest entry. book['gap'] = silence between chapters."""
     import lameenc
     pieces, t, chapters = [], 0.0, []
-    for ch in script['chapters']:
+    for ch in book['chapters']:
         start, cues = t, []
         for c in ch['cues']:
             a, sr = sf.read(clip_path(c['ssml']), dtype='float32')
@@ -114,21 +114,28 @@ def build(script, script_hash):
             gap = np.zeros(int(c['pause'] * SR), np.float32)
             pieces += [a, gap]
             t += (len(a) + len(gap)) / SR
-        pieces.append(np.zeros(int(CHAPTER_GAP * SR), np.float32))
-        t += CHAPTER_GAP
+        pieces.append(np.zeros(int(book['gap'] * SR), np.float32))
+        t += book['gap']
         chapters.append(dict(n=ch['n'], start=round(start, 2), end=round(t, 2), cues=cues))
     audio = np.concatenate(pieces)
     enc = lameenc.Encoder()
     enc.set_bit_rate(KBPS); enc.set_in_sample_rate(SR); enc.set_channels(1); enc.set_quality(2)
-    MP3.parent.mkdir(parents=True, exist_ok=True)
-    MP3.write_bytes(enc.encode((np.clip(audio, -1, 1) * 32767).astype('<i2').tobytes()) + enc.flush())
-    manifest = dict(script=script_hash, titleZh=script['titleZh'], titleEn=script['titleEn'],
-                    introEn=script['introEn'], outroEn=script['outroEn'],
-                    audio=f'audio/{MP3.name}?v={script_hash}', duration=round(len(audio) / SR, 2),
-                    bytes=MP3.stat().st_size, voice=VOICE, chapters=chapters)
-    MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, separators=(',', ':')))
-    print(f'✓ {MP3.relative_to(ROOT)}  {len(audio) / SR / 60:.1f} min, {MP3.stat().st_size / 1e6:.1f} MB')
-    print(f'✓ {MANIFEST.relative_to(ROOT)}  {len(chapters)} chapters (script {script_hash})')
+    mp3 = AUDIO / f"{book['id']}.mp3"
+    mp3.parent.mkdir(parents=True, exist_ok=True)
+    mp3.write_bytes(enc.encode((np.clip(audio, -1, 1) * 32767).astype('<i2').tobytes()) + enc.flush())
+    print(f'✓ {mp3.relative_to(ROOT)}  {len(audio) / SR / 60:.1f} min, {mp3.stat().st_size / 1e6:.1f} MB, {len(chapters)} chapters')
+    meta = {k: v for k, v in book.items() if k not in ('chapters', 'gap')}
+    return dict(meta, audio=f'audio/{mp3.name}?v={script_hash}', duration=round(len(audio) / SR, 2),
+                bytes=mp3.stat().st_size, chapters=chapters)
+
+
+def build(script, script_hash):
+    books = [build_book(b, script_hash) for b in script['books']]
+    for old in AUDIO.glob('*.mp3'):  # recordings of books that no longer exist
+        if old.stem not in {b['id'] for b in script['books']}:
+            old.unlink()
+    MANIFEST.write_text(json.dumps(dict(script=script_hash, voice=VOICE, books=books), ensure_ascii=False, separators=(',', ':')))
+    print(f'✓ {MANIFEST.relative_to(ROOT)}  (script {script_hash})')
 
 
 def main():
@@ -137,7 +144,7 @@ def main():
         return check_voice()
     raw = SCRIPT.read_bytes()
     script = json.loads(raw)
-    cues = [c for ch in script['chapters'] for c in ch['cues']]
+    cues = [c for b in script['books'] for ch in b['chapters'] for c in ch['cues']]
     if step in ('tts', 'all'): synth(cues)
     if step in ('build', 'all'): build(script, hashlib.sha256(raw).hexdigest()[:10])
 

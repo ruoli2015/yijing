@@ -3,28 +3,32 @@
 # records it with Azure (zh-CN-YunyiMultilingualNeural).
 #
 # Each hexagram n is one chapter:
-#   第n卦，<full name>。 → 序卦傳說：「<sentence of n+1>」 → <logic_zh of n+1> → 下一卦：第n+1卦，<full name>。
-# Only the intro, the canon break and the outro are written here; everything else comes from
-# content/classics.json and content/hexagrams/*.yaml.
+#   第n卦，<full name>。 → 序卦傳說：「<sentence of n>」 → <logic_zh of n>
+# so each explanation (how n follows n-1) comes right after its own name, and the next chapter opens
+# with the next name. Only the intro, the canon break and the outro are written here; everything else
+# comes from content/classics.json and content/hexagrams/*.yaml.
+# A second, short recording reads only the 64 headings: 第一卦，乾為天。第二卦，坤為地。…
 
 title_zh: 聽卦序
 title_en: The Sequence, Read Aloud
+names_title_zh: 六十四卦卦名
+names_title_en: The 64 Names
 
 intro_zh: >-
   周易六十四卦卦序。這部有聲書依照今本的次序，從第一卦乾，讀到第六十四卦未濟。
-  每一卦先讀卦序和卦名，再引《序卦傳》說明為什麼接下一卦，附上簡短的今解，最後讀出下一卦。
+  每一卦先讀卦序和卦名，再引《序卦傳》說明它為什麼接在前一卦之後，並附上簡短的今解。
 intro_en: >-
   The sixty-four hexagrams of the Zhouyi, in the received order, from hexagram 1, Qian, to hexagram 64,
-  Wei Ji. For each hexagram you hear its number and name, then the Xugua sentence that explains why the
-  next one follows, a short modern reading, and finally the next hexagram's number and name.
+  Wei Ji. For each hexagram you hear its number and name, then the Xugua sentence that explains why it
+  follows the one before, and a short modern reading.
 
-# Spoken in chapter 30, before 「下一卦」.
+# upper_end closes chapter 30; lower_start opens chapter 31.
 upper_end_zh: 上經三十卦到此結束。
 upper_end_en: This ends the thirty hexagrams of the Upper Canon.
 lower_start_zh: 下經由此開始。
 lower_start_en: The Lower Canon begins here.
 
-# Chapter 64 ends with this instead of a next hexagram.
+# Chapter 64 ends with this.
 outro_zh: >-
   六十四卦到此讀完。序卦傳以「終焉」二字作結，卦序卻停在「未濟」，也就是尚未完成。
   終點也是起點，下一輪又從第一卦乾開始。

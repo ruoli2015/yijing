@@ -1,3015 +1,3379 @@
 {
- "titleZh": "聽卦序",
- "titleEn": "The Sequence, Read Aloud",
- "introEn": "The sixty-four hexagrams of the Zhouyi, in the received order, from hexagram 1, Qian, to hexagram 64, Wei Ji. For each hexagram you hear its number and name, then the Xugua sentence that explains why the next one follows, a short modern reading, and finally the next hexagram's number and name.",
- "outroEn": "That is all sixty-four. The Xugua closes with the words \"and there it ends,\" yet the sequence stops on Wei Ji, \"not yet across.\" The end is also a beginning: the next round starts again with Qian.",
- "chapters": [
-  {
-   "n": 0,
-   "cues": [
-    {
-     "role": "intro",
-     "text": "周易六十四卦卦序。",
-     "ssml": "周易六十四卦卦序。",
-     "pause": 0.4
-    },
-    {
-     "role": "intro",
-     "text": "這部有聲書依照今本的次序，從第一卦乾，讀到第六十四卦未濟。",
-     "ssml": "這部有聲書依照今本的次序，從第一卦<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>，讀到第六十四卦未<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
-     "pause": 0.4
-    },
-    {
-     "role": "intro",
-     "text": "每一卦先讀卦序和卦名，再引《序卦傳》說明為什麼接下一卦，附上簡短的今解，最後讀出下一卦。",
-     "ssml": "每一卦先讀卦序和卦名，再引《序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>》說明為什麼接下一卦，附上簡短的今解，最後讀出下一卦。",
-     "pause": 1.2
-    }
-   ]
-  },
-  {
-   "n": 1,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第一卦，乾為天。",
-     "ssml": "第一卦，<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>天。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「有天地，然後萬物生焉。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有天地，然後萬物生焉。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "坤與乾是一對「錯卦」（六爻全反）：乾六爻皆陽，坤六爻皆陰。",
-     "ssml": "<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>與<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>是一對「錯卦」（六爻全反）：<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>六爻皆陽，<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>六爻皆陰。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "有創生必有承載，有天必有地——乾發動，坤成就。",
-     "ssml": "有創生必有承載，有天必有地，<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>發動，<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>成就。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "序卦傳把兩者合為一句「有天地」，正說明它們不可分離，是一體兩面。",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>把兩者合為一句「有天地」，正說明它們不可分離，是一體兩面。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "從第三卦開始，天地交合而萬物生，故事才真正展開。",
-     "ssml": "從第三卦開始，天地交合而萬物生，故事才真正展開。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第二卦，坤為地。",
-     "ssml": "下一卦：第二卦，<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>地。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 2,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第二卦，坤為地。",
-     "ssml": "第二卦，<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>地。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「盈天地之間者，唯萬物，故受之以屯；屯者盈也，屯者物之始生也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「盈天地之間者，唯萬物，故受之以<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>；<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>者盈也，<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>者物之始生也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "天地既立，其間便被萬物充滿。",
-     "ssml": "天地既立，其間便被萬物充滿。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「屯」字像草芽破土而出、捲曲未伸，正是新生命掙扎著誕生的樣子。",
-     "ssml": "「<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>」字像草芽破土而出、捲曲未伸，正是新生命掙扎著誕生的樣子。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "所以屯有兩層意思：充盈（萬物湧現）與初生之難（剛剛冒頭，處境艱難）。",
-     "ssml": "所以<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>有兩層意思：充盈（萬物湧現）與初生之<phoneme alphabet=\"sapi\" ph=\"nan 4\">難</phoneme>（剛剛冒頭，處境艱難）。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦象上坎（險）下震（動），動於險中——任何開始都伴隨著混亂與困難。",
-     "ssml": "卦象上坎（險）下震（動），動於險中，任何開始都伴隨著混亂與困難。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第三卦，水雷屯。",
-     "ssml": "下一卦：第三卦，水雷<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 3,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第三卦，水雷屯。",
-     "ssml": "第三卦，水雷<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物生必蒙，故受之以蒙；蒙者蒙也，物之穉也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物生必<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>，故受之以<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>；<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>者<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>也，物之<phoneme alphabet=\"sapi\" ph=\"zhi 4\">穉</phoneme>也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "生命誕生之後，首先是懵懂無知的幼年。",
-     "ssml": "生命誕生之後，首先是懵懂無知的幼年。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「蒙」本指被覆蓋、看不清，引申為蒙昧、稚嫩。",
-     "ssml": "「<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>」本指被覆蓋、看不清，引申為<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>昧、稚嫩。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "剛出生的東西必然未開化，需要啟蒙和教育——所以蒙卦的卦辭講師生關係：「匪我求童蒙，童蒙求我。」",
-     "ssml": "剛出生的東西必然未開化，需要啟<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>和教育，所以<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>卦的卦辭講師生關係：「匪我求童<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>，童<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>求我。」",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "屯與蒙互為綜卦（上下顛倒），一個講出生，一個講幼年。",
-     "ssml": "<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>與<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦（上下顛倒），一個講出生，一個講幼年。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第四卦，山水蒙。",
-     "ssml": "下一卦：第四卦，山水<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 4,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第四卦，山水蒙。",
-     "ssml": "第四卦，山水<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物穉不可不養也，故受之以需；需者飲食之道也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物<phoneme alphabet=\"sapi\" ph=\"zhi 4\">穉</phoneme>不可不養也，故受之以需；需者飲食之道也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "幼小的生命首先需要養育。",
-     "ssml": "幼小的生命首先需要養育。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "序卦傳把「需」解作「飲食之道」——人最基本的需要就是吃喝。",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>把「需」解作「飲食之道」，人最基本的需要就是吃喝。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦象乾（剛健）在下、坎（雲雨）在上：雲已在天，雨尚未降，所以需又有「等待」之意。",
-     "ssml": "卦象<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>（剛健）在下、坎（雲雨）在上：雲已在天，雨尚未降，所以需又有「等待」之意。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "滋養需要時間，不能揠苗助長，要耐心等待時機成熟。",
-     "ssml": "滋養需要時間，不能揠苗助長，要耐心等待時機成熟。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第五卦，水天需。",
-     "ssml": "下一卦：第五卦，水天<phoneme alphabet=\"sapi\" ph=\"xu 1\">需</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 5,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第五卦，水天需。",
-     "ssml": "第五卦，水天<phoneme alphabet=\"sapi\" ph=\"xu 1\">需</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「飲食必有訟，故受之以訟。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「飲食必有訟，故受之以訟。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "有了資源就有分配，有分配就有爭執。",
-     "ssml": "有了資源就有分配，有分配就有爭執。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "為了飲食（引申為一切利益），人們必然發生爭訟。",
-     "ssml": "為了飲食（引申為一切利益），人們必然發生爭訟。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "需與訟互為綜卦：需是坎在乾上，耐心等待；訟是乾在坎上——天往上走，水往下流，背道而馳，象徵立場相違、各不相讓。",
-     "ssml": "需與訟互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：需是坎在<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>上，耐心等待；訟是<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>在坎上，天往上走，水往下流，背道而馳，象徵立場相違、各不相讓。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭說「中吉，終凶」：爭訟要適可而止。",
-     "ssml": "卦辭說「中吉，終凶」：爭訟要適可而止。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第六卦，天水訟。",
-     "ssml": "下一卦：第六卦，天水<phoneme alphabet=\"sapi\" ph=\"song 4\">訟</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 6,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第六卦，天水訟。",
-     "ssml": "第六卦，天水<phoneme alphabet=\"sapi\" ph=\"song 4\">訟</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「訟必有眾起，故受之以師；師者眾也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「訟必有眾起，故受之以師；師者眾也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "個人之間的爭訟一旦擴大，就會牽動群體，演變成集體衝突——戰爭。",
-     "ssml": "個人之間的爭訟一旦擴大，就會牽動群體，演變成集體衝突，戰爭。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「師」本義是眾人、軍隊。",
-     "ssml": "「師」本義是眾人、軍隊。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦象坤（地、眾）在上，坎（水）在下：地中有水，如同兵藏於民。",
-     "ssml": "卦象<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>（地、眾）在上，坎（水）在下：地中有水，如同兵藏於民。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "全卦唯一的陽爻九二居下卦之中，代表統率眾人的將帥。",
-     "ssml": "全卦唯一的陽爻九二居下卦之中，代表統率眾人的將帥。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "用兵的關鍵在於「貞」：正當的目的與得力的領導。",
-     "ssml": "用兵的關鍵在於「貞」：正當的目的與得力的領導。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第七卦，地水師。",
-     "ssml": "下一卦：第七卦，地水<phoneme alphabet=\"sapi\" ph=\"shi 1\">師</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 7,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第七卦，地水師。",
-     "ssml": "第七卦，地水<phoneme alphabet=\"sapi\" ph=\"shi 1\">師</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「眾必有所比，故受之以比；比者比也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「眾必有所比，故受之以比；比者比也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "眾人聚在一起，不能一盤散沙，必須互相親附、團結在一個中心周圍。",
-     "ssml": "眾人聚在一起，不能一盤散沙，必須互相親附、團結在一個中心周圍。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「比」是親近、依附。",
-     "ssml": "「比」是親近、依附。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "師與比互為綜卦：師的唯一陽爻在下卦（將帥在下統兵），比的唯一陽爻在九五（君主在上，萬民歸附）。",
-     "ssml": "師與比互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：師的唯一陽爻在下卦（將帥在下統兵），比的唯一陽爻在九五（君主在上，萬民歸附）。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "戰爭之後要建立聯盟與秩序，從軍事組織轉向政治凝聚。",
-     "ssml": "戰爭之後要建立聯盟與秩序，從軍事組織轉向政治凝聚。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第八卦，水地比。",
-     "ssml": "下一卦：第八卦，水地<phoneme alphabet=\"sapi\" ph=\"bi 3\">比</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 8,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第八卦，水地比。",
-     "ssml": "第八卦，水地<phoneme alphabet=\"sapi\" ph=\"bi 3\">比</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「比必有所畜也，故受之以小畜。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「比必有所<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>也，故受之以小<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "人們團結親附之後，就能積聚力量與財富。",
-     "ssml": "人們團結親附之後，就能積聚力量與財富。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「畜」有蓄積和畜止兩層意思。",
-     "ssml": "「<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>」有蓄積和<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>止兩層意思。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "但這種積蓄還是「小」的：全卦只有一個陰爻（六四）去畜止五個陽爻，力量有限，如同卦辭所說「密雲不雨」——雲已密布，雨還下不來。",
-     "ssml": "但這種積蓄還是「小」的：全卦只有一個陰爻（六四）去<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>止五個陽爻，力量有限，如同卦辭所說「密雲不雨」，雲已密布，雨還下不來。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "這是初步的積累，還不足以成大事。",
-     "ssml": "這是初步的積累，還不足以成大事。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第九卦，風天小畜。",
-     "ssml": "下一卦：第九卦，風天<phoneme alphabet=\"sapi\" ph=\"xiao 3\">小</phoneme><phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 9,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第九卦，風天小畜。",
-     "ssml": "第九卦，風天<phoneme alphabet=\"sapi\" ph=\"xiao 3\">小</phoneme><phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物畜然後有禮，故受之以履。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>然後有禮，故受之以履。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "「倉廩實而知禮節」——物質有了積累，才談得上禮儀規範。",
-     "ssml": "「倉廩實而知禮節」，物質有了積累，才談得上禮儀規範。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「履」本是踩、行走，引申為行為、實踐；序卦傳把它和「禮」聯繫起來：禮就是人應當踐行的道路。",
-     "ssml": "「履」本是踩、行走，引申為行為、實踐；序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>把它和「禮」聯繫起來：禮就是人應當踐行的道路。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「履虎尾，不咥人」，說明只要循禮而行、謹慎小心，即使處境危險也能安然無恙。",
-     "ssml": "卦辭「履虎尾，不咥人」，說明只要循禮而行、謹慎小心，即使處境危險也能安然無恙。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "小畜與履互為綜卦。",
-     "ssml": "小<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>與履互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第十卦，天澤履。",
-     "ssml": "下一卦：第十卦，天澤履。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 10,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第十卦，天澤履。",
-     "ssml": "第十卦，天澤履。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「履而泰，然後安，故受之以泰；泰者通也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「履而泰，然後安，故受之以泰；泰者通也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "人人循禮而行，社會便通達安定。",
-     "ssml": "人人循禮而行，社會便通達安定。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "泰卦是坤（地）在上、乾（天）在下：看似顛倒，其實天氣下降、地氣上升，兩者相交，所以萬物亨通。",
-     "ssml": "泰卦是<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>（地）在上、<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>（天）在下：看似顛倒，其實天氣下降、地氣上升，兩者相交，所以萬物亨通。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "這是上經的第一個高峰——上下溝通、陰陽調和的太平景象。",
-     "ssml": "這是上經的第一個高峰，上下溝通、陰陽調和的太平景象。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第十一卦，地天泰。",
-     "ssml": "下一卦：第十一卦，地天<phoneme alphabet=\"sapi\" ph=\"tai 4\">泰</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 11,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第十一卦，地天泰。",
-     "ssml": "第十一卦，地天<phoneme alphabet=\"sapi\" ph=\"tai 4\">泰</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物不可以終通，故受之以否。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以終通，故受之以<phoneme alphabet=\"sapi\" ph=\"pi 3\">否</phoneme>。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "這是序卦傳第一次出現「物不可以終……」的句式：任何狀態都不能永遠持續，盛極必衰。",
-     "ssml": "這是序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>第一次出現「物不可以終」的句式：任何狀態都不能永遠持續，盛極必衰。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "泰與否互為綜卦，也互為錯卦。",
-     "ssml": "泰與<phoneme alphabet=\"sapi\" ph=\"pi 3\">否</phoneme>互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦，也互為錯卦。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "天在上、地在下，看似「正位」，實則天氣上升、地氣下沉，各走各的，上下不交而閉塞不通。",
-     "ssml": "天在上、地在下，看似「正位」，實則天氣上升、地氣下沉，各走各的，上下不交而閉塞不通。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "太平之後便是閉塞，這是《易》「物極必反」的典型。",
-     "ssml": "太平之後便是閉塞，這是《易》「物極必反」的典型。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第十二卦，天地否。",
-     "ssml": "下一卦：第十二卦，天地<phoneme alphabet=\"sapi\" ph=\"pi 3\">否</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 12,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第十二卦，天地否。",
-     "ssml": "第十二卦，天地<phoneme alphabet=\"sapi\" ph=\"pi 3\">否</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物不可以終否，故受之以同人。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以終<phoneme alphabet=\"sapi\" ph=\"pi 3\">否</phoneme>，故受之以同人。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "閉塞也不會永遠持續。",
-     "ssml": "閉塞也不會永遠持續。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "要打破隔閡，就要與人和同、團結志同道合者。",
-     "ssml": "要打破隔閡，就要與人和同、團結志同道合者。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "同人卦乾（天）在上、離（火）在下：火焰向上，與天同性，象徵人與人同心。",
-     "ssml": "同人卦<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>（天）在上、離（火）在下：火焰向上，與天同性，象徵人與人同心。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「同人于野」——在曠野中與人和同，強調胸懷廣大、不分親疏，這樣才能走出否塞。",
-     "ssml": "卦辭「同人于野」，在曠野中與人和同，強調胸懷廣大、不分親疏，這樣才能走出<phoneme alphabet=\"sapi\" ph=\"pi 3\">否</phoneme>塞。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第十三卦，天火同人。",
-     "ssml": "下一卦：第十三卦，天火<phoneme alphabet=\"sapi\" ph=\"tong 2\">同</phoneme><phoneme alphabet=\"sapi\" ph=\"ren 2\">人</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 13,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第十三卦，天火同人。",
-     "ssml": "第十三卦，天火<phoneme alphabet=\"sapi\" ph=\"tong 2\">同</phoneme><phoneme alphabet=\"sapi\" ph=\"ren 2\">人</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「與人同者，物必歸焉，故受之以大有。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「與人同者，物必歸焉，故受之以大有。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "能夠與人和同的人，眾人和萬物自然歸附於他，於是擁有廣大。",
-     "ssml": "能夠與人和同的人，眾人和萬物自然歸附於他，於是擁有廣大。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "大有卦離（火、日）在天上，如太陽高照，萬物畢見；唯一的陰爻居於尊位六五，以柔順虛心統領五陽。",
-     "ssml": "大有卦離（火、日）在天上，如太陽高照，萬物畢見；唯一的陰爻居於尊位六五，以柔順虛心統領五陽。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "同人與大有互為綜卦：先有人心的凝聚，然後才有財富與力量的豐盛。",
-     "ssml": "同人與大有互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：先有人心的凝聚，然後才有財富與力量的豐盛。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第十四卦，火天大有。",
-     "ssml": "下一卦：第十四卦，火天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 14,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第十四卦，火天大有。",
-     "ssml": "第十四卦，火天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「有大者不可以盈，故受之以謙。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有大者不可以盈，故受之以謙。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "擁有很多時，最大的危險是自滿。",
-     "ssml": "擁有很多時，最大的危險是自滿。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "滿則溢，所以必須謙虛。",
-     "ssml": "滿則溢，所以必須謙虛。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "謙卦是艮（山）在坤（地）之下：高山藏於地下，有而不居，高而能下。",
-     "ssml": "謙卦是<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>（山）在<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>（地）之下：高山藏於地下，有而不居，高而能下。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "謙是六十四卦中唯一六爻皆吉或无不利的卦，可見古人對謙德的重視。",
-     "ssml": "謙是六十四卦中唯一六爻皆吉或无不利的卦，可見古人對謙德的重視。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第十五卦，地山謙。",
-     "ssml": "下一卦：第十五卦，地山<phoneme alphabet=\"sapi\" ph=\"qian 1\">謙</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 15,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第十五卦，地山謙。",
-     "ssml": "第十五卦，地山<phoneme alphabet=\"sapi\" ph=\"qian 1\">謙</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「有大而能謙，必豫，故受之以豫。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有大而能謙，必豫，故受之以豫。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "富有而又謙虛，人心和樂，自然安逸愉悅。",
-     "ssml": "富有而又謙虛，人心和樂，自然安逸愉悅。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「豫」有安樂、喜悅，也有預備之意。",
-     "ssml": "「豫」有安樂、喜悅，也有預備之意。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "豫卦震（雷）出地上，春雷發動，萬物歡欣。",
-     "ssml": "豫卦震（雷）出地上，春雷發動，萬物歡欣。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "謙與豫互為綜卦：謙是內在的修養，豫是它帶來的和樂。",
-     "ssml": "謙與豫互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：謙是內在的修養，豫是它帶來的和樂。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "但安樂之中也藏著放縱的危險——初六「鳴豫，凶」便是警告。",
-     "ssml": "但安樂之中也藏著放縱的危險，初六「鳴豫，凶」便是警告。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第十六卦，雷地豫。",
-     "ssml": "下一卦：第十六卦，雷地<phoneme alphabet=\"sapi\" ph=\"yu 4\">豫</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 16,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第十六卦，雷地豫。",
-     "ssml": "第十六卦，雷地<phoneme alphabet=\"sapi\" ph=\"yu 4\">豫</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「豫必有隨，故受之以隨。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「豫必有隨，故受之以隨。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "一個人能讓人喜悅，別人就會跟隨他。",
-     "ssml": "一個人能讓人喜悅，別人就會跟隨他。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "隨卦兌（悅）在上、震（動）在下：我動而彼悅，所以相隨。",
-     "ssml": "隨卦兌（悅）在上、震（動）在下：我動而彼悅，所以相隨。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "隨也有「隨時」之意——順應時勢變化。",
-     "ssml": "隨也有「隨時」之意，順應時勢變化。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "但跟隨要擇善而從，卦辭說「元亨利貞，无咎」，跟隨必須以正道為前提。",
-     "ssml": "但跟隨要擇善而從，卦辭說「元亨利貞，无咎」，跟隨必須以正道為前提。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第十七卦，澤雷隨。",
-     "ssml": "下一卦：第十七卦，澤雷<phoneme alphabet=\"sapi\" ph=\"sui 2\">隨</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 17,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第十七卦，澤雷隨。",
-     "ssml": "第十七卦，澤雷<phoneme alphabet=\"sapi\" ph=\"sui 2\">隨</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「以喜隨人者，必有事，故受之以蠱；蠱者事也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「以喜隨人者，必有事，故受之以蠱；蠱者事也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "只因喜悅而盲目跟隨，久而久之必生弊端。",
-     "ssml": "只因喜悅而盲目跟隨，久而久之必生弊端。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「蠱」字是器皿中生蟲，意為腐敗積弊；序卦傳解作「事」，即需要處理的事務。",
-     "ssml": "「蠱」字是器皿中生蟲，意為腐敗積弊；序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>解作「事」，即需要處理的事務。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "隨與蠱互為綜卦，也互為錯卦：風平浪靜的隨從之後，問題暴露，必須著手整治。",
-     "ssml": "隨與蠱互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦，也互為錯卦：風平浪靜的隨從之後，問題暴露，必須著手整治。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「先甲三日，後甲三日」，強調整頓要審慎謀劃、承前啟後。",
-     "ssml": "卦辭「先甲三日，後甲三日」，強調整頓要審慎謀劃、承前啟後。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第十八卦，山風蠱。",
-     "ssml": "下一卦：第十八卦，山風<phoneme alphabet=\"sapi\" ph=\"gu 3\">蠱</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 18,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第十八卦，山風蠱。",
-     "ssml": "第十八卦，山風<phoneme alphabet=\"sapi\" ph=\"gu 3\">蠱</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「有事而后可大，故受之以臨；臨者大也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有事而后可大，故受之以臨；臨者大也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "能夠勇於任事、整治弊端，事業才能壯大。",
-     "ssml": "能夠勇於任事、整治弊端，事業才能壯大。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「臨」是居高臨下、親臨治理，序卦傳解為「大」。",
-     "ssml": "「臨」是居高臨下、親臨治理，序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>解為「大」。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦象兩個陽爻自下而上增長，陽氣漸盛，象徵力量日益壯大。",
-     "ssml": "卦象兩個陽爻自下而上增長，陽氣漸盛，象徵力量日益壯大。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "但卦辭也提醒「至于八月有凶」——盛長之時要預見衰退。",
-     "ssml": "但卦辭也提醒「至于八月有凶」，盛<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>之時要預見衰退。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第十九卦，地澤臨。",
-     "ssml": "下一卦：第十九卦，地澤<phoneme alphabet=\"sapi\" ph=\"lin 2\">臨</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 19,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第十九卦，地澤臨。",
-     "ssml": "第十九卦，地澤<phoneme alphabet=\"sapi\" ph=\"lin 2\">臨</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物大然後可觀，故受之以觀。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物大然後可觀，故受之以觀。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "事物壯大之後，才有可觀之處，值得人們瞻仰；同時居上位者也要觀察天下。",
-     "ssml": "事物壯大之後，才有可觀之處，值得人們瞻仰；同時居上位者也要觀察天下。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "觀卦巽（風）行地上，風吹遍大地，無所不至，象徵觀察與教化。",
-     "ssml": "觀卦巽（風）行地上，風吹遍大地，無所不至，象徵觀察與教化。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "臨與觀互為綜卦：臨是居上而臨下，觀是在上者被下觀仰，也觀照下民——治理從力量轉向示範與省察。",
-     "ssml": "臨與觀互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：臨是居上而臨下，觀是在上者被下觀仰，也觀照下民，治理從力量轉向示範與省察。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第二十卦，風地觀。",
-     "ssml": "下一卦：第二十卦，風地<phoneme alphabet=\"sapi\" ph=\"guan 1\">觀</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 20,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第二十卦，風地觀。",
-     "ssml": "第二十卦，風地<phoneme alphabet=\"sapi\" ph=\"guan 1\">觀</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「可觀而后有所合，故受之以噬嗑；嗑者合也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「可觀而后有所合，故受之以噬<phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>；<phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>者合也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "有可觀之德，人們便想來合。",
-     "ssml": "有可觀之德，人們便想來合。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "但要真正相合，中間的阻隔必須咬斷。",
-     "ssml": "但要真正相合，中間的阻隔必須咬斷。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "噬嗑卦像張開的嘴（初、上兩陽為唇，中間陰爻為空），九四一陽橫梗其中，必須「噬」（咬）掉才能「嗑」（合攏）。",
-     "ssml": "噬<phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>卦像張開的嘴（初、上兩陽為唇，中間陰爻為空），九四一陽橫梗其中，必須「噬」（咬）掉才能「<phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>」（合攏）。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "所以此卦講刑罰訟獄：清除障礙，才能實現團結。",
-     "ssml": "所以此卦講刑罰訟獄：清除障礙，才能實現團結。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第二十一卦，火雷噬嗑。",
-     "ssml": "下一卦：第二十一卦，火雷<phoneme alphabet=\"sapi\" ph=\"shi 4\">噬</phoneme><phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 21,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第二十一卦，火雷噬嗑。",
-     "ssml": "第二十一卦，火雷<phoneme alphabet=\"sapi\" ph=\"shi 4\">噬</phoneme><phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物不可以苟合而已，故受之以賁；賁者飾也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以苟合而已，故受之以<phoneme alphabet=\"sapi\" ph=\"bi 4\">賁</phoneme>；<phoneme alphabet=\"sapi\" ph=\"bi 4\">賁</phoneme>者飾也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "人與人、物與物的結合不能草率隨便，需要禮文加以修飾，使之有秩序、有美感。",
-     "ssml": "人與人、物與物的結合不能草率隨便，需要禮文加以修飾，使之有秩序、有美感。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "賁卦艮（山）下有離（火），火照山上草木，光彩斑斕。",
-     "ssml": "<phoneme alphabet=\"sapi\" ph=\"bi 4\">賁</phoneme>卦<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>（山）下有離（火），火照山上草木，光彩斑斕。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "噬嗑與賁互為綜卦：前者以刑罰強制相合，後者以文飾使結合有禮有度——由「刑」轉向「文」。",
-     "ssml": "噬<phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>與<phoneme alphabet=\"sapi\" ph=\"bi 4\">賁</phoneme>互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：前者以刑罰強制相合，後者以文飾使結合有禮有度，由「刑」轉向「文」。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第二十二卦，山火賁。",
-     "ssml": "下一卦：第二十二卦，山火<phoneme alphabet=\"sapi\" ph=\"bi 4\">賁</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 22,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第二十二卦，山火賁。",
-     "ssml": "第二十二卦，山火<phoneme alphabet=\"sapi\" ph=\"bi 4\">賁</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「致飾然後亨，則盡矣，故受之以剝；剝者剝也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「致飾然後亨，則盡矣，故受之以<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>；<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>者<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "文飾若推到極端，徒有其表，內在的真實便耗盡了。",
-     "ssml": "文飾若推到極端，徒有其表，內在的真實便耗盡了。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "過度修飾的結果是剝落、衰敗。",
-     "ssml": "過度修飾的結果是<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>落、衰敗。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "剝卦五陰在下、一陽在上，陰氣自下而上一路侵蝕，只剩最後一個陽爻，如牆皮剝落、房屋將傾。",
-     "ssml": "<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>卦五陰在下、一陽在上，陰氣自下而上一路侵蝕，只剩最後一個陽爻，如牆皮<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>落、房屋將傾。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「不利有攸往」——此時宜靜守，不宜妄動。",
-     "ssml": "卦辭「不利有攸往」，此時宜靜守，不宜妄動。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第二十三卦，山地剝。",
-     "ssml": "下一卦：第二十三卦，山地<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 23,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第二十三卦，山地剝。",
-     "ssml": "第二十三卦，山地<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物不可以終盡，剝窮上反下，故受之以復。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以終盡，<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>窮上反下，故受之以復。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "這是卦序中最著名的轉折之一。",
-     "ssml": "這是卦序中最著名的轉折之一。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "剝到盡頭，最後一個陽爻從上方消失，卻在最下方重新出現——一陽來復。",
-     "ssml": "<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>到盡頭，最後一個陽爻從上方消失，卻在最下方重新出現，一陽來復。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "剝與復互為綜卦，把剝倒轉過來就是復。",
-     "ssml": "<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>與復互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦，把<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>倒轉過來就是復。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "冬至一陽生，黑暗最深處孕育光明。",
-     "ssml": "冬至一陽生，黑暗最深處孕育光明。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "彖傳說「復，其見天地之心乎」：生生不息，正是天地的本心。",
-     "ssml": "彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「復，其<phoneme alphabet=\"sapi\" ph=\"jian 4\">見</phoneme>天地之心乎」：生生不息，正是天地的本心。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第二十四卦，地雷復。",
-     "ssml": "下一卦：第二十四卦，地雷<phoneme alphabet=\"sapi\" ph=\"fu 4\">復</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 24,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第二十四卦，地雷復。",
-     "ssml": "第二十四卦，地雷<phoneme alphabet=\"sapi\" ph=\"fu 4\">復</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「復則不妄矣，故受之以无妄。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「復則不妄矣，故受之以无妄。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "回歸本源、恢復正道之後，行為就不再虛妄。",
-     "ssml": "回歸本源、恢復正道之後，行為就不再虛妄。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「无妄」即真實無偽、不存非分之想。",
-     "ssml": "「无妄」即真實無偽、不存非分之想。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦象乾（天）在上、震（動）在下——動而合乎天理。",
-     "ssml": "卦象<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>（天）在上、震（動）在下，動而合乎天理。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "程頤解為「至誠」。",
-     "ssml": "程頤解為「至誠」。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "无妄也有「意外」之意：一切順其自然，不刻意妄求，即便遇到「无妄之災」也不必驚慌。",
-     "ssml": "无妄也有「意外」之意：一切順其自然，不刻意妄求，即便遇到「无妄之災」也不必驚慌。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第二十五卦，天雷无妄。",
-     "ssml": "下一卦：第二十五卦，天雷<phoneme alphabet=\"sapi\" ph=\"wu 2\">无</phoneme><phoneme alphabet=\"sapi\" ph=\"wang 4\">妄</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 25,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第二十五卦，天雷无妄。",
-     "ssml": "第二十五卦，天雷<phoneme alphabet=\"sapi\" ph=\"wu 2\">无</phoneme><phoneme alphabet=\"sapi\" ph=\"wang 4\">妄</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「有无妄然後可畜，故受之以大畜。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有无妄然後可<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>，故受之以大<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "真誠無妄，才能積蓄真正的德行和實力。",
-     "ssml": "真誠無妄，才能積蓄真正的德行和實力。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "大畜卦艮（山）在上、乾（天）在下：天被包容在山中，比喻蓄積之大。",
-     "ssml": "大<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>卦<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>（山）在上、<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>（天）在下：天被包容在山中，比喻蓄積之大。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "與小畜相比，小畜是一陰畜五陽，力量有限；大畜則是艮山以剛止健，畜得穩固而深厚。",
-     "ssml": "與小<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>相比，小<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>是一陰<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>五陽，力量有限；大<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>則是<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>山以剛止健，<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>得穩固而深厚。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "无妄與大畜互為綜卦。",
-     "ssml": "无妄與大<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "象傳說：「君子以多識前言往行，以畜其德。」",
-     "ssml": "象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「君子以多識前言往行，以<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>其德。」",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第二十六卦，山天大畜。",
-     "ssml": "下一卦：第二十六卦，山天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 26,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第二十六卦，山天大畜。",
-     "ssml": "第二十六卦，山天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物畜然後可養，故受之以頤；頤者養也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>然後可養，故受之以頤；頤者養也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "有了積蓄，才能養育——養身，也養德。",
-     "ssml": "有了積蓄，才能養育，養身，也養德。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「頤」本指臉頰、下巴，卦形正像張開的口：上下兩陽爻是上下顎，中間四陰爻是口腔。",
-     "ssml": "「頤」本指臉頰、下巴，卦形正像張開的口：上下兩陽爻是上下顎，中間四陰爻是口腔。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「觀頤，自求口實」，提醒人看一個人如何養己養人，便知其品格。",
-     "ssml": "卦辭「觀頤，自求口實」，提醒人看一個人如何養己養人，便知其品格。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "頤與大過是一對錯卦（六爻全反）。",
-     "ssml": "頤與大過是一對錯卦（六爻全反）。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第二十七卦，山雷頤。",
-     "ssml": "下一卦：第二十七卦，山雷<phoneme alphabet=\"sapi\" ph=\"yi 2\">頤</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 27,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第二十七卦，山雷頤。",
-     "ssml": "第二十七卦，山雷<phoneme alphabet=\"sapi\" ph=\"yi 2\">頤</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「不養則不可動，故受之以大過。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「不養則不可動，故受之以大過。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "有養才能有所作為，養得充足就能做出非常之事。",
-     "ssml": "有養才能有所作為，養得充足就能做出非常之事。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「大過」是大的過度——陽剛過盛：四個陽爻擠在中間，兩端陰爻柔弱，如同「棟橈」，屋樑中間粗重而兩端不勝負荷。",
-     "ssml": "「大過」是大的過度，陽剛過盛：四個陽爻擠在中間，兩端陰爻柔弱，如同「棟<phoneme alphabet=\"sapi\" ph=\"nao 2\">橈</phoneme>」，屋樑中間粗重而兩端不勝負荷。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "這是非常時期，需要非常之舉；象傳說「君子以獨立不懼，遯世无悶」。",
-     "ssml": "這是非常時期，需要非常之舉；象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以獨立不懼，遯世无悶」。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第二十八卦，澤風大過。",
-     "ssml": "下一卦：第二十八卦，澤風<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"guo 4\">過</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 28,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第二十八卦，澤風大過。",
-     "ssml": "第二十八卦，澤風<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"guo 4\">過</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物不可以終過，故受之以坎；坎者陷也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以終過，故受之以坎；坎者陷也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "過度之後必然陷入險境。",
-     "ssml": "過度之後必然陷入險境。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "坎為水、為陷，上下皆坎，重重險難，所以又名「習坎」。",
-     "ssml": "坎<phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>水、為陷，上下皆坎，<phoneme alphabet=\"sapi\" ph=\"chong 2\">重</phoneme><phoneme alphabet=\"sapi\" ph=\"chong 2\">重</phoneme>險<phoneme alphabet=\"sapi\" ph=\"nan 4\">難</phoneme>，所以又名「習坎」。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "但坎卦也教人如何處險：水流不止、不失其信——一陽居中，內心剛實，就能「維心亨」。",
-     "ssml": "但坎卦也教人如何處險：水流不止、不失其信，一陽居中，內心剛實，就能「維心亨」。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "在危難中保持誠信與恆心，才能出險。",
-     "ssml": "在危<phoneme alphabet=\"sapi\" ph=\"nan 4\">難</phoneme>中保持誠信與恆心，才能出險。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第二十九卦，坎為水。",
-     "ssml": "下一卦：第二十九卦，<phoneme alphabet=\"sapi\" ph=\"kan 3\">坎</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>水。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 29,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第二十九卦，坎為水。",
-     "ssml": "第二十九卦，<phoneme alphabet=\"sapi\" ph=\"kan 3\">坎</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>水。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「陷必有所麗，故受之以離；離者麗也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「陷必有所<phoneme alphabet=\"sapi\" ph=\"li 4\">麗</phoneme>，故受之以離；離者<phoneme alphabet=\"sapi\" ph=\"li 4\">麗</phoneme>也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "陷入險境，必須有所依附才能脫困。",
-     "ssml": "陷入險境，必須有所依附才能脫困。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「離」解作「麗」，即附著——如火附著於薪柴而燃燒、日月附著於天而光明。",
-     "ssml": "「離」解作「<phoneme alphabet=\"sapi\" ph=\"li 4\">麗</phoneme>」，即附著，如火附著於薪柴而燃燒、日月附著於天而光明。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "坎與離是錯卦：坎外柔內剛，陷而中實；離外剛內柔，明而中虛。",
-     "ssml": "坎與離是錯卦：坎外柔內剛，陷而中實；離外剛內柔，明而中虛。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "上經以坎離作結：水火是天地之間最大的作用力，也象徵月與日，與開頭的乾坤（天地）首尾呼應。",
-     "ssml": "上經以坎離作結：水火是天地之間最大的作用力，也象徵月與日，與開頭的<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme><phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>（天地）首尾呼應。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第三十卦，離為火。",
-     "ssml": "下一卦：第三十卦，<phoneme alphabet=\"sapi\" ph=\"li 2\">離</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>火。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 30,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第三十卦，離為火。",
-     "ssml": "第三十卦，<phoneme alphabet=\"sapi\" ph=\"li 2\">離</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>火。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「有天地然後有萬物，有萬物然後有男女，有男女然後有夫婦，有夫婦然後有父子，有父子然後有君臣，有君臣然後有上下，有上下然後禮儀有所錯。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有天地然後有萬物，有萬物然後有男女，有男女然後有夫婦，有夫婦然後有父子，有父子然後有君臣，有君臣然後有上下，有上下然後禮儀有所錯。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "下經重新從「天地」說起，但很快轉向人倫：男女→夫婦→父子→君臣→上下→禮義，整個社會秩序都根源於夫婦。",
-     "ssml": "下經重新從「天地」說起，但很快轉向人倫：男女、夫婦、父子、君臣、上下、禮義，整個社會秩序都根源於夫婦。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "咸卦兌（少女）在上、艮（少男）在下；彖傳說「咸，感也」，傳統解釋「咸」是「感」去掉「心」，代表無心之感、自然的相互感應。",
-     "ssml": "咸卦兌（少女）在上、<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>（少男）在下；彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「咸，感也」，傳統解釋「咸」是「感」去掉「心」，代表無心之感、自然的相互感應。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "上經以天地開篇，下經以男女感應開篇：先講天道，再講人道。",
-     "ssml": "上經以天地開篇，下經以男女感應開篇：先講天道，再講人道。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "和乾坤一樣，序卦傳在這段話中沒有寫出「咸」字，而是讓整段話引出它。",
-     "ssml": "和<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme><phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>一樣，序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>在這段話中沒有寫出「咸」字，而是讓整段話引出它。",
-     "pause": 0.9
-    },
-    {
-     "role": "canon",
-     "text": "上經三十卦到此結束。",
-     "ssml": "上經三十卦到此結束。",
-     "pause": 0.6,
-     "en": "This ends the thirty hexagrams of the Upper Canon."
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第三十一卦，澤山咸。",
-     "ssml": "下一卦：第三十一卦，澤山<phoneme alphabet=\"sapi\" ph=\"xian 2\">咸</phoneme>。",
-     "pause": 0.6
-    },
-    {
-     "role": "canon",
-     "text": "下經由此開始。",
-     "ssml": "下經由此開始。",
-     "pause": 0,
-     "en": "The Lower Canon begins here."
-    }
-   ]
-  },
-  {
-   "n": 31,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第三十一卦，澤山咸。",
-     "ssml": "第三十一卦，澤山<phoneme alphabet=\"sapi\" ph=\"xian 2\">咸</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「夫婦之道，不可以不久也，故受之以恆；恆者久也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「夫婦之道，不可以不久也，故受之以恆；恆者久也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "夫婦的感情始於相互感應，但必須長久維持。",
-     "ssml": "夫婦的感情始於相互感應，但必須長久維持。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "咸與恆互為綜卦：咸是少男在少女之下，追求、感應的熱戀階段；恆是長男（震）在上、長女（巽）在下，各安其位的婚姻生活。",
-     "ssml": "咸與恆互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：咸是少男在少女之下，追求、感應的熱戀階段；恆是<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>男（震）在上、<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>女（巽）在下，各安其位的婚姻生活。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "雷風相與，動而不息。",
-     "ssml": "雷風相與，動而不息。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "恆不是靜止不變，而是在變化中持守正道。",
-     "ssml": "恆不是靜止不變，而是在變化中持守正道。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第三十二卦，雷風恆。",
-     "ssml": "下一卦：第三十二卦，雷風<phoneme alphabet=\"sapi\" ph=\"heng 2\">恆</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 32,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第三十二卦，雷風恆。",
-     "ssml": "第三十二卦，雷風<phoneme alphabet=\"sapi\" ph=\"heng 2\">恆</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物不可以久居其所，故受之以遯；遯者退也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以久居其所，故受之以遯；遯者退也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "恆講長久，但事物不可能永遠停留在同一位置，時勢變化就要知所進退。",
-     "ssml": "恆講長久，但事物不可能永遠停留在同一位置，時勢變化就要知所進退。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "遯卦二陰自下而上增長，陰長陽消，小人勢力漸盛，君子應當及時退避。",
-     "ssml": "遯卦二陰自下而上增長，陰<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>陽消，小人勢力漸盛，君子應當及時退避。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "退不是逃避，而是保存實力、等待時機——象傳說「君子以遠小人，不惡而嚴」。",
-     "ssml": "退不是逃避，而是保存實力、等待時機，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以遠小人，不惡而嚴」。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第三十三卦，天山遯。",
-     "ssml": "下一卦：第三十三卦，天山<phoneme alphabet=\"sapi\" ph=\"dun 4\">遯</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 33,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第三十三卦，天山遯。",
-     "ssml": "第三十三卦，天山<phoneme alphabet=\"sapi\" ph=\"dun 4\">遯</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物不可終遯，故受之以大壯。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可終遯，故受之以大壯。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "退避不能是永遠的，退到一定程度就會重新壯大。",
-     "ssml": "退避不能是永遠的，退到一定程度就會重新壯大。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "遯與大壯互為綜卦：遯是二陰長而陽退；大壯是四陽長、陽氣強盛，雷在天上，聲勢浩大。",
-     "ssml": "遯與大壯互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：遯是二陰<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>而陽退；大壯是四陽<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>、陽氣強盛，雷在天上，聲勢浩大。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "但壯盛之時最易恃強妄動，卦辭只說「利貞」，象傳說「君子以非禮弗履」——強大更要守正。",
-     "ssml": "但壯盛之時最易恃強妄動，卦辭只說「利貞」，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以非禮弗履」，強大更要守正。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第三十四卦，雷天大壯。",
-     "ssml": "下一卦：第三十四卦，雷天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"zhuang 4\">壯</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 34,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第三十四卦，雷天大壯。",
-     "ssml": "第三十四卦，雷天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"zhuang 4\">壯</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物不可以終壯，故受之以晉；晉者進也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以終壯，故受之以晉；晉者進也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "壯盛不能停滯不動，力量必須轉化為前進。",
-     "ssml": "壯盛不能停滯不動，力量必須轉化為前進。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "晉卦離（日）出地上，旭日東昇，光明漸進。",
-     "ssml": "晉卦離（日）出地上，旭日東昇，光明漸進。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "程頤認為事物壯盛之後必然前進，所以晉接在大壯之後。",
-     "ssml": "程頤認為事物壯盛之後必然前進，所以晉接在大壯之後。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭描繪臣子受君主賞識、步步高升：「康侯用錫馬蕃庶，晝日三接。」",
-     "ssml": "卦辭描繪臣子受君主賞識、步步高升：「康侯用錫馬蕃庶，晝日三接。」",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第三十五卦，火地晉。",
-     "ssml": "下一卦：第三十五卦，火地<phoneme alphabet=\"sapi\" ph=\"jin 4\">晉</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 35,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第三十五卦，火地晉。",
-     "ssml": "第三十五卦，火地<phoneme alphabet=\"sapi\" ph=\"jin 4\">晉</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「進必有所傷，故受之以明夷；夷者傷也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「進必有所傷，故受之以明夷；夷者傷也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "一味前進，必然遭遇挫傷。",
-     "ssml": "一味前進，必然遭遇挫傷。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "晉與明夷互為綜卦：晉是日出地上，明夷是日入地中，光明被遮蔽、受傷害。",
-     "ssml": "晉與明夷互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：晉是日出地上，明夷是日入地中，光明被遮蔽、受傷害。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "這是賢者處於昏暗時代的處境，如文王被囚、箕子佯狂。",
-     "ssml": "這是賢者處於昏暗時代的處境，如文王被囚、箕子佯狂。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「利艱貞」，象傳說「用晦而明」：外表隱晦、內心光明，在逆境中保全自己。",
-     "ssml": "卦辭「利艱貞」，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「用晦而明」：外表隱晦、內心光明，在逆境中保全自己。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第三十六卦，地火明夷。",
-     "ssml": "下一卦：第三十六卦，地火<phoneme alphabet=\"sapi\" ph=\"ming 2\">明</phoneme><phoneme alphabet=\"sapi\" ph=\"yi 2\">夷</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 36,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第三十六卦，地火明夷。",
-     "ssml": "第三十六卦，地火<phoneme alphabet=\"sapi\" ph=\"ming 2\">明</phoneme><phoneme alphabet=\"sapi\" ph=\"yi 2\">夷</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「傷於外者，必反其家，故受之以家人。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「傷於外者，必反其家，故受之以家人。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "在外受了傷，人自然會回到家中尋求庇護與療癒。",
-     "ssml": "在外受了傷，人自然會回到家中尋求庇護與療癒。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "家人卦講治家之道：六二居內卦之中，九五居外卦之中，彖傳說「男女正，天地之大義也」。",
-     "ssml": "家人卦講治家之道：六二居內卦之中，九五居外卦之中，彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「男女正，天地之大義也」。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "家是社會的基本單位，家道正則天下定——故事從個人的挫折轉回最根本的人倫關係。",
-     "ssml": "家是社會的基本單位，家道正則天下定，故事從個人的挫折轉回最根本的人倫關係。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第三十七卦，風火家人。",
-     "ssml": "下一卦：第三十七卦，風火<phoneme alphabet=\"sapi\" ph=\"jia 1\">家</phoneme><phoneme alphabet=\"sapi\" ph=\"ren 2\">人</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 37,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第三十七卦，風火家人。",
-     "ssml": "第三十七卦，風火<phoneme alphabet=\"sapi\" ph=\"jia 1\">家</phoneme><phoneme alphabet=\"sapi\" ph=\"ren 2\">人</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「家道窮必乖，故受之以睽；睽者乖也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「家道窮必乖，故受之以睽；睽者乖也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "家道一旦衰落，家人之間就會離心離德、彼此乖違。",
-     "ssml": "家道一旦衰落，家人之間就會離心離德、彼此乖違。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "家人與睽互為綜卦。",
-     "ssml": "家人與睽互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "睽卦離（火）在上、兌（澤）在下：火往上燒，水往下流，背道而馳；又是中女、少女同居一處，「其志不同行」。",
-     "ssml": "睽卦離（火）在上、兌（澤）在下：火往上燒，水往下流，背道而馳；又是中女、少女同居一處，「其志不同行」。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "但彖傳指出「天地睽而其事同也」——差異之中仍可求同，小事仍然吉。",
-     "ssml": "但彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>指出「天地睽而其事同也」，差異之中仍可求同，小事仍然吉。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第三十八卦，火澤睽。",
-     "ssml": "下一卦：第三十八卦，火澤<phoneme alphabet=\"sapi\" ph=\"kui 2\">睽</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 38,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第三十八卦，火澤睽。",
-     "ssml": "第三十八卦，火澤<phoneme alphabet=\"sapi\" ph=\"kui 2\">睽</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「乖必有難，故受之以蹇；蹇者難也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「乖必有<phoneme alphabet=\"sapi\" ph=\"nan 4\">難</phoneme>，故受之以蹇；蹇者<phoneme alphabet=\"sapi\" ph=\"nan 4\">難</phoneme>也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "人心乖離，必然陷入困境。",
-     "ssml": "人心乖離，必然陷入困境。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「蹇」本義是跛腳、行走艱難。",
-     "ssml": "「蹇」本義是跛腳、行走艱難。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦象坎（險）在前、艮（山）在後——前有大水、後有高山，進退兩難。",
-     "ssml": "卦象坎（險）在前、<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>（山）在後，前有大水、後有高山，進退兩難。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「利見大人」，象傳說「君子以反身修德」：遇到困難時先反省自己，並尋求賢人的幫助。",
-     "ssml": "卦辭「利<phoneme alphabet=\"sapi\" ph=\"jian 4\">見</phoneme>大人」，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以反身修德」：遇到困難時先反省自己，並尋求賢人的幫助。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第三十九卦，水山蹇。",
-     "ssml": "下一卦：第三十九卦，水山<phoneme alphabet=\"sapi\" ph=\"jian 3\">蹇</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 39,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第三十九卦，水山蹇。",
-     "ssml": "第三十九卦，水山<phoneme alphabet=\"sapi\" ph=\"jian 3\">蹇</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物不可終難，故受之以解；解者緩也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可終<phoneme alphabet=\"sapi\" ph=\"nan 4\">難</phoneme>，故受之以<phoneme alphabet=\"sapi\" ph=\"xie 4\">解</phoneme>；<phoneme alphabet=\"sapi\" ph=\"xie 4\">解</phoneme>者緩也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "困難不會永遠持續，終將迎來解脫。",
-     "ssml": "困難不會永遠持續，終將迎來解脫。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "蹇與解互為綜卦：蹇是止於險前，解是動而出險——震（雷）在上、坎（雨）在下，雷雨交作，萬物舒展，冬去春來。",
-     "ssml": "蹇與<phoneme alphabet=\"sapi\" ph=\"xie 4\">解</phoneme>互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：蹇是止於險前，<phoneme alphabet=\"sapi\" ph=\"xie 4\">解</phoneme>是動而出險，震（雷）在上、坎（雨）在下，雷雨交作，萬物舒展，冬去春來。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「緩」是緊張後的鬆弛。",
-     "ssml": "「緩」是緊張後的鬆弛。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「无所往，其來復吉；有攸往，夙吉」：危機解除後要及時恢復常態，還有事就要早辦。",
-     "ssml": "卦辭「无所往，其來復吉；有攸往，夙吉」：危機解除後要及時恢復常態，還有事就要早辦。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第四十卦，雷水解。",
-     "ssml": "下一卦：第四十卦，雷水<phoneme alphabet=\"sapi\" ph=\"xie 4\">解</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 40,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第四十卦，雷水解。",
-     "ssml": "第四十卦，雷水<phoneme alphabet=\"sapi\" ph=\"xie 4\">解</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「緩必有所失，故受之以損。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「緩必有所失，故受之以損。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "鬆懈下來，難免有所損失。",
-     "ssml": "鬆懈下來，難免有所損失。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "但損卦的深意在於「損下益上」——下卦原本是乾，減去一陽給上卦，成了兌下艮上。",
-     "ssml": "但損卦的深意在於「損下益上」，下卦原本是<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>，減去一陽<phoneme alphabet=\"sapi\" ph=\"gei 3\">給</phoneme>上卦，成了兌下<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>上。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "有時減少正是必要的：減少忿怒、慾望與浪費，象傳說「君子以懲忿窒欲」。",
-     "ssml": "有時減少正是必要的：減少忿怒、慾望與浪費，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以懲忿窒欲」。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「二簋可用享」：只要心誠，簡樸也足以祭祀。",
-     "ssml": "卦辭「二簋可用享」：只要心誠，簡樸也足以祭祀。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第四十一卦，山澤損。",
-     "ssml": "下一卦：第四十一卦，山澤<phoneme alphabet=\"sapi\" ph=\"sun 3\">損</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 41,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第四十一卦，山澤損。",
-     "ssml": "第四十一卦，山澤<phoneme alphabet=\"sapi\" ph=\"sun 3\">損</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「損而不已，必益，故受之以益。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「損而不已，必益，故受之以益。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "減損到了極點，必然轉為增益——損與益互為綜卦，循環往復。",
-     "ssml": "減損到了極點，必然轉為增益，損與益互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦，循環往復。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "益卦是「損上益下」：在上者減損自己來增益百姓，這才是真正的「益」，所以彖傳說「民說无疆」。",
-     "ssml": "益卦是「損上益下」：在上者減損自己來增益百姓，這才是真正的「益」，所以彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「民<phoneme alphabet=\"sapi\" ph=\"yue 4\">說</phoneme>无疆」。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "這是深刻的政治與人生道理：真正的增益來自給予，而非攫取。",
-     "ssml": "這是深刻的政治與人生道理：真正的增益來自給予，而非攫取。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第四十二卦，風雷益。",
-     "ssml": "下一卦：第四十二卦，風雷<phoneme alphabet=\"sapi\" ph=\"yi 4\">益</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 42,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第四十二卦，風雷益。",
-     "ssml": "第四十二卦，風雷<phoneme alphabet=\"sapi\" ph=\"yi 4\">益</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「益而不已，必決，故受之以夬；夬者決也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「益而不已，必決，故受之以<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>；<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>者決也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "增益不止，就像水位不斷上漲，終會決堤。",
-     "ssml": "增益不止，就像水位不斷上漲，終會決堤。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "夬卦五陽在下、一陰在上，陽氣盛長到極點，要把最後一個陰爻決除——象徵君子去除小人。",
-     "ssml": "<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>卦五陽在下、一陰在上，陽氣盛<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>到極點，要把最後一個陰爻決除，象徵君子去除小人。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "但卦辭強調「揚于王庭，孚號有厲」：要公開、誠信地處理，而不是以武力取勝（「不利即戎」）。",
-     "ssml": "但卦辭強調「揚于王庭，孚號有厲」：要公開、誠信地處理，而不是以武力取勝（「不利即戎」）。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第四十三卦，澤天夬。",
-     "ssml": "下一卦：第四十三卦，澤天<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 43,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第四十三卦，澤天夬。",
-     "ssml": "第四十三卦，澤天<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「決必有所遇，故受之以姤；姤者遇也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「決必有所遇，故受之以姤；姤者遇也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "決斷分離之後，必有新的相遇。",
-     "ssml": "決斷分離之後，必有新的相遇。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "夬與姤互為綜卦：夬是最後一陰將被去除，姤則是一陰在最下方重新出現——陰氣回來了，與五陽「不期而遇」。",
-     "ssml": "<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>與姤互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>是最後一陰將被去除，姤則是一陰在最下方重新出現，陰氣回來了，與五陽「不期而遇」。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "這與剝、復的結構完全對稱，只是陰陽互換。",
-     "ssml": "這與<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>、復的結構完全對稱，只是陰陽互換。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「女壯，勿用取女」，警惕陰柔勢力在細微之處滋長。",
-     "ssml": "卦辭「女壯，勿用取女」，警惕陰柔勢力在細微之處滋長。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第四十四卦，天風姤。",
-     "ssml": "下一卦：第四十四卦，天風<phoneme alphabet=\"sapi\" ph=\"gou 4\">姤</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 44,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第四十四卦，天風姤。",
-     "ssml": "第四十四卦，天風<phoneme alphabet=\"sapi\" ph=\"gou 4\">姤</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物相遇而后聚，故受之以萃；萃者聚也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物相遇而后聚，故受之以萃；萃者聚也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "相遇之後，便聚集成群。",
-     "ssml": "相遇之後，便聚集成群。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "萃卦兌（澤）在地上，水匯聚成澤；九五、九四兩陽為眾陰所歸。",
-     "ssml": "萃卦兌（澤）在地上，水匯聚成澤；九五、九四兩陽為眾陰所歸。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "聚集需要中心和凝聚力，卦辭「王假有廟」——以宗廟祭祀凝聚人心。",
-     "ssml": "聚集需要中心和凝聚力，卦辭「王假有廟」，以宗廟祭祀凝聚人心。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "象傳提醒「除戎器，戒不虞」：人多的地方易生變亂，要預防意外。",
-     "ssml": "象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>提醒「除戎器，戒不虞」：人多的地方易生變亂，要預防意外。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第四十五卦，澤地萃。",
-     "ssml": "下一卦：第四十五卦，澤地<phoneme alphabet=\"sapi\" ph=\"cui 4\">萃</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 45,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第四十五卦，澤地萃。",
-     "ssml": "第四十五卦，澤地<phoneme alphabet=\"sapi\" ph=\"cui 4\">萃</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「聚而上者，謂之升，故受之以升。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「聚而上者，謂之升，故受之以升。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "聚集起來的力量向上發展，就是上升。",
-     "ssml": "聚集起來的力量向上發展，就是上升。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "萃與升互為綜卦。",
-     "ssml": "萃與升互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "升卦巽（木）在坤（地）下，樹木從地中生長，日日向上，象傳說「君子以順德，積小以高大」。",
-     "ssml": "升卦巽（木）在<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>（地）下，樹木從地中生長，日日向上，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以順德，積小以高大」。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "這種上升是順勢、漸進的，不靠強力，而是一步一步累積而成。",
-     "ssml": "這種上升是順勢、漸進的，不靠強力，而是一步一步累積而成。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第四十六卦，地風升。",
-     "ssml": "下一卦：第四十六卦，地風<phoneme alphabet=\"sapi\" ph=\"sheng 1\">升</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 46,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第四十六卦，地風升。",
-     "ssml": "第四十六卦，地風<phoneme alphabet=\"sapi\" ph=\"sheng 1\">升</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「升而不已，必困，故受之以困。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「升而不已，必困，故受之以困。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "一味上升不知止，終將力竭受困。",
-     "ssml": "一味上升不知止，終將力竭受困。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "困卦兌（澤）在上、坎（水）在下——「澤无水」，澤中的水漏到下面去了，乾涸窘迫。",
-     "ssml": "困卦兌（澤）在上、坎（水）在下，「澤无水」，澤中的水漏到下面去了，乾涸窘迫。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "剛爻被陰爻所掩蔽，君子處困。",
-     "ssml": "剛爻被陰爻所掩蔽，君子處困。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "但卦辭說「亨，貞，大人吉」：困境是對人格的考驗；象傳說「君子以致命遂志」，即使付出生命也要實現志向。",
-     "ssml": "但卦辭說「亨，貞，大人吉」：困境是對人格的考驗；象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以致命遂志」，即使付出生命也要實現志向。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第四十七卦，澤水困。",
-     "ssml": "下一卦：第四十七卦，澤水<phoneme alphabet=\"sapi\" ph=\"kun 4\">困</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 47,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第四十七卦，澤水困。",
-     "ssml": "第四十七卦，澤水<phoneme alphabet=\"sapi\" ph=\"kun 4\">困</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「困乎上者，必反下，故受之以井。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「困乎上者，必反下，故受之以井。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "在上面受困、走投無路，就要回到下面、回歸根本。",
-     "ssml": "在上面受困、走投無路，就要回到下面、回歸根本。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "井在地下，向下深挖才有水源。",
-     "ssml": "井在地下，向下深挖才有水源。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "困與井互為綜卦：困是澤中無水，井是取之不盡的水源。",
-     "ssml": "困與井互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：困是澤中無水，井是取之不盡的水源。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「改邑不改井」——城邑可以遷移，井卻一直在那裡供養眾人，象徵恆常的根本與無私的奉獻。",
-     "ssml": "卦辭「改邑不改井」，城邑可以遷移，井卻一直在那裡供養眾人，象徵恆常的根本與無私的奉獻。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第四十八卦，水風井。",
-     "ssml": "下一卦：第四十八卦，水風<phoneme alphabet=\"sapi\" ph=\"jing 3\">井</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 48,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第四十八卦，水風井。",
-     "ssml": "第四十八卦，水風<phoneme alphabet=\"sapi\" ph=\"jing 3\">井</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「井道不可不革，故受之以革。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「井道不可不<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>，故受之以<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "井用久了，泥沙淤積，必須定期淘洗更新，否則水會污濁。",
-     "ssml": "井用久了，泥沙淤積，必須定期淘洗更新，否則水會污濁。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "由此推廣：任何制度用久了都需要變革。",
-     "ssml": "由此推廣：任何制度用久了都需要變<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "革卦離（火）在下、兌（澤）在上，水火相息，必然產生變化。",
-     "ssml": "<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>卦離（火）在下、兌（澤）在上，水火相息，必然產生變化。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「革」本義是去毛的獸皮，引申為變革。",
-     "ssml": "「<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>」本義是去毛的獸皮，引申為變<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "彖傳說「湯武革命，順乎天而應乎人」：變革必須順應天時、得到人心，時機成熟（「已日乃孚」）。",
-     "ssml": "彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「湯武<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>命，順乎天而應乎人」：變<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>必須順應天時、得到人心，時機成熟（「已日乃孚」）。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第四十九卦，澤火革。",
-     "ssml": "下一卦：第四十九卦，澤火<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 49,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第四十九卦，澤火革。",
-     "ssml": "第四十九卦，澤火<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「革物者莫若鼎，故受之以鼎。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>物者莫若鼎，故受之以鼎。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "能夠徹底改變事物的，莫過於鼎——生食放進鼎中烹煮，就變成熟食。",
-     "ssml": "能夠徹底改變事物的，莫過於鼎，生食放進鼎中烹煮，就變成熟食。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "革與鼎互為綜卦：革是去故，鼎是取新。",
-     "ssml": "<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>與鼎互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>是去故，鼎是取新。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "鼎又是國家的重器、權力的象徵，變革之後要建立新的秩序，象傳說「君子以正位凝命」。",
-     "ssml": "鼎又是國家的重器、權力的象徵，變<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>之後要建立新的秩序，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以正位凝命」。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦形本身就像一隻鼎：初爻為足，二三四為腹，五為耳，上為鉉。",
-     "ssml": "卦形本身就像一隻鼎：初爻為足，二三四為腹，五為耳，上為鉉。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第五十卦，火風鼎。",
-     "ssml": "下一卦：第五十卦，火風<phoneme alphabet=\"sapi\" ph=\"ding 3\">鼎</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 50,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第五十卦，火風鼎。",
-     "ssml": "第五十卦，火風<phoneme alphabet=\"sapi\" ph=\"ding 3\">鼎</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「主器者莫若長子，故受之以震；震者動也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「主器者莫若<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>子，故受之以震；震者動也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "鼎是祭祀的重器，主持祭祀、繼承重器的是長子。",
-     "ssml": "鼎是祭祀的重器，主持祭祀、繼承重器的是<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>子。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "震在八卦中代表長男，所以鼎之後是震。",
-     "ssml": "震在八卦中代表<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>男，所以鼎之後是震。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "震為雷，上下皆雷，雷聲震動，令人驚懼。",
-     "ssml": "震<phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>雷，上下皆雷，雷聲震動，令人驚懼。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「震來虩虩，笑言啞啞」：雷聲來時令人恐懼戒慎，因戒慎而無過失，事後便能談笑自若——象傳說「君子以恐懼修省」。",
-     "ssml": "卦辭「震來虩虩，笑言啞啞」：雷聲來時令人恐懼戒慎，因戒慎而無過失，事後便能談笑自若，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以恐懼修省」。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第五十一卦，震為雷。",
-     "ssml": "下一卦：第五十一卦，<phoneme alphabet=\"sapi\" ph=\"zhen 4\">震</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>雷。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 51,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第五十一卦，震為雷。",
-     "ssml": "第五十一卦，<phoneme alphabet=\"sapi\" ph=\"zhen 4\">震</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>雷。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物不可以終動，止之，故受之以艮；艮者止也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以終動，止之，故受之以<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>；<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>者止也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "運動不能永無休止，動極則靜。",
-     "ssml": "運動不能永無休止，動極則靜。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "震與艮互為綜卦：震是一陽在下奮動，艮是一陽在上而止。",
-     "ssml": "震與<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：震是一陽在下奮動，<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>是一陽在上而止。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "艮為山，兩山重疊，安然不動。",
-     "ssml": "<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>山，兩山重疊，安然不動。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "艮的「止」是彖傳所說「時止則止，時行則行」，知道該停在哪裡；象傳說「君子以思不出其位」。",
-     "ssml": "<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>的「止」是彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>所說「時止則止，時行則行」，知道該停在哪裡；象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以思不出其位」。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "宋明儒者特別重視此卦的修養意義。",
-     "ssml": "宋明儒者特別重視此卦的修養意義。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第五十二卦，艮為山。",
-     "ssml": "下一卦：第五十二卦，<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>山。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 52,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第五十二卦，艮為山。",
-     "ssml": "第五十二卦，<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>山。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物不可以終止，故受之以漸；漸者進也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以終止，故受之以漸；漸者進也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "靜止之後又要前進，但這次是循序漸進。",
-     "ssml": "靜止之後又要前進，但這次是循序漸進。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "漸卦巽（木）在艮（山）上，山上的樹木慢慢長高。",
-     "ssml": "漸卦巽（木）在<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>（山）上，山上的樹木慢慢長高。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「女歸吉」，以女子出嫁要依禮按步驟進行來比喻漸進之道；六爻都以鴻雁為象，從水邊、磐石、陸地、樹木、山陵一步步升高。",
-     "ssml": "卦辭「女歸吉」，以女子出嫁要依禮按步驟進行來比喻漸進之道；六爻都以鴻雁為象，從水邊、磐石、陸地、樹木、山陵一步步升高。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "這和晉卦的「進」不同，漸強調次序與耐心。",
-     "ssml": "這和晉卦的「進」不同，漸強調次序與耐心。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第五十三卦，風山漸。",
-     "ssml": "下一卦：第五十三卦，風山<phoneme alphabet=\"sapi\" ph=\"jian 4\">漸</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 53,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第五十三卦，風山漸。",
-     "ssml": "第五十三卦，風山<phoneme alphabet=\"sapi\" ph=\"jian 4\">漸</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「進必有所歸，故受之以歸妹。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「進必有所歸，故受之以歸妹。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "前進總要有個歸宿。",
-     "ssml": "前進總要有個歸宿。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「歸」是女子出嫁，「妹」是少女。",
-     "ssml": "「歸」是女子出嫁，「妹」是少女。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "漸與歸妹互為綜卦，也互為錯卦：漸是依禮漸進的婚姻；歸妹則是少女（兌）主動追隨長男（震），以悅而動，不依常禮，所以卦辭說「征凶，无攸利」。",
-     "ssml": "漸與歸妹互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦，也互為錯卦：漸是依禮漸進的婚姻；歸妹則是少女（兌）主動追隨<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>男（震），以悅而動，不依常禮，所以卦辭說「征凶，无攸利」。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "它提醒人：急於找到歸宿而不循正道，往往有始無終——象傳說「君子以永終知敝」。",
-     "ssml": "它提醒人：急於找到歸宿而不循正道，往往有始無終，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以永終知敝」。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第五十四卦，雷澤歸妹。",
-     "ssml": "下一卦：第五十四卦，雷澤<phoneme alphabet=\"sapi\" ph=\"gui 1\">歸</phoneme><phoneme alphabet=\"sapi\" ph=\"mei 4\">妹</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 54,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第五十四卦，雷澤歸妹。",
-     "ssml": "第五十四卦，雷澤<phoneme alphabet=\"sapi\" ph=\"gui 1\">歸</phoneme><phoneme alphabet=\"sapi\" ph=\"mei 4\">妹</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「得其所歸者必大，故受之以豐；豐者大也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「得其所歸者必大，故受之以豐；豐者大也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "找到合適的歸宿，便能興旺壯大。",
-     "ssml": "找到合適的歸宿，便能興旺壯大。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "豐卦震（雷）在上、離（電）在下，雷電交作，聲光盛大。",
-     "ssml": "豐卦震（雷）在上、離（電）在下，雷電交作，聲光盛大。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「王假之，勿憂，宜日中」——到了鼎盛之時，如同正午的太陽。",
-     "ssml": "卦辭「王假之，勿憂，宜日中」，到了鼎盛之時，如同正午的太陽。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "但彖傳立即提醒「日中則昃，月盈則食」：豐盛的頂點，也就是衰落的開始。",
-     "ssml": "但彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>立即提醒「日中則昃，月盈則食」：豐盛的頂點，也就是衰落的開始。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第五十五卦，雷火豐。",
-     "ssml": "下一卦：第五十五卦，雷火<phoneme alphabet=\"sapi\" ph=\"feng 1\">豐</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 55,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第五十五卦，雷火豐。",
-     "ssml": "第五十五卦，雷火<phoneme alphabet=\"sapi\" ph=\"feng 1\">豐</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「窮大者必失其居，故受之以旅。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「窮大者必失其居，故受之以旅。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "盛大到了極點而不知收斂，必然失去安身之所，流落他鄉。",
-     "ssml": "盛大到了極點而不知收斂，必然失去安身之所，流落他鄉。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "豐與旅互為綜卦。",
-     "ssml": "豐與旅互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "旅卦離（火）在艮（山）上，山上的火燒過即走、不能久留，如同旅人。",
-     "ssml": "旅卦離（火）在<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>（山）上，山上的火燒過即走、不能久留，如同旅人。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "羈旅在外，處處受限，卦辭說「小亨，旅貞吉」：客居他鄉，要謙和柔順、守正自持。",
-     "ssml": "羈旅在外，處處受限，卦辭說「小亨，旅貞吉」：客居他鄉，要謙和柔順、守正自持。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第五十六卦，火山旅。",
-     "ssml": "下一卦：第五十六卦，火山旅。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 56,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第五十六卦，火山旅。",
-     "ssml": "第五十六卦，火山旅。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「旅而無所容，故受之以巽；巽者入也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「旅而無所容，故受之以巽；巽者入也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "旅人無處容身，只有謙遜柔順，才能被接納、進入。",
-     "ssml": "旅人無處容身，只有謙遜柔順，才能被接納、進入。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "巽為風，風無孔不入；上下皆巽，柔順至極。",
-     "ssml": "巽<phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>風，風無孔不入；上下皆巽，柔順至極。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "巽卦的「入」，是以柔順謙遜的態度深入人心；象傳說「君子以申命行事」——如風之吹拂，反覆申明，使政令深入人心。",
-     "ssml": "巽卦的「入」，是以柔順謙遜的態度深入人心；象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以申命行事」，如風之吹拂，反覆申明，使政令深入人心。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第五十七卦，巽為風。",
-     "ssml": "下一卦：第五十七卦，<phoneme alphabet=\"sapi\" ph=\"xun 4\">巽</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>風。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 57,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第五十七卦，巽為風。",
-     "ssml": "第五十七卦，<phoneme alphabet=\"sapi\" ph=\"xun 4\">巽</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>風。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「入而后說之，故受之以兌；兌者說也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「入而后<phoneme alphabet=\"sapi\" ph=\"yue 4\">說</phoneme>之，故受之以兌；兌者<phoneme alphabet=\"sapi\" ph=\"yue 4\">說</phoneme>也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "被接納、融入之後，人與人之間便有了喜悅（「說」即「悅」）。",
-     "ssml": "被接納、融入之後，人與人之間便有了喜悅（「<phoneme alphabet=\"sapi\" ph=\"yue 4\">說</phoneme>」即「悅」）。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "巽與兌互為綜卦。",
-     "ssml": "巽與兌互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "兌為澤，兩澤相連，互相滋潤，象傳說「君子以朋友講習」——朋友之間互相切磋，是最大的快樂。",
-     "ssml": "兌<phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>澤，兩澤相連，互相滋潤，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以朋友講習」，朋友之間互相切磋，是最大的快樂。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "彖傳強調喜悅要「剛中而柔外」：以誠信為內核，而不是諂媚取悅。",
-     "ssml": "彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>強調喜悅要「剛中而柔外」：以誠信為內核，而不是諂媚取悅。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第五十八卦，兌為澤。",
-     "ssml": "下一卦：第五十八卦，<phoneme alphabet=\"sapi\" ph=\"dui 4\">兌</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>澤。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 58,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第五十八卦，兌為澤。",
-     "ssml": "第五十八卦，<phoneme alphabet=\"sapi\" ph=\"dui 4\">兌</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>澤。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「說而后散之，故受之以渙；渙者離也。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「<phoneme alphabet=\"sapi\" ph=\"yue 4\">說</phoneme>而后散之，故受之以渙；渙者離也。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "喜悅使人心舒展、鬆散開來，到頭來便會渙散離析。",
-     "ssml": "喜悅使人心舒展、鬆散開來，到頭來便會渙散離析。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "渙卦巽（風）行坎（水）上，風吹水面，波紋四散。",
-     "ssml": "渙卦巽（風）行坎（水）上，風吹水面，波紋四散。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "但渙散也有積極的一面：化解鬱結、消散險難。",
-     "ssml": "但渙散也有積極的一面：化解鬱結、消散險<phoneme alphabet=\"sapi\" ph=\"nan 4\">難</phoneme>。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「王假有廟，利涉大川」——人心離散之時，要以宗廟祭祀重新凝聚，共同渡過大川。",
-     "ssml": "卦辭「王假有廟，利涉大川」，人心離散之時，要以宗廟祭祀重新凝聚，共同渡過大川。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第五十九卦，風水渙。",
-     "ssml": "下一卦：第五十九卦，風水<phoneme alphabet=\"sapi\" ph=\"huan 4\">渙</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 59,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第五十九卦，風水渙。",
-     "ssml": "第五十九卦，風水<phoneme alphabet=\"sapi\" ph=\"huan 4\">渙</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物不可以終離，故受之以節。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以終離，故受之以節。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "渙散不能沒有止境，必須加以節制。",
-     "ssml": "渙散不能沒有止境，必須加以節制。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "渙與節互為綜卦。",
-     "ssml": "渙與節互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "節卦坎（水）在兌（澤）上，澤容水有限，滿則溢出，所以要有節度。",
-     "ssml": "節卦坎（水）在兌（澤）上，澤容水有限，滿則溢出，所以要有節度。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「節」本是竹節，一段一段有分寸。",
-     "ssml": "「節」本是竹節，一段一段有分寸。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭也提醒「苦節不可貞」——節制過度，令人痛苦，也不能長久，貴在適中。",
-     "ssml": "卦辭也提醒「苦節不可貞」，節制過度，令人痛苦，也不能長久，貴在適中。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第六十卦，水澤節。",
-     "ssml": "下一卦：第六十卦，水澤<phoneme alphabet=\"sapi\" ph=\"jie 2\">節</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 60,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第六十卦，水澤節。",
-     "ssml": "第六十卦，水澤<phoneme alphabet=\"sapi\" ph=\"jie 2\">節</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「節而信之，故受之以中孚。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「節而信之，故受之以<phoneme alphabet=\"sapi\" ph=\"zhong 1\">中</phoneme>孚。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "有了節度，人們便能相互信任。",
-     "ssml": "有了節度，人們便能相互信任。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「中孚」是內心誠信。",
-     "ssml": "「<phoneme alphabet=\"sapi\" ph=\"zhong 1\">中</phoneme>孚」是內心誠信。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦形兩陰在中、四陽在外，中虛象徵心中無私；九二、九五兩陽又各居上下卦之中，象徵中心誠實。",
-     "ssml": "卦形兩陰在中、四陽在外，中虛象徵心中無私；九二、九五兩陽又各居上下卦之中，象徵中心誠實。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「豚魚吉」：誠信感化的力量，甚至能及於豬和魚。",
-     "ssml": "卦辭「豚魚吉」：誠信感化的力量，甚至能及於豬和魚。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "中孚與小過是一對錯卦。",
-     "ssml": "<phoneme alphabet=\"sapi\" ph=\"zhong 1\">中</phoneme>孚與小過是一對錯卦。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第六十一卦，風澤中孚。",
-     "ssml": "下一卦：第六十一卦，風澤<phoneme alphabet=\"sapi\" ph=\"zhong 1\">中</phoneme><phoneme alphabet=\"sapi\" ph=\"fu 2\">孚</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 61,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第六十一卦，風澤中孚。",
-     "ssml": "第六十一卦，風澤<phoneme alphabet=\"sapi\" ph=\"zhong 1\">中</phoneme><phoneme alphabet=\"sapi\" ph=\"fu 2\">孚</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「有其信者，必行之，故受之以小過。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有其信者，必行之，故受之以小過。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "有了誠信，必定付諸行動；而行動難免有所過度。",
-     "ssml": "有了誠信，必定付諸行動；而行動難免有所過度。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "小過是「小的過度」——四陰在外、二陽在內，陰柔稍過於陽剛。",
-     "ssml": "小過是「小的過度」，四陰在外、二陽在內，陰柔稍過於陽剛。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "卦辭「可小事，不可大事。飛鳥遺之音，不宜上，宜下」：小事上稍稍過分無妨，象傳說「行過乎恭，喪過乎哀，用過乎儉」，但不宜好高騖遠。",
-     "ssml": "卦辭「可小事，不可大事。飛鳥遺之音，不宜上，宜下」：小事上稍稍過分無妨，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「行過乎恭，喪過乎哀，用過乎儉」，但不宜好高騖遠。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第六十二卦，雷山小過。",
-     "ssml": "下一卦：第六十二卦，雷山<phoneme alphabet=\"sapi\" ph=\"xiao 3\">小</phoneme><phoneme alphabet=\"sapi\" ph=\"guo 4\">過</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 62,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第六十二卦，雷山小過。",
-     "ssml": "第六十二卦，雷山<phoneme alphabet=\"sapi\" ph=\"xiao 3\">小</phoneme><phoneme alphabet=\"sapi\" ph=\"guo 4\">過</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「有過物者，必濟，故受之既濟。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有過物者，必<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>，故受之既<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "能夠超越常人、有所作為的人，必然能成就事業。",
-     "ssml": "能夠超越常人、有所作為的人，必然能成就事業。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "「濟」是渡河，引申為成功。",
-     "ssml": "「<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>」是渡河，引申為成功。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "既濟卦六爻陰陽各得其位（陽爻在奇數位、陰爻在偶數位），是六十四卦中唯一完全「當位」的卦，代表一切都已完成。",
-     "ssml": "既<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>卦六爻陰陽各得其位（陽爻在奇數位、陰爻在偶數位），是六十四卦中唯一完全「當位」的卦，代表一切都已完成。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "但卦辭說「初吉終亂」：完成之時，就是混亂的開始，守成比創業更難。",
-     "ssml": "但卦辭說「初吉終亂」：完成之時，就是混亂的開始，守成比創業更難。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "（序卦原文此句作「故受之既濟」，比其他句子少一個「以」字。）",
-     "ssml": "（序卦原文此句作「故受之既<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>」，比其他句子少一個「以」字。）",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第六十三卦，水火既濟。",
-     "ssml": "下一卦：第六十三卦，水火<phoneme alphabet=\"sapi\" ph=\"ji 4\">既</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 63,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第六十三卦，水火既濟。",
-     "ssml": "第六十三卦，水火<phoneme alphabet=\"sapi\" ph=\"ji 4\">既</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "quote",
-     "text": "序卦傳說：「物不可窮也，故受之以未濟；終焉。」",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可窮也，故受之以未<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>；終焉。」",
-     "pause": 1
-    },
-    {
-     "role": "read",
-     "text": "事物不可能有窮盡的時候，所以六十四卦不以「既濟」（已完成）作結，而以「未濟」（尚未完成）收尾。",
-     "ssml": "事物不可能有窮盡的時候，所以六十四卦不以「既<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>」（已完成）作結，而以「未<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>」（尚未完成）收尾。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "既濟與未濟互為綜卦，也互為錯卦：未濟六爻皆不當位，一切又重新開始。",
-     "ssml": "既<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>與未<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦，也互為錯卦：未<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>六爻皆不當位，一切又重新開始。",
-     "pause": 0.35
-    },
-    {
-     "role": "read",
-     "text": "這是整個卦序最深刻的一筆——宇宙與人生永遠在途中，結束即是新的開端。",
-     "ssml": "這是整個卦序最深刻的一筆，宇宙與人生永遠在途中，結束即是新的開端。",
-     "pause": 0.9
-    },
-    {
-     "role": "next",
-     "text": "下一卦：第六十四卦，火水未濟。",
-     "ssml": "下一卦：第六十四卦，火水<phoneme alphabet=\"sapi\" ph=\"wei 4\">未</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
-     "pause": 0
-    }
-   ]
-  },
-  {
-   "n": 64,
-   "cues": [
-    {
-     "role": "head",
-     "text": "第六十四卦，火水未濟。",
-     "ssml": "第六十四卦，火水<phoneme alphabet=\"sapi\" ph=\"wei 4\">未</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
-     "pause": 0.9
-    },
-    {
-     "role": "outro",
-     "text": "六十四卦到此讀完。",
-     "ssml": "六十四卦到此讀完。",
-     "pause": 0.4
-    },
-    {
-     "role": "outro",
-     "text": "序卦傳以「終焉」二字作結，卦序卻停在「未濟」，也就是尚未完成。",
-     "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>以「終焉」二字作結，卦序卻停在「未<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>」，也就是尚未完成。",
-     "pause": 0.4
-    },
-    {
-     "role": "outro",
-     "text": "終點也是起點，下一輪又從第一卦乾開始。",
-     "ssml": "終點也是起點，下一輪又從第一卦<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>開始。",
-     "pause": 0
+ "books": [
+  {
+   "id": "full",
+   "titleZh": "聽卦序",
+   "titleEn": "The Sequence, Read Aloud",
+   "introEn": "The sixty-four hexagrams of the Zhouyi, in the received order, from hexagram 1, Qian, to hexagram 64, Wei Ji. For each hexagram you hear its number and name, then the Xugua sentence that explains why it follows the one before, and a short modern reading.",
+   "outroEn": "That is all sixty-four. The Xugua closes with the words \"and there it ends,\" yet the sequence stops on Wei Ji, \"not yet across.\" The end is also a beginning: the next round starts again with Qian.",
+   "gap": 2,
+   "chapters": [
+    {
+     "n": 0,
+     "cues": [
+      {
+       "role": "intro",
+       "text": "周易六十四卦卦序。",
+       "ssml": "周易六十四卦卦序。",
+       "pause": 0.4
+      },
+      {
+       "role": "intro",
+       "text": "這部有聲書依照今本的次序，從第一卦乾，讀到第六十四卦未濟。",
+       "ssml": "這部有聲書依照今本的次序，從第一卦<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>，讀到第六十四卦未<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
+       "pause": 0.4
+      },
+      {
+       "role": "intro",
+       "text": "每一卦先讀卦序和卦名，再引《序卦傳》說明它為什麼接在前一卦之後，並附上簡短的今解。",
+       "ssml": "每一卦先讀卦序和卦名，再引《序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>》說明它為什麼接在前一卦之後，並附上簡短的今解。",
+       "pause": 1.2
+      }
+     ]
+    },
+    {
+     "n": 1,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第一卦，乾為天。",
+       "ssml": "第一卦，<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>天。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「有天地，然後萬物生焉。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有天地，然後萬物生焉。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "序卦傳沒有直接寫出乾、坤的名字，只以「有天地」一語帶過：乾為天，坤為地，二者是一切生成的前提，所以不需要任何「理由」來引出——它們本身就是起點。",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>沒有直接寫出<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>、<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>的名字，只以「有天地」一語帶過：<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>天，<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>地，二者是一切生成的前提，所以不需要任何「理由」來引出，它們本身就是起點。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "乾居首位，代表純粹的創生力量：剛健、主動、不息。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>居首位，代表純粹的創生力量：剛健、主動、不息。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "整個卦序的故事，從這股力量開始。",
+       "ssml": "整個卦序的故事，從這股力量開始。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二卦，坤為地。",
+       "ssml": "第二卦，<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>地。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「有天地，然後萬物生焉。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有天地，然後萬物生焉。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "坤與乾是一對「錯卦」（六爻全反）：乾六爻皆陽，坤六爻皆陰。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>與<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>是一對「錯卦」（六爻全反）：<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>六爻皆陽，<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>六爻皆陰。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "有創生必有承載，有天必有地——乾發動，坤成就。",
+       "ssml": "有創生必有承載，有天必有地，<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>發動，<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>成就。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "序卦傳把兩者合為一句「有天地」，正說明它們不可分離，是一體兩面。",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>把兩者合為一句「有天地」，正說明它們不可分離，是一體兩面。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "從第三卦開始，天地交合而萬物生，故事才真正展開。",
+       "ssml": "從第三卦開始，天地交合而萬物生，故事才真正展開。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三卦，水雷屯。",
+       "ssml": "第三卦，水雷<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「盈天地之間者，唯萬物，故受之以屯；屯者盈也，屯者物之始生也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「盈天地之間者，唯萬物，故受之以<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>；<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>者盈也，<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>者物之始生也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "天地既立，其間便被萬物充滿。",
+       "ssml": "天地既立，其間便被萬物充滿。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「屯」字像草芽破土而出、捲曲未伸，正是新生命掙扎著誕生的樣子。",
+       "ssml": "「<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>」字像草芽破土而出、捲曲未伸，正是新生命掙扎著誕生的樣子。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "所以屯有兩層意思：充盈（萬物湧現）與初生之難（剛剛冒頭，處境艱難）。",
+       "ssml": "所以<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>有兩層意思：充盈（萬物湧現）與初生之<phoneme alphabet=\"sapi\" ph=\"nan 4\">難</phoneme>（剛剛冒頭，處境艱難）。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦象上坎（險）下震（動），動於險中——任何開始都伴隨著混亂與困難。",
+       "ssml": "卦象上坎（險）下震（動），動於險中，任何開始都伴隨著混亂與困難。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四卦，山水蒙。",
+       "ssml": "第四卦，山水<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物生必蒙，故受之以蒙；蒙者蒙也，物之穉也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物生必<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>，故受之以<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>；<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>者<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>也，物之<phoneme alphabet=\"sapi\" ph=\"zhi 4\">穉</phoneme>也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "生命誕生之後，首先是懵懂無知的幼年。",
+       "ssml": "生命誕生之後，首先是懵懂無知的幼年。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「蒙」本指被覆蓋、看不清，引申為蒙昧、稚嫩。",
+       "ssml": "「<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>」本指被覆蓋、看不清，引申為<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>昧、稚嫩。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "剛出生的東西必然未開化，需要啟蒙和教育——所以蒙卦的卦辭講師生關係：「匪我求童蒙，童蒙求我。」",
+       "ssml": "剛出生的東西必然未開化，需要啟<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>和教育，所以<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>卦的卦辭講師生關係：「匪我求童<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>，童<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>求我。」",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "屯與蒙互為綜卦（上下顛倒），一個講出生，一個講幼年。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>與<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦（上下顛倒），一個講出生，一個講幼年。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五卦，水天需。",
+       "ssml": "第五卦，水天<phoneme alphabet=\"sapi\" ph=\"xu 1\">需</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物穉不可不養也，故受之以需；需者飲食之道也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物<phoneme alphabet=\"sapi\" ph=\"zhi 4\">穉</phoneme>不可不養也，故受之以需；需者飲食之道也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "幼小的生命首先需要養育。",
+       "ssml": "幼小的生命首先需要養育。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "序卦傳把「需」解作「飲食之道」——人最基本的需要就是吃喝。",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>把「需」解作「飲食之道」，人最基本的需要就是吃喝。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦象乾（剛健）在下、坎（雲雨）在上：雲已在天，雨尚未降，所以需又有「等待」之意。",
+       "ssml": "卦象<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>（剛健）在下、坎（雲雨）在上：雲已在天，雨尚未降，所以需又有「等待」之意。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "滋養需要時間，不能揠苗助長，要耐心等待時機成熟。",
+       "ssml": "滋養需要時間，不能揠苗助長，要耐心等待時機成熟。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六卦，天水訟。",
+       "ssml": "第六卦，天水<phoneme alphabet=\"sapi\" ph=\"song 4\">訟</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「飲食必有訟，故受之以訟。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「飲食必有訟，故受之以訟。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "有了資源就有分配，有分配就有爭執。",
+       "ssml": "有了資源就有分配，有分配就有爭執。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "為了飲食（引申為一切利益），人們必然發生爭訟。",
+       "ssml": "為了飲食（引申為一切利益），人們必然發生爭訟。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "需與訟互為綜卦：需是坎在乾上，耐心等待；訟是乾在坎上——天往上走，水往下流，背道而馳，象徵立場相違、各不相讓。",
+       "ssml": "需與訟互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：需是坎在<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>上，耐心等待；訟是<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>在坎上，天往上走，水往下流，背道而馳，象徵立場相違、各不相讓。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭說「中吉，終凶」：爭訟要適可而止。",
+       "ssml": "卦辭說「中吉，終凶」：爭訟要適可而止。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第七卦，地水師。",
+       "ssml": "第七卦，地水<phoneme alphabet=\"sapi\" ph=\"shi 1\">師</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「訟必有眾起，故受之以師；師者眾也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「訟必有眾起，故受之以師；師者眾也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "個人之間的爭訟一旦擴大，就會牽動群體，演變成集體衝突——戰爭。",
+       "ssml": "個人之間的爭訟一旦擴大，就會牽動群體，演變成集體衝突，戰爭。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「師」本義是眾人、軍隊。",
+       "ssml": "「師」本義是眾人、軍隊。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦象坤（地、眾）在上，坎（水）在下：地中有水，如同兵藏於民。",
+       "ssml": "卦象<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>（地、眾）在上，坎（水）在下：地中有水，如同兵藏於民。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "全卦唯一的陽爻九二居下卦之中，代表統率眾人的將帥。",
+       "ssml": "全卦唯一的陽爻九二居下卦之中，代表統率眾人的將帥。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "用兵的關鍵在於「貞」：正當的目的與得力的領導。",
+       "ssml": "用兵的關鍵在於「貞」：正當的目的與得力的領導。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第八卦，水地比。",
+       "ssml": "第八卦，水地<phoneme alphabet=\"sapi\" ph=\"bi 3\">比</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「眾必有所比，故受之以比；比者比也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「眾必有所比，故受之以比；比者比也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "眾人聚在一起，不能一盤散沙，必須互相親附、團結在一個中心周圍。",
+       "ssml": "眾人聚在一起，不能一盤散沙，必須互相親附、團結在一個中心周圍。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「比」是親近、依附。",
+       "ssml": "「比」是親近、依附。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "師與比互為綜卦：師的唯一陽爻在下卦（將帥在下統兵），比的唯一陽爻在九五（君主在上，萬民歸附）。",
+       "ssml": "師與比互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：師的唯一陽爻在下卦（將帥在下統兵），比的唯一陽爻在九五（君主在上，萬民歸附）。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "戰爭之後要建立聯盟與秩序，從軍事組織轉向政治凝聚。",
+       "ssml": "戰爭之後要建立聯盟與秩序，從軍事組織轉向政治凝聚。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第九卦，風天小畜。",
+       "ssml": "第九卦，風天<phoneme alphabet=\"sapi\" ph=\"xiao 3\">小</phoneme><phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「比必有所畜也，故受之以小畜。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「比必有所<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>也，故受之以小<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "人們團結親附之後，就能積聚力量與財富。",
+       "ssml": "人們團結親附之後，就能積聚力量與財富。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「畜」有蓄積和畜止兩層意思。",
+       "ssml": "「<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>」有蓄積和<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>止兩層意思。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "但這種積蓄還是「小」的：全卦只有一個陰爻（六四）去畜止五個陽爻，力量有限，如同卦辭所說「密雲不雨」——雲已密布，雨還下不來。",
+       "ssml": "但這種積蓄還是「小」的：全卦只有一個陰爻（六四）去<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>止五個陽爻，力量有限，如同卦辭所說「密雲不雨」，雲已密布，雨還下不來。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "這是初步的積累，還不足以成大事。",
+       "ssml": "這是初步的積累，還不足以成大事。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十卦，天澤履。",
+       "ssml": "第十卦，天澤履。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物畜然後有禮，故受之以履。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>然後有禮，故受之以履。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "「倉廩實而知禮節」——物質有了積累，才談得上禮儀規範。",
+       "ssml": "「倉廩實而知禮節」，物質有了積累，才談得上禮儀規範。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「履」本是踩、行走，引申為行為、實踐；序卦傳把它和「禮」聯繫起來：禮就是人應當踐行的道路。",
+       "ssml": "「履」本是踩、行走，引申為行為、實踐；序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>把它和「禮」聯繫起來：禮就是人應當踐行的道路。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「履虎尾，不咥人」，說明只要循禮而行、謹慎小心，即使處境危險也能安然無恙。",
+       "ssml": "卦辭「履虎尾，不咥人」，說明只要循禮而行、謹慎小心，即使處境危險也能安然無恙。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "小畜與履互為綜卦。",
+       "ssml": "小<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>與履互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十一卦，地天泰。",
+       "ssml": "第十一卦，地天<phoneme alphabet=\"sapi\" ph=\"tai 4\">泰</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「履而泰，然後安，故受之以泰；泰者通也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「履而泰，然後安，故受之以泰；泰者通也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "人人循禮而行，社會便通達安定。",
+       "ssml": "人人循禮而行，社會便通達安定。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "泰卦是坤（地）在上、乾（天）在下：看似顛倒，其實天氣下降、地氣上升，兩者相交，所以萬物亨通。",
+       "ssml": "泰卦是<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>（地）在上、<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>（天）在下：看似顛倒，其實天氣下降、地氣上升，兩者相交，所以萬物亨通。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "這是上經的第一個高峰——上下溝通、陰陽調和的太平景象。",
+       "ssml": "這是上經的第一個高峰，上下溝通、陰陽調和的太平景象。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十二卦，天地否。",
+       "ssml": "第十二卦，天地<phoneme alphabet=\"sapi\" ph=\"pi 3\">否</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物不可以終通，故受之以否。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以終通，故受之以<phoneme alphabet=\"sapi\" ph=\"pi 3\">否</phoneme>。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "這是序卦傳第一次出現「物不可以終……」的句式：任何狀態都不能永遠持續，盛極必衰。",
+       "ssml": "這是序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>第一次出現「物不可以終」的句式：任何狀態都不能永遠持續，盛極必衰。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "泰與否互為綜卦，也互為錯卦。",
+       "ssml": "泰與<phoneme alphabet=\"sapi\" ph=\"pi 3\">否</phoneme>互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦，也互為錯卦。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "天在上、地在下，看似「正位」，實則天氣上升、地氣下沉，各走各的，上下不交而閉塞不通。",
+       "ssml": "天在上、地在下，看似「正位」，實則天氣上升、地氣下沉，各走各的，上下不交而閉塞不通。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "太平之後便是閉塞，這是《易》「物極必反」的典型。",
+       "ssml": "太平之後便是閉塞，這是《易》「物極必反」的典型。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 13,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十三卦，天火同人。",
+       "ssml": "第十三卦，天火<phoneme alphabet=\"sapi\" ph=\"tong 2\">同</phoneme><phoneme alphabet=\"sapi\" ph=\"ren 2\">人</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物不可以終否，故受之以同人。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以終<phoneme alphabet=\"sapi\" ph=\"pi 3\">否</phoneme>，故受之以同人。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "閉塞也不會永遠持續。",
+       "ssml": "閉塞也不會永遠持續。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "要打破隔閡，就要與人和同、團結志同道合者。",
+       "ssml": "要打破隔閡，就要與人和同、團結志同道合者。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "同人卦乾（天）在上、離（火）在下：火焰向上，與天同性，象徵人與人同心。",
+       "ssml": "同人卦<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>（天）在上、離（火）在下：火焰向上，與天同性，象徵人與人同心。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「同人于野」——在曠野中與人和同，強調胸懷廣大、不分親疏，這樣才能走出否塞。",
+       "ssml": "卦辭「同人于野」，在曠野中與人和同，強調胸懷廣大、不分親疏，這樣才能走出<phoneme alphabet=\"sapi\" ph=\"pi 3\">否</phoneme>塞。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 14,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十四卦，火天大有。",
+       "ssml": "第十四卦，火天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「與人同者，物必歸焉，故受之以大有。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「與人同者，物必歸焉，故受之以大有。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "能夠與人和同的人，眾人和萬物自然歸附於他，於是擁有廣大。",
+       "ssml": "能夠與人和同的人，眾人和萬物自然歸附於他，於是擁有廣大。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "大有卦離（火、日）在天上，如太陽高照，萬物畢見；唯一的陰爻居於尊位六五，以柔順虛心統領五陽。",
+       "ssml": "大有卦離（火、日）在天上，如太陽高照，萬物畢見；唯一的陰爻居於尊位六五，以柔順虛心統領五陽。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "同人與大有互為綜卦：先有人心的凝聚，然後才有財富與力量的豐盛。",
+       "ssml": "同人與大有互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：先有人心的凝聚，然後才有財富與力量的豐盛。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 15,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十五卦，地山謙。",
+       "ssml": "第十五卦，地山<phoneme alphabet=\"sapi\" ph=\"qian 1\">謙</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「有大者不可以盈，故受之以謙。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有大者不可以盈，故受之以謙。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "擁有很多時，最大的危險是自滿。",
+       "ssml": "擁有很多時，最大的危險是自滿。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "滿則溢，所以必須謙虛。",
+       "ssml": "滿則溢，所以必須謙虛。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "謙卦是艮（山）在坤（地）之下：高山藏於地下，有而不居，高而能下。",
+       "ssml": "謙卦是<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>（山）在<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>（地）之下：高山藏於地下，有而不居，高而能下。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "謙是六十四卦中唯一六爻皆吉或无不利的卦，可見古人對謙德的重視。",
+       "ssml": "謙是六十四卦中唯一六爻皆吉或无不利的卦，可見古人對謙德的重視。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 16,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十六卦，雷地豫。",
+       "ssml": "第十六卦，雷地<phoneme alphabet=\"sapi\" ph=\"yu 4\">豫</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「有大而能謙，必豫，故受之以豫。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有大而能謙，必豫，故受之以豫。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "富有而又謙虛，人心和樂，自然安逸愉悅。",
+       "ssml": "富有而又謙虛，人心和樂，自然安逸愉悅。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「豫」有安樂、喜悅，也有預備之意。",
+       "ssml": "「豫」有安樂、喜悅，也有預備之意。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "豫卦震（雷）出地上，春雷發動，萬物歡欣。",
+       "ssml": "豫卦震（雷）出地上，春雷發動，萬物歡欣。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "謙與豫互為綜卦：謙是內在的修養，豫是它帶來的和樂。",
+       "ssml": "謙與豫互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：謙是內在的修養，豫是它帶來的和樂。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "但安樂之中也藏著放縱的危險——初六「鳴豫，凶」便是警告。",
+       "ssml": "但安樂之中也藏著放縱的危險，初六「鳴豫，凶」便是警告。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 17,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十七卦，澤雷隨。",
+       "ssml": "第十七卦，澤雷<phoneme alphabet=\"sapi\" ph=\"sui 2\">隨</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「豫必有隨，故受之以隨。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「豫必有隨，故受之以隨。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "一個人能讓人喜悅，別人就會跟隨他。",
+       "ssml": "一個人能讓人喜悅，別人就會跟隨他。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "隨卦兌（悅）在上、震（動）在下：我動而彼悅，所以相隨。",
+       "ssml": "隨卦兌（悅）在上、震（動）在下：我動而彼悅，所以相隨。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "隨也有「隨時」之意——順應時勢變化。",
+       "ssml": "隨也有「隨時」之意，順應時勢變化。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "但跟隨要擇善而從，卦辭說「元亨利貞，无咎」，跟隨必須以正道為前提。",
+       "ssml": "但跟隨要擇善而從，卦辭說「元亨利貞，无咎」，跟隨必須以正道為前提。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 18,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十八卦，山風蠱。",
+       "ssml": "第十八卦，山風<phoneme alphabet=\"sapi\" ph=\"gu 3\">蠱</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「以喜隨人者，必有事，故受之以蠱；蠱者事也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「以喜隨人者，必有事，故受之以蠱；蠱者事也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "只因喜悅而盲目跟隨，久而久之必生弊端。",
+       "ssml": "只因喜悅而盲目跟隨，久而久之必生弊端。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「蠱」字是器皿中生蟲，意為腐敗積弊；序卦傳解作「事」，即需要處理的事務。",
+       "ssml": "「蠱」字是器皿中生蟲，意為腐敗積弊；序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>解作「事」，即需要處理的事務。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "隨與蠱互為綜卦，也互為錯卦：風平浪靜的隨從之後，問題暴露，必須著手整治。",
+       "ssml": "隨與蠱互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦，也互為錯卦：風平浪靜的隨從之後，問題暴露，必須著手整治。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「先甲三日，後甲三日」，強調整頓要審慎謀劃、承前啟後。",
+       "ssml": "卦辭「先甲三日，後甲三日」，強調整頓要審慎謀劃、承前啟後。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 19,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十九卦，地澤臨。",
+       "ssml": "第十九卦，地澤<phoneme alphabet=\"sapi\" ph=\"lin 2\">臨</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「有事而后可大，故受之以臨；臨者大也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有事而后可大，故受之以臨；臨者大也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "能夠勇於任事、整治弊端，事業才能壯大。",
+       "ssml": "能夠勇於任事、整治弊端，事業才能壯大。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「臨」是居高臨下、親臨治理，序卦傳解為「大」。",
+       "ssml": "「臨」是居高臨下、親臨治理，序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>解為「大」。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦象兩個陽爻自下而上增長，陽氣漸盛，象徵力量日益壯大。",
+       "ssml": "卦象兩個陽爻自下而上增長，陽氣漸盛，象徵力量日益壯大。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "但卦辭也提醒「至于八月有凶」——盛長之時要預見衰退。",
+       "ssml": "但卦辭也提醒「至于八月有凶」，盛<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>之時要預見衰退。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 20,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十卦，風地觀。",
+       "ssml": "第二十卦，風地<phoneme alphabet=\"sapi\" ph=\"guan 1\">觀</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物大然後可觀，故受之以觀。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物大然後可觀，故受之以觀。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "事物壯大之後，才有可觀之處，值得人們瞻仰；同時居上位者也要觀察天下。",
+       "ssml": "事物壯大之後，才有可觀之處，值得人們瞻仰；同時居上位者也要觀察天下。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "觀卦巽（風）行地上，風吹遍大地，無所不至，象徵觀察與教化。",
+       "ssml": "觀卦巽（風）行地上，風吹遍大地，無所不至，象徵觀察與教化。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "臨與觀互為綜卦：臨是居上而臨下，觀是在上者被下觀仰，也觀照下民——治理從力量轉向示範與省察。",
+       "ssml": "臨與觀互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：臨是居上而臨下，觀是在上者被下觀仰，也觀照下民，治理從力量轉向示範與省察。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 21,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十一卦，火雷噬嗑。",
+       "ssml": "第二十一卦，火雷<phoneme alphabet=\"sapi\" ph=\"shi 4\">噬</phoneme><phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「可觀而后有所合，故受之以噬嗑；嗑者合也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「可觀而后有所合，故受之以噬<phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>；<phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>者合也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "有可觀之德，人們便想來合。",
+       "ssml": "有可觀之德，人們便想來合。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "但要真正相合，中間的阻隔必須咬斷。",
+       "ssml": "但要真正相合，中間的阻隔必須咬斷。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "噬嗑卦像張開的嘴（初、上兩陽為唇，中間陰爻為空），九四一陽橫梗其中，必須「噬」（咬）掉才能「嗑」（合攏）。",
+       "ssml": "噬<phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>卦像張開的嘴（初、上兩陽為唇，中間陰爻為空），九四一陽橫梗其中，必須「噬」（咬）掉才能「<phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>」（合攏）。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "所以此卦講刑罰訟獄：清除障礙，才能實現團結。",
+       "ssml": "所以此卦講刑罰訟獄：清除障礙，才能實現團結。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 22,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十二卦，山火賁。",
+       "ssml": "第二十二卦，山火<phoneme alphabet=\"sapi\" ph=\"bi 4\">賁</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物不可以苟合而已，故受之以賁；賁者飾也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以苟合而已，故受之以<phoneme alphabet=\"sapi\" ph=\"bi 4\">賁</phoneme>；<phoneme alphabet=\"sapi\" ph=\"bi 4\">賁</phoneme>者飾也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "人與人、物與物的結合不能草率隨便，需要禮文加以修飾，使之有秩序、有美感。",
+       "ssml": "人與人、物與物的結合不能草率隨便，需要禮文加以修飾，使之有秩序、有美感。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "賁卦艮（山）下有離（火），火照山上草木，光彩斑斕。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"bi 4\">賁</phoneme>卦<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>（山）下有離（火），火照山上草木，光彩斑斕。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "噬嗑與賁互為綜卦：前者以刑罰強制相合，後者以文飾使結合有禮有度——由「刑」轉向「文」。",
+       "ssml": "噬<phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>與<phoneme alphabet=\"sapi\" ph=\"bi 4\">賁</phoneme>互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：前者以刑罰強制相合，後者以文飾使結合有禮有度，由「刑」轉向「文」。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 23,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十三卦，山地剝。",
+       "ssml": "第二十三卦，山地<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「致飾然後亨，則盡矣，故受之以剝；剝者剝也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「致飾然後亨，則盡矣，故受之以<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>；<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>者<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "文飾若推到極端，徒有其表，內在的真實便耗盡了。",
+       "ssml": "文飾若推到極端，徒有其表，內在的真實便耗盡了。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "過度修飾的結果是剝落、衰敗。",
+       "ssml": "過度修飾的結果是<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>落、衰敗。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "剝卦五陰在下、一陽在上，陰氣自下而上一路侵蝕，只剩最後一個陽爻，如牆皮剝落、房屋將傾。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>卦五陰在下、一陽在上，陰氣自下而上一路侵蝕，只剩最後一個陽爻，如牆皮<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>落、房屋將傾。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「不利有攸往」——此時宜靜守，不宜妄動。",
+       "ssml": "卦辭「不利有攸往」，此時宜靜守，不宜妄動。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 24,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十四卦，地雷復。",
+       "ssml": "第二十四卦，地雷<phoneme alphabet=\"sapi\" ph=\"fu 4\">復</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物不可以終盡，剝窮上反下，故受之以復。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以終盡，<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>窮上反下，故受之以復。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "這是卦序中最著名的轉折之一。",
+       "ssml": "這是卦序中最著名的轉折之一。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "剝到盡頭，最後一個陽爻從上方消失，卻在最下方重新出現——一陽來復。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>到盡頭，最後一個陽爻從上方消失，卻在最下方重新出現，一陽來復。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "剝與復互為綜卦，把剝倒轉過來就是復。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>與復互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦，把<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>倒轉過來就是復。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "冬至一陽生，黑暗最深處孕育光明。",
+       "ssml": "冬至一陽生，黑暗最深處孕育光明。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "彖傳說「復，其見天地之心乎」：生生不息，正是天地的本心。",
+       "ssml": "彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「復，其<phoneme alphabet=\"sapi\" ph=\"jian 4\">見</phoneme>天地之心乎」：生生不息，正是天地的本心。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 25,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十五卦，天雷无妄。",
+       "ssml": "第二十五卦，天雷<phoneme alphabet=\"sapi\" ph=\"wu 2\">无</phoneme><phoneme alphabet=\"sapi\" ph=\"wang 4\">妄</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「復則不妄矣，故受之以无妄。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「復則不妄矣，故受之以无妄。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "回歸本源、恢復正道之後，行為就不再虛妄。",
+       "ssml": "回歸本源、恢復正道之後，行為就不再虛妄。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「无妄」即真實無偽、不存非分之想。",
+       "ssml": "「无妄」即真實無偽、不存非分之想。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦象乾（天）在上、震（動）在下——動而合乎天理。",
+       "ssml": "卦象<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>（天）在上、震（動）在下，動而合乎天理。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "程頤解為「至誠」。",
+       "ssml": "程頤解為「至誠」。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "无妄也有「意外」之意：一切順其自然，不刻意妄求，即便遇到「无妄之災」也不必驚慌。",
+       "ssml": "无妄也有「意外」之意：一切順其自然，不刻意妄求，即便遇到「无妄之災」也不必驚慌。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 26,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十六卦，山天大畜。",
+       "ssml": "第二十六卦，山天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「有无妄然後可畜，故受之以大畜。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有无妄然後可<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>，故受之以大<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "真誠無妄，才能積蓄真正的德行和實力。",
+       "ssml": "真誠無妄，才能積蓄真正的德行和實力。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "大畜卦艮（山）在上、乾（天）在下：天被包容在山中，比喻蓄積之大。",
+       "ssml": "大<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>卦<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>（山）在上、<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>（天）在下：天被包容在山中，比喻蓄積之大。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "與小畜相比，小畜是一陰畜五陽，力量有限；大畜則是艮山以剛止健，畜得穩固而深厚。",
+       "ssml": "與小<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>相比，小<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>是一陰<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>五陽，力量有限；大<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>則是<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>山以剛止健，<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>得穩固而深厚。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "无妄與大畜互為綜卦。",
+       "ssml": "无妄與大<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "象傳說：「君子以多識前言往行，以畜其德。」",
+       "ssml": "象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「君子以多識前言往行，以<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>其德。」",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 27,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十七卦，山雷頤。",
+       "ssml": "第二十七卦，山雷<phoneme alphabet=\"sapi\" ph=\"yi 2\">頤</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物畜然後可養，故受之以頤；頤者養也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物<phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>然後可養，故受之以頤；頤者養也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "有了積蓄，才能養育——養身，也養德。",
+       "ssml": "有了積蓄，才能養育，養身，也養德。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「頤」本指臉頰、下巴，卦形正像張開的口：上下兩陽爻是上下顎，中間四陰爻是口腔。",
+       "ssml": "「頤」本指臉頰、下巴，卦形正像張開的口：上下兩陽爻是上下顎，中間四陰爻是口腔。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「觀頤，自求口實」，提醒人看一個人如何養己養人，便知其品格。",
+       "ssml": "卦辭「觀頤，自求口實」，提醒人看一個人如何養己養人，便知其品格。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "頤與大過是一對錯卦（六爻全反）。",
+       "ssml": "頤與大過是一對錯卦（六爻全反）。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 28,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十八卦，澤風大過。",
+       "ssml": "第二十八卦，澤風<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"guo 4\">過</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「不養則不可動，故受之以大過。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「不養則不可動，故受之以大過。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "有養才能有所作為，養得充足就能做出非常之事。",
+       "ssml": "有養才能有所作為，養得充足就能做出非常之事。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「大過」是大的過度——陽剛過盛：四個陽爻擠在中間，兩端陰爻柔弱，如同「棟橈」，屋樑中間粗重而兩端不勝負荷。",
+       "ssml": "「大過」是大的過度，陽剛過盛：四個陽爻擠在中間，兩端陰爻柔弱，如同「棟<phoneme alphabet=\"sapi\" ph=\"nao 2\">橈</phoneme>」，屋樑中間粗重而兩端不勝負荷。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "這是非常時期，需要非常之舉；象傳說「君子以獨立不懼，遯世无悶」。",
+       "ssml": "這是非常時期，需要非常之舉；象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以獨立不懼，遯世无悶」。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 29,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十九卦，坎為水。",
+       "ssml": "第二十九卦，<phoneme alphabet=\"sapi\" ph=\"kan 3\">坎</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>水。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物不可以終過，故受之以坎；坎者陷也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以終過，故受之以坎；坎者陷也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "過度之後必然陷入險境。",
+       "ssml": "過度之後必然陷入險境。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "坎為水、為陷，上下皆坎，重重險難，所以又名「習坎」。",
+       "ssml": "坎<phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>水、為陷，上下皆坎，<phoneme alphabet=\"sapi\" ph=\"chong 2\">重</phoneme><phoneme alphabet=\"sapi\" ph=\"chong 2\">重</phoneme>險<phoneme alphabet=\"sapi\" ph=\"nan 4\">難</phoneme>，所以又名「習坎」。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "但坎卦也教人如何處險：水流不止、不失其信——一陽居中，內心剛實，就能「維心亨」。",
+       "ssml": "但坎卦也教人如何處險：水流不止、不失其信，一陽居中，內心剛實，就能「維心亨」。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "在危難中保持誠信與恆心，才能出險。",
+       "ssml": "在危<phoneme alphabet=\"sapi\" ph=\"nan 4\">難</phoneme>中保持誠信與恆心，才能出險。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 30,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十卦，離為火。",
+       "ssml": "第三十卦，<phoneme alphabet=\"sapi\" ph=\"li 2\">離</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>火。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「陷必有所麗，故受之以離；離者麗也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「陷必有所<phoneme alphabet=\"sapi\" ph=\"li 4\">麗</phoneme>，故受之以離；離者<phoneme alphabet=\"sapi\" ph=\"li 4\">麗</phoneme>也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "陷入險境，必須有所依附才能脫困。",
+       "ssml": "陷入險境，必須有所依附才能脫困。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「離」解作「麗」，即附著——如火附著於薪柴而燃燒、日月附著於天而光明。",
+       "ssml": "「離」解作「<phoneme alphabet=\"sapi\" ph=\"li 4\">麗</phoneme>」，即附著，如火附著於薪柴而燃燒、日月附著於天而光明。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "坎與離是錯卦：坎外柔內剛，陷而中實；離外剛內柔，明而中虛。",
+       "ssml": "坎與離是錯卦：坎外柔內剛，陷而中實；離外剛內柔，明而中虛。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "上經以坎離作結：水火是天地之間最大的作用力，也象徵月與日，與開頭的乾坤（天地）首尾呼應。",
+       "ssml": "上經以坎離作結：水火是天地之間最大的作用力，也象徵月與日，與開頭的<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme><phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>（天地）首尾呼應。",
+       "pause": 0.9
+      },
+      {
+       "role": "canon",
+       "text": "上經三十卦到此結束。",
+       "ssml": "上經三十卦到此結束。",
+       "pause": 0,
+       "en": "This ends the thirty hexagrams of the Upper Canon."
+      }
+     ]
+    },
+    {
+     "n": 31,
+     "cues": [
+      {
+       "role": "canon",
+       "text": "下經由此開始。",
+       "ssml": "下經由此開始。",
+       "pause": 0.6,
+       "en": "The Lower Canon begins here."
+      },
+      {
+       "role": "head",
+       "text": "第三十一卦，澤山咸。",
+       "ssml": "第三十一卦，澤山<phoneme alphabet=\"sapi\" ph=\"xian 2\">咸</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「有天地然後有萬物，有萬物然後有男女，有男女然後有夫婦，有夫婦然後有父子，有父子然後有君臣，有君臣然後有上下，有上下然後禮儀有所錯。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有天地然後有萬物，有萬物然後有男女，有男女然後有夫婦，有夫婦然後有父子，有父子然後有君臣，有君臣然後有上下，有上下然後禮儀有所錯。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "下經重新從「天地」說起，但很快轉向人倫：男女→夫婦→父子→君臣→上下→禮義，整個社會秩序都根源於夫婦。",
+       "ssml": "下經重新從「天地」說起，但很快轉向人倫：男女、夫婦、父子、君臣、上下、禮義，整個社會秩序都根源於夫婦。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "咸卦兌（少女）在上、艮（少男）在下；彖傳說「咸，感也」，傳統解釋「咸」是「感」去掉「心」，代表無心之感、自然的相互感應。",
+       "ssml": "咸卦兌（少女）在上、<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>（少男）在下；彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「咸，感也」，傳統解釋「咸」是「感」去掉「心」，代表無心之感、自然的相互感應。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "上經以天地開篇，下經以男女感應開篇：先講天道，再講人道。",
+       "ssml": "上經以天地開篇，下經以男女感應開篇：先講天道，再講人道。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "和乾坤一樣，序卦傳在這段話中沒有寫出「咸」字，而是讓整段話引出它。",
+       "ssml": "和<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme><phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>一樣，序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>在這段話中沒有寫出「咸」字，而是讓整段話引出它。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 32,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十二卦，雷風恆。",
+       "ssml": "第三十二卦，雷風<phoneme alphabet=\"sapi\" ph=\"heng 2\">恆</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「夫婦之道，不可以不久也，故受之以恆；恆者久也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「夫婦之道，不可以不久也，故受之以恆；恆者久也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "夫婦的感情始於相互感應，但必須長久維持。",
+       "ssml": "夫婦的感情始於相互感應，但必須長久維持。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "咸與恆互為綜卦：咸是少男在少女之下，追求、感應的熱戀階段；恆是長男（震）在上、長女（巽）在下，各安其位的婚姻生活。",
+       "ssml": "咸與恆互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：咸是少男在少女之下，追求、感應的熱戀階段；恆是<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>男（震）在上、<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>女（巽）在下，各安其位的婚姻生活。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "雷風相與，動而不息。",
+       "ssml": "雷風相與，動而不息。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "恆不是靜止不變，而是在變化中持守正道。",
+       "ssml": "恆不是靜止不變，而是在變化中持守正道。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 33,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十三卦，天山遯。",
+       "ssml": "第三十三卦，天山<phoneme alphabet=\"sapi\" ph=\"dun 4\">遯</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物不可以久居其所，故受之以遯；遯者退也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以久居其所，故受之以遯；遯者退也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "恆講長久，但事物不可能永遠停留在同一位置，時勢變化就要知所進退。",
+       "ssml": "恆講長久，但事物不可能永遠停留在同一位置，時勢變化就要知所進退。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "遯卦二陰自下而上增長，陰長陽消，小人勢力漸盛，君子應當及時退避。",
+       "ssml": "遯卦二陰自下而上增長，陰<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>陽消，小人勢力漸盛，君子應當及時退避。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "退不是逃避，而是保存實力、等待時機——象傳說「君子以遠小人，不惡而嚴」。",
+       "ssml": "退不是逃避，而是保存實力、等待時機，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以遠小人，不惡而嚴」。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 34,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十四卦，雷天大壯。",
+       "ssml": "第三十四卦，雷天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"zhuang 4\">壯</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物不可終遯，故受之以大壯。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可終遯，故受之以大壯。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "退避不能是永遠的，退到一定程度就會重新壯大。",
+       "ssml": "退避不能是永遠的，退到一定程度就會重新壯大。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "遯與大壯互為綜卦：遯是二陰長而陽退；大壯是四陽長、陽氣強盛，雷在天上，聲勢浩大。",
+       "ssml": "遯與大壯互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：遯是二陰<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>而陽退；大壯是四陽<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>、陽氣強盛，雷在天上，聲勢浩大。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "但壯盛之時最易恃強妄動，卦辭只說「利貞」，象傳說「君子以非禮弗履」——強大更要守正。",
+       "ssml": "但壯盛之時最易恃強妄動，卦辭只說「利貞」，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以非禮弗履」，強大更要守正。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 35,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十五卦，火地晉。",
+       "ssml": "第三十五卦，火地<phoneme alphabet=\"sapi\" ph=\"jin 4\">晉</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物不可以終壯，故受之以晉；晉者進也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以終壯，故受之以晉；晉者進也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "壯盛不能停滯不動，力量必須轉化為前進。",
+       "ssml": "壯盛不能停滯不動，力量必須轉化為前進。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "晉卦離（日）出地上，旭日東昇，光明漸進。",
+       "ssml": "晉卦離（日）出地上，旭日東昇，光明漸進。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "程頤認為事物壯盛之後必然前進，所以晉接在大壯之後。",
+       "ssml": "程頤認為事物壯盛之後必然前進，所以晉接在大壯之後。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭描繪臣子受君主賞識、步步高升：「康侯用錫馬蕃庶，晝日三接。」",
+       "ssml": "卦辭描繪臣子受君主賞識、步步高升：「康侯用錫馬蕃庶，晝日三接。」",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 36,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十六卦，地火明夷。",
+       "ssml": "第三十六卦，地火<phoneme alphabet=\"sapi\" ph=\"ming 2\">明</phoneme><phoneme alphabet=\"sapi\" ph=\"yi 2\">夷</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「進必有所傷，故受之以明夷；夷者傷也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「進必有所傷，故受之以明夷；夷者傷也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "一味前進，必然遭遇挫傷。",
+       "ssml": "一味前進，必然遭遇挫傷。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "晉與明夷互為綜卦：晉是日出地上，明夷是日入地中，光明被遮蔽、受傷害。",
+       "ssml": "晉與明夷互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：晉是日出地上，明夷是日入地中，光明被遮蔽、受傷害。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "這是賢者處於昏暗時代的處境，如文王被囚、箕子佯狂。",
+       "ssml": "這是賢者處於昏暗時代的處境，如文王被囚、箕子佯狂。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「利艱貞」，象傳說「用晦而明」：外表隱晦、內心光明，在逆境中保全自己。",
+       "ssml": "卦辭「利艱貞」，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「用晦而明」：外表隱晦、內心光明，在逆境中保全自己。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 37,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十七卦，風火家人。",
+       "ssml": "第三十七卦，風火<phoneme alphabet=\"sapi\" ph=\"jia 1\">家</phoneme><phoneme alphabet=\"sapi\" ph=\"ren 2\">人</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「傷於外者，必反其家，故受之以家人。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「傷於外者，必反其家，故受之以家人。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "在外受了傷，人自然會回到家中尋求庇護與療癒。",
+       "ssml": "在外受了傷，人自然會回到家中尋求庇護與療癒。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "家人卦講治家之道：六二居內卦之中，九五居外卦之中，彖傳說「男女正，天地之大義也」。",
+       "ssml": "家人卦講治家之道：六二居內卦之中，九五居外卦之中，彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「男女正，天地之大義也」。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "家是社會的基本單位，家道正則天下定——故事從個人的挫折轉回最根本的人倫關係。",
+       "ssml": "家是社會的基本單位，家道正則天下定，故事從個人的挫折轉回最根本的人倫關係。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 38,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十八卦，火澤睽。",
+       "ssml": "第三十八卦，火澤<phoneme alphabet=\"sapi\" ph=\"kui 2\">睽</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「家道窮必乖，故受之以睽；睽者乖也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「家道窮必乖，故受之以睽；睽者乖也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "家道一旦衰落，家人之間就會離心離德、彼此乖違。",
+       "ssml": "家道一旦衰落，家人之間就會離心離德、彼此乖違。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "家人與睽互為綜卦。",
+       "ssml": "家人與睽互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "睽卦離（火）在上、兌（澤）在下：火往上燒，水往下流，背道而馳；又是中女、少女同居一處，「其志不同行」。",
+       "ssml": "睽卦離（火）在上、兌（澤）在下：火往上燒，水往下流，背道而馳；又是中女、少女同居一處，「其志不同行」。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "但彖傳指出「天地睽而其事同也」——差異之中仍可求同，小事仍然吉。",
+       "ssml": "但彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>指出「天地睽而其事同也」，差異之中仍可求同，小事仍然吉。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 39,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十九卦，水山蹇。",
+       "ssml": "第三十九卦，水山<phoneme alphabet=\"sapi\" ph=\"jian 3\">蹇</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「乖必有難，故受之以蹇；蹇者難也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「乖必有<phoneme alphabet=\"sapi\" ph=\"nan 4\">難</phoneme>，故受之以蹇；蹇者<phoneme alphabet=\"sapi\" ph=\"nan 4\">難</phoneme>也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "人心乖離，必然陷入困境。",
+       "ssml": "人心乖離，必然陷入困境。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「蹇」本義是跛腳、行走艱難。",
+       "ssml": "「蹇」本義是跛腳、行走艱難。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦象坎（險）在前、艮（山）在後——前有大水、後有高山，進退兩難。",
+       "ssml": "卦象坎（險）在前、<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>（山）在後，前有大水、後有高山，進退兩難。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「利見大人」，象傳說「君子以反身修德」：遇到困難時先反省自己，並尋求賢人的幫助。",
+       "ssml": "卦辭「利<phoneme alphabet=\"sapi\" ph=\"jian 4\">見</phoneme>大人」，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以反身修德」：遇到困難時先反省自己，並尋求賢人的幫助。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 40,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十卦，雷水解。",
+       "ssml": "第四十卦，雷水<phoneme alphabet=\"sapi\" ph=\"xie 4\">解</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物不可終難，故受之以解；解者緩也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可終<phoneme alphabet=\"sapi\" ph=\"nan 4\">難</phoneme>，故受之以<phoneme alphabet=\"sapi\" ph=\"xie 4\">解</phoneme>；<phoneme alphabet=\"sapi\" ph=\"xie 4\">解</phoneme>者緩也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "困難不會永遠持續，終將迎來解脫。",
+       "ssml": "困難不會永遠持續，終將迎來解脫。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "蹇與解互為綜卦：蹇是止於險前，解是動而出險——震（雷）在上、坎（雨）在下，雷雨交作，萬物舒展，冬去春來。",
+       "ssml": "蹇與<phoneme alphabet=\"sapi\" ph=\"xie 4\">解</phoneme>互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：蹇是止於險前，<phoneme alphabet=\"sapi\" ph=\"xie 4\">解</phoneme>是動而出險，震（雷）在上、坎（雨）在下，雷雨交作，萬物舒展，冬去春來。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「緩」是緊張後的鬆弛。",
+       "ssml": "「緩」是緊張後的鬆弛。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「无所往，其來復吉；有攸往，夙吉」：危機解除後要及時恢復常態，還有事就要早辦。",
+       "ssml": "卦辭「无所往，其來復吉；有攸往，夙吉」：危機解除後要及時恢復常態，還有事就要早辦。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 41,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十一卦，山澤損。",
+       "ssml": "第四十一卦，山澤<phoneme alphabet=\"sapi\" ph=\"sun 3\">損</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「緩必有所失，故受之以損。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「緩必有所失，故受之以損。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "鬆懈下來，難免有所損失。",
+       "ssml": "鬆懈下來，難免有所損失。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "但損卦的深意在於「損下益上」——下卦原本是乾，減去一陽給上卦，成了兌下艮上。",
+       "ssml": "但損卦的深意在於「損下益上」，下卦原本是<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>，減去一陽<phoneme alphabet=\"sapi\" ph=\"gei 3\">給</phoneme>上卦，成了兌下<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>上。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "有時減少正是必要的：減少忿怒、慾望與浪費，象傳說「君子以懲忿窒欲」。",
+       "ssml": "有時減少正是必要的：減少忿怒、慾望與浪費，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以懲忿窒欲」。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「二簋可用享」：只要心誠，簡樸也足以祭祀。",
+       "ssml": "卦辭「二簋可用享」：只要心誠，簡樸也足以祭祀。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 42,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十二卦，風雷益。",
+       "ssml": "第四十二卦，風雷<phoneme alphabet=\"sapi\" ph=\"yi 4\">益</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「損而不已，必益，故受之以益。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「損而不已，必益，故受之以益。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "減損到了極點，必然轉為增益——損與益互為綜卦，循環往復。",
+       "ssml": "減損到了極點，必然轉為增益，損與益互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦，循環往復。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "益卦是「損上益下」：在上者減損自己來增益百姓，這才是真正的「益」，所以彖傳說「民說无疆」。",
+       "ssml": "益卦是「損上益下」：在上者減損自己來增益百姓，這才是真正的「益」，所以彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「民<phoneme alphabet=\"sapi\" ph=\"yue 4\">說</phoneme>无疆」。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "這是深刻的政治與人生道理：真正的增益來自給予，而非攫取。",
+       "ssml": "這是深刻的政治與人生道理：真正的增益來自給予，而非攫取。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 43,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十三卦，澤天夬。",
+       "ssml": "第四十三卦，澤天<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「益而不已，必決，故受之以夬；夬者決也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「益而不已，必決，故受之以<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>；<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>者決也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "增益不止，就像水位不斷上漲，終會決堤。",
+       "ssml": "增益不止，就像水位不斷上漲，終會決堤。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "夬卦五陽在下、一陰在上，陽氣盛長到極點，要把最後一個陰爻決除——象徵君子去除小人。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>卦五陽在下、一陰在上，陽氣盛<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>到極點，要把最後一個陰爻決除，象徵君子去除小人。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "但卦辭強調「揚于王庭，孚號有厲」：要公開、誠信地處理，而不是以武力取勝（「不利即戎」）。",
+       "ssml": "但卦辭強調「揚于王庭，孚號有厲」：要公開、誠信地處理，而不是以武力取勝（「不利即戎」）。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 44,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十四卦，天風姤。",
+       "ssml": "第四十四卦，天風<phoneme alphabet=\"sapi\" ph=\"gou 4\">姤</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「決必有所遇，故受之以姤；姤者遇也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「決必有所遇，故受之以姤；姤者遇也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "決斷分離之後，必有新的相遇。",
+       "ssml": "決斷分離之後，必有新的相遇。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "夬與姤互為綜卦：夬是最後一陰將被去除，姤則是一陰在最下方重新出現——陰氣回來了，與五陽「不期而遇」。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>與姤互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>是最後一陰將被去除，姤則是一陰在最下方重新出現，陰氣回來了，與五陽「不期而遇」。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "這與剝、復的結構完全對稱，只是陰陽互換。",
+       "ssml": "這與<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>、復的結構完全對稱，只是陰陽互換。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「女壯，勿用取女」，警惕陰柔勢力在細微之處滋長。",
+       "ssml": "卦辭「女壯，勿用取女」，警惕陰柔勢力在細微之處滋長。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 45,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十五卦，澤地萃。",
+       "ssml": "第四十五卦，澤地<phoneme alphabet=\"sapi\" ph=\"cui 4\">萃</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物相遇而后聚，故受之以萃；萃者聚也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物相遇而后聚，故受之以萃；萃者聚也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "相遇之後，便聚集成群。",
+       "ssml": "相遇之後，便聚集成群。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "萃卦兌（澤）在地上，水匯聚成澤；九五、九四兩陽為眾陰所歸。",
+       "ssml": "萃卦兌（澤）在地上，水匯聚成澤；九五、九四兩陽為眾陰所歸。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "聚集需要中心和凝聚力，卦辭「王假有廟」——以宗廟祭祀凝聚人心。",
+       "ssml": "聚集需要中心和凝聚力，卦辭「王假有廟」，以宗廟祭祀凝聚人心。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "象傳提醒「除戎器，戒不虞」：人多的地方易生變亂，要預防意外。",
+       "ssml": "象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>提醒「除戎器，戒不虞」：人多的地方易生變亂，要預防意外。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 46,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十六卦，地風升。",
+       "ssml": "第四十六卦，地風<phoneme alphabet=\"sapi\" ph=\"sheng 1\">升</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「聚而上者，謂之升，故受之以升。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「聚而上者，謂之升，故受之以升。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "聚集起來的力量向上發展，就是上升。",
+       "ssml": "聚集起來的力量向上發展，就是上升。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "萃與升互為綜卦。",
+       "ssml": "萃與升互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "升卦巽（木）在坤（地）下，樹木從地中生長，日日向上，象傳說「君子以順德，積小以高大」。",
+       "ssml": "升卦巽（木）在<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme>（地）下，樹木從地中生長，日日向上，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以順德，積小以高大」。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "這種上升是順勢、漸進的，不靠強力，而是一步一步累積而成。",
+       "ssml": "這種上升是順勢、漸進的，不靠強力，而是一步一步累積而成。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 47,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十七卦，澤水困。",
+       "ssml": "第四十七卦，澤水<phoneme alphabet=\"sapi\" ph=\"kun 4\">困</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「升而不已，必困，故受之以困。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「升而不已，必困，故受之以困。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "一味上升不知止，終將力竭受困。",
+       "ssml": "一味上升不知止，終將力竭受困。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "困卦兌（澤）在上、坎（水）在下——「澤无水」，澤中的水漏到下面去了，乾涸窘迫。",
+       "ssml": "困卦兌（澤）在上、坎（水）在下，「澤无水」，澤中的水漏到下面去了，乾涸窘迫。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "剛爻被陰爻所掩蔽，君子處困。",
+       "ssml": "剛爻被陰爻所掩蔽，君子處困。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "但卦辭說「亨，貞，大人吉」：困境是對人格的考驗；象傳說「君子以致命遂志」，即使付出生命也要實現志向。",
+       "ssml": "但卦辭說「亨，貞，大人吉」：困境是對人格的考驗；象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以致命遂志」，即使付出生命也要實現志向。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 48,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十八卦，水風井。",
+       "ssml": "第四十八卦，水風<phoneme alphabet=\"sapi\" ph=\"jing 3\">井</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「困乎上者，必反下，故受之以井。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「困乎上者，必反下，故受之以井。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "在上面受困、走投無路，就要回到下面、回歸根本。",
+       "ssml": "在上面受困、走投無路，就要回到下面、回歸根本。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "井在地下，向下深挖才有水源。",
+       "ssml": "井在地下，向下深挖才有水源。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "困與井互為綜卦：困是澤中無水，井是取之不盡的水源。",
+       "ssml": "困與井互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：困是澤中無水，井是取之不盡的水源。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「改邑不改井」——城邑可以遷移，井卻一直在那裡供養眾人，象徵恆常的根本與無私的奉獻。",
+       "ssml": "卦辭「改邑不改井」，城邑可以遷移，井卻一直在那裡供養眾人，象徵恆常的根本與無私的奉獻。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 49,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十九卦，澤火革。",
+       "ssml": "第四十九卦，澤火<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「井道不可不革，故受之以革。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「井道不可不<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>，故受之以<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "井用久了，泥沙淤積，必須定期淘洗更新，否則水會污濁。",
+       "ssml": "井用久了，泥沙淤積，必須定期淘洗更新，否則水會污濁。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "由此推廣：任何制度用久了都需要變革。",
+       "ssml": "由此推廣：任何制度用久了都需要變<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "革卦離（火）在下、兌（澤）在上，水火相息，必然產生變化。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>卦離（火）在下、兌（澤）在上，水火相息，必然產生變化。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「革」本義是去毛的獸皮，引申為變革。",
+       "ssml": "「<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>」本義是去毛的獸皮，引申為變<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "彖傳說「湯武革命，順乎天而應乎人」：變革必須順應天時、得到人心，時機成熟（「已日乃孚」）。",
+       "ssml": "彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「湯武<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>命，順乎天而應乎人」：變<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>必須順應天時、得到人心，時機成熟（「已日乃孚」）。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 50,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十卦，火風鼎。",
+       "ssml": "第五十卦，火風<phoneme alphabet=\"sapi\" ph=\"ding 3\">鼎</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「革物者莫若鼎，故受之以鼎。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>物者莫若鼎，故受之以鼎。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "能夠徹底改變事物的，莫過於鼎——生食放進鼎中烹煮，就變成熟食。",
+       "ssml": "能夠徹底改變事物的，莫過於鼎，生食放進鼎中烹煮，就變成熟食。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "革與鼎互為綜卦：革是去故，鼎是取新。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>與鼎互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>是去故，鼎是取新。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "鼎又是國家的重器、權力的象徵，變革之後要建立新的秩序，象傳說「君子以正位凝命」。",
+       "ssml": "鼎又是國家的重器、權力的象徵，變<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>之後要建立新的秩序，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以正位凝命」。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦形本身就像一隻鼎：初爻為足，二三四為腹，五為耳，上為鉉。",
+       "ssml": "卦形本身就像一隻鼎：初爻為足，二三四為腹，五為耳，上為鉉。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 51,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十一卦，震為雷。",
+       "ssml": "第五十一卦，<phoneme alphabet=\"sapi\" ph=\"zhen 4\">震</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>雷。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「主器者莫若長子，故受之以震；震者動也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「主器者莫若<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>子，故受之以震；震者動也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "鼎是祭祀的重器，主持祭祀、繼承重器的是長子。",
+       "ssml": "鼎是祭祀的重器，主持祭祀、繼承重器的是<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>子。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "震在八卦中代表長男，所以鼎之後是震。",
+       "ssml": "震在八卦中代表<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>男，所以鼎之後是震。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "震為雷，上下皆雷，雷聲震動，令人驚懼。",
+       "ssml": "震<phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>雷，上下皆雷，雷聲震動，令人驚懼。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「震來虩虩，笑言啞啞」：雷聲來時令人恐懼戒慎，因戒慎而無過失，事後便能談笑自若——象傳說「君子以恐懼修省」。",
+       "ssml": "卦辭「震來虩虩，笑言啞啞」：雷聲來時令人恐懼戒慎，因戒慎而無過失，事後便能談笑自若，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以恐懼修省」。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 52,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十二卦，艮為山。",
+       "ssml": "第五十二卦，<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>山。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物不可以終動，止之，故受之以艮；艮者止也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以終動，止之，故受之以<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>；<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>者止也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "運動不能永無休止，動極則靜。",
+       "ssml": "運動不能永無休止，動極則靜。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "震與艮互為綜卦：震是一陽在下奮動，艮是一陽在上而止。",
+       "ssml": "震與<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦：震是一陽在下奮動，<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>是一陽在上而止。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "艮為山，兩山重疊，安然不動。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>山，兩山重疊，安然不動。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "艮的「止」是彖傳所說「時止則止，時行則行」，知道該停在哪裡；象傳說「君子以思不出其位」。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>的「止」是彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>所說「時止則止，時行則行」，知道該停在哪裡；象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以思不出其位」。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "宋明儒者特別重視此卦的修養意義。",
+       "ssml": "宋明儒者特別重視此卦的修養意義。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 53,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十三卦，風山漸。",
+       "ssml": "第五十三卦，風山<phoneme alphabet=\"sapi\" ph=\"jian 4\">漸</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物不可以終止，故受之以漸；漸者進也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以終止，故受之以漸；漸者進也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "靜止之後又要前進，但這次是循序漸進。",
+       "ssml": "靜止之後又要前進，但這次是循序漸進。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "漸卦巽（木）在艮（山）上，山上的樹木慢慢長高。",
+       "ssml": "漸卦巽（木）在<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>（山）上，山上的樹木慢慢長高。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「女歸吉」，以女子出嫁要依禮按步驟進行來比喻漸進之道；六爻都以鴻雁為象，從水邊、磐石、陸地、樹木、山陵一步步升高。",
+       "ssml": "卦辭「女歸吉」，以女子出嫁要依禮按步驟進行來比喻漸進之道；六爻都以鴻雁為象，從水邊、磐石、陸地、樹木、山陵一步步升高。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "這和晉卦的「進」不同，漸強調次序與耐心。",
+       "ssml": "這和晉卦的「進」不同，漸強調次序與耐心。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 54,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十四卦，雷澤歸妹。",
+       "ssml": "第五十四卦，雷澤<phoneme alphabet=\"sapi\" ph=\"gui 1\">歸</phoneme><phoneme alphabet=\"sapi\" ph=\"mei 4\">妹</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「進必有所歸，故受之以歸妹。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「進必有所歸，故受之以歸妹。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "前進總要有個歸宿。",
+       "ssml": "前進總要有個歸宿。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「歸」是女子出嫁，「妹」是少女。",
+       "ssml": "「歸」是女子出嫁，「妹」是少女。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "漸與歸妹互為綜卦，也互為錯卦：漸是依禮漸進的婚姻；歸妹則是少女（兌）主動追隨長男（震），以悅而動，不依常禮，所以卦辭說「征凶，无攸利」。",
+       "ssml": "漸與歸妹互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦，也互為錯卦：漸是依禮漸進的婚姻；歸妹則是少女（兌）主動追隨<phoneme alphabet=\"sapi\" ph=\"zhang 3\">長</phoneme>男（震），以悅而動，不依常禮，所以卦辭說「征凶，无攸利」。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "它提醒人：急於找到歸宿而不循正道，往往有始無終——象傳說「君子以永終知敝」。",
+       "ssml": "它提醒人：急於找到歸宿而不循正道，往往有始無終，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以永終知敝」。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 55,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十五卦，雷火豐。",
+       "ssml": "第五十五卦，雷火<phoneme alphabet=\"sapi\" ph=\"feng 1\">豐</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「得其所歸者必大，故受之以豐；豐者大也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「得其所歸者必大，故受之以豐；豐者大也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "找到合適的歸宿，便能興旺壯大。",
+       "ssml": "找到合適的歸宿，便能興旺壯大。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "豐卦震（雷）在上、離（電）在下，雷電交作，聲光盛大。",
+       "ssml": "豐卦震（雷）在上、離（電）在下，雷電交作，聲光盛大。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「王假之，勿憂，宜日中」——到了鼎盛之時，如同正午的太陽。",
+       "ssml": "卦辭「王假之，勿憂，宜日中」，到了鼎盛之時，如同正午的太陽。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "但彖傳立即提醒「日中則昃，月盈則食」：豐盛的頂點，也就是衰落的開始。",
+       "ssml": "但彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>立即提醒「日中則昃，月盈則食」：豐盛的頂點，也就是衰落的開始。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 56,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十六卦，火山旅。",
+       "ssml": "第五十六卦，火山旅。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「窮大者必失其居，故受之以旅。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「窮大者必失其居，故受之以旅。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "盛大到了極點而不知收斂，必然失去安身之所，流落他鄉。",
+       "ssml": "盛大到了極點而不知收斂，必然失去安身之所，流落他鄉。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "豐與旅互為綜卦。",
+       "ssml": "豐與旅互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "旅卦離（火）在艮（山）上，山上的火燒過即走、不能久留，如同旅人。",
+       "ssml": "旅卦離（火）在<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme>（山）上，山上的火燒過即走、不能久留，如同旅人。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "羈旅在外，處處受限，卦辭說「小亨，旅貞吉」：客居他鄉，要謙和柔順、守正自持。",
+       "ssml": "羈旅在外，處處受限，卦辭說「小亨，旅貞吉」：客居他鄉，要謙和柔順、守正自持。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 57,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十七卦，巽為風。",
+       "ssml": "第五十七卦，<phoneme alphabet=\"sapi\" ph=\"xun 4\">巽</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>風。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「旅而無所容，故受之以巽；巽者入也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「旅而無所容，故受之以巽；巽者入也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "旅人無處容身，只有謙遜柔順，才能被接納、進入。",
+       "ssml": "旅人無處容身，只有謙遜柔順，才能被接納、進入。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "巽為風，風無孔不入；上下皆巽，柔順至極。",
+       "ssml": "巽<phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>風，風無孔不入；上下皆巽，柔順至極。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "巽卦的「入」，是以柔順謙遜的態度深入人心；象傳說「君子以申命行事」——如風之吹拂，反覆申明，使政令深入人心。",
+       "ssml": "巽卦的「入」，是以柔順謙遜的態度深入人心；象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以申命行事」，如風之吹拂，反覆申明，使政令深入人心。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 58,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十八卦，兌為澤。",
+       "ssml": "第五十八卦，<phoneme alphabet=\"sapi\" ph=\"dui 4\">兌</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>澤。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「入而后說之，故受之以兌；兌者說也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「入而后<phoneme alphabet=\"sapi\" ph=\"yue 4\">說</phoneme>之，故受之以兌；兌者<phoneme alphabet=\"sapi\" ph=\"yue 4\">說</phoneme>也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "被接納、融入之後，人與人之間便有了喜悅（「說」即「悅」）。",
+       "ssml": "被接納、融入之後，人與人之間便有了喜悅（「<phoneme alphabet=\"sapi\" ph=\"yue 4\">說</phoneme>」即「悅」）。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "巽與兌互為綜卦。",
+       "ssml": "巽與兌互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "兌為澤，兩澤相連，互相滋潤，象傳說「君子以朋友講習」——朋友之間互相切磋，是最大的快樂。",
+       "ssml": "兌<phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>澤，兩澤相連，互相滋潤，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「君子以朋友講習」，朋友之間互相切磋，是最大的快樂。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "彖傳強調喜悅要「剛中而柔外」：以誠信為內核，而不是諂媚取悅。",
+       "ssml": "彖<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>強調喜悅要「剛中而柔外」：以誠信為內核，而不是諂媚取悅。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 59,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十九卦，風水渙。",
+       "ssml": "第五十九卦，風水<phoneme alphabet=\"sapi\" ph=\"huan 4\">渙</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「說而后散之，故受之以渙；渙者離也。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「<phoneme alphabet=\"sapi\" ph=\"yue 4\">說</phoneme>而后散之，故受之以渙；渙者離也。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "喜悅使人心舒展、鬆散開來，到頭來便會渙散離析。",
+       "ssml": "喜悅使人心舒展、鬆散開來，到頭來便會渙散離析。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "渙卦巽（風）行坎（水）上，風吹水面，波紋四散。",
+       "ssml": "渙卦巽（風）行坎（水）上，風吹水面，波紋四散。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "但渙散也有積極的一面：化解鬱結、消散險難。",
+       "ssml": "但渙散也有積極的一面：化解鬱結、消散險<phoneme alphabet=\"sapi\" ph=\"nan 4\">難</phoneme>。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「王假有廟，利涉大川」——人心離散之時，要以宗廟祭祀重新凝聚，共同渡過大川。",
+       "ssml": "卦辭「王假有廟，利涉大川」，人心離散之時，要以宗廟祭祀重新凝聚，共同渡過大川。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 60,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十卦，水澤節。",
+       "ssml": "第六十卦，水澤<phoneme alphabet=\"sapi\" ph=\"jie 2\">節</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物不可以終離，故受之以節。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可以終離，故受之以節。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "渙散不能沒有止境，必須加以節制。",
+       "ssml": "渙散不能沒有止境，必須加以節制。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "渙與節互為綜卦。",
+       "ssml": "渙與節互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "節卦坎（水）在兌（澤）上，澤容水有限，滿則溢出，所以要有節度。",
+       "ssml": "節卦坎（水）在兌（澤）上，澤容水有限，滿則溢出，所以要有節度。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「節」本是竹節，一段一段有分寸。",
+       "ssml": "「節」本是竹節，一段一段有分寸。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭也提醒「苦節不可貞」——節制過度，令人痛苦，也不能長久，貴在適中。",
+       "ssml": "卦辭也提醒「苦節不可貞」，節制過度，令人痛苦，也不能長久，貴在適中。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 61,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十一卦，風澤中孚。",
+       "ssml": "第六十一卦，風澤<phoneme alphabet=\"sapi\" ph=\"zhong 1\">中</phoneme><phoneme alphabet=\"sapi\" ph=\"fu 2\">孚</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「節而信之，故受之以中孚。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「節而信之，故受之以<phoneme alphabet=\"sapi\" ph=\"zhong 1\">中</phoneme>孚。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "有了節度，人們便能相互信任。",
+       "ssml": "有了節度，人們便能相互信任。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「中孚」是內心誠信。",
+       "ssml": "「<phoneme alphabet=\"sapi\" ph=\"zhong 1\">中</phoneme>孚」是內心誠信。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦形兩陰在中、四陽在外，中虛象徵心中無私；九二、九五兩陽又各居上下卦之中，象徵中心誠實。",
+       "ssml": "卦形兩陰在中、四陽在外，中虛象徵心中無私；九二、九五兩陽又各居上下卦之中，象徵中心誠實。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「豚魚吉」：誠信感化的力量，甚至能及於豬和魚。",
+       "ssml": "卦辭「豚魚吉」：誠信感化的力量，甚至能及於豬和魚。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "中孚與小過是一對錯卦。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"zhong 1\">中</phoneme>孚與小過是一對錯卦。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 62,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十二卦，雷山小過。",
+       "ssml": "第六十二卦，雷山<phoneme alphabet=\"sapi\" ph=\"xiao 3\">小</phoneme><phoneme alphabet=\"sapi\" ph=\"guo 4\">過</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「有其信者，必行之，故受之以小過。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有其信者，必行之，故受之以小過。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "有了誠信，必定付諸行動；而行動難免有所過度。",
+       "ssml": "有了誠信，必定付諸行動；而行動難免有所過度。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "小過是「小的過度」——四陰在外、二陽在內，陰柔稍過於陽剛。",
+       "ssml": "小過是「小的過度」，四陰在外、二陽在內，陰柔稍過於陽剛。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "卦辭「可小事，不可大事。飛鳥遺之音，不宜上，宜下」：小事上稍稍過分無妨，象傳說「行過乎恭，喪過乎哀，用過乎儉」，但不宜好高騖遠。",
+       "ssml": "卦辭「可小事，不可大事。飛鳥遺之音，不宜上，宜下」：小事上稍稍過分無妨，象<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說「行過乎恭，喪過乎哀，用過乎儉」，但不宜好高騖遠。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 63,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十三卦，水火既濟。",
+       "ssml": "第六十三卦，水火<phoneme alphabet=\"sapi\" ph=\"ji 4\">既</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「有過物者，必濟，故受之既濟。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「有過物者，必<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>，故受之既<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "能夠超越常人、有所作為的人，必然能成就事業。",
+       "ssml": "能夠超越常人、有所作為的人，必然能成就事業。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "「濟」是渡河，引申為成功。",
+       "ssml": "「<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>」是渡河，引申為成功。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "既濟卦六爻陰陽各得其位（陽爻在奇數位、陰爻在偶數位），是六十四卦中唯一完全「當位」的卦，代表一切都已完成。",
+       "ssml": "既<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>卦六爻陰陽各得其位（陽爻在奇數位、陰爻在偶數位），是六十四卦中唯一完全「當位」的卦，代表一切都已完成。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "但卦辭說「初吉終亂」：完成之時，就是混亂的開始，守成比創業更難。",
+       "ssml": "但卦辭說「初吉終亂」：完成之時，就是混亂的開始，守成比創業更難。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "（序卦原文此句作「故受之既濟」，比其他句子少一個「以」字。）",
+       "ssml": "（序卦原文此句作「故受之既<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>」，比其他句子少一個「以」字。）",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 64,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十四卦，火水未濟。",
+       "ssml": "第六十四卦，火水<phoneme alphabet=\"sapi\" ph=\"wei 4\">未</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
+       "pause": 0.9
+      },
+      {
+       "role": "quote",
+       "text": "序卦傳說：「物不可窮也，故受之以未濟；終焉。」",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>說：「物不可窮也，故受之以未<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>；終焉。」",
+       "pause": 1
+      },
+      {
+       "role": "read",
+       "text": "事物不可能有窮盡的時候，所以六十四卦不以「既濟」（已完成）作結，而以「未濟」（尚未完成）收尾。",
+       "ssml": "事物不可能有窮盡的時候，所以六十四卦不以「既<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>」（已完成）作結，而以「未<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>」（尚未完成）收尾。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "既濟與未濟互為綜卦，也互為錯卦：未濟六爻皆不當位，一切又重新開始。",
+       "ssml": "既<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>與未<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>互為<phoneme alphabet=\"sapi\" ph=\"zong 1\">綜</phoneme>卦，也互為錯卦：未<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>六爻皆不當位，一切又重新開始。",
+       "pause": 0.35
+      },
+      {
+       "role": "read",
+       "text": "這是整個卦序最深刻的一筆——宇宙與人生永遠在途中，結束即是新的開端。",
+       "ssml": "這是整個卦序最深刻的一筆，宇宙與人生永遠在途中，結束即是新的開端。",
+       "pause": 0.9
+      },
+      {
+       "role": "outro",
+       "text": "六十四卦到此讀完。",
+       "ssml": "六十四卦到此讀完。",
+       "pause": 0.4
+      },
+      {
+       "role": "outro",
+       "text": "序卦傳以「終焉」二字作結，卦序卻停在「未濟」，也就是尚未完成。",
+       "ssml": "序卦<phoneme alphabet=\"sapi\" ph=\"zhuan 4\">傳</phoneme>以「終焉」二字作結，卦序卻停在「未<phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>」，也就是尚未完成。",
+       "pause": 0.4
+      },
+      {
+       "role": "outro",
+       "text": "終點也是起點，下一輪又從第一卦乾開始。",
+       "ssml": "終點也是起點，下一輪又從第一卦<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme>開始。",
+       "pause": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "names",
+   "titleZh": "六十四卦卦名",
+   "titleEn": "The 64 Names",
+   "gap": 0.8,
+   "chapters": [
+    {
+     "n": 1,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第一卦，乾為天。",
+       "ssml": "第一卦，<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>天。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二卦，坤為地。",
+       "ssml": "第二卦，<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>地。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三卦，水雷屯。",
+       "ssml": "第三卦，水雷<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四卦，山水蒙。",
+       "ssml": "第四卦，山水<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五卦，水天需。",
+       "ssml": "第五卦，水天<phoneme alphabet=\"sapi\" ph=\"xu 1\">需</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六卦，天水訟。",
+       "ssml": "第六卦，天水<phoneme alphabet=\"sapi\" ph=\"song 4\">訟</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第七卦，地水師。",
+       "ssml": "第七卦，地水<phoneme alphabet=\"sapi\" ph=\"shi 1\">師</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第八卦，水地比。",
+       "ssml": "第八卦，水地<phoneme alphabet=\"sapi\" ph=\"bi 3\">比</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第九卦，風天小畜。",
+       "ssml": "第九卦，風天<phoneme alphabet=\"sapi\" ph=\"xiao 3\">小</phoneme><phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十卦，天澤履。",
+       "ssml": "第十卦，天澤履。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十一卦，地天泰。",
+       "ssml": "第十一卦，地天<phoneme alphabet=\"sapi\" ph=\"tai 4\">泰</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十二卦，天地否。",
+       "ssml": "第十二卦，天地<phoneme alphabet=\"sapi\" ph=\"pi 3\">否</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 13,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十三卦，天火同人。",
+       "ssml": "第十三卦，天火<phoneme alphabet=\"sapi\" ph=\"tong 2\">同</phoneme><phoneme alphabet=\"sapi\" ph=\"ren 2\">人</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 14,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十四卦，火天大有。",
+       "ssml": "第十四卦，火天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 15,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十五卦，地山謙。",
+       "ssml": "第十五卦，地山<phoneme alphabet=\"sapi\" ph=\"qian 1\">謙</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 16,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十六卦，雷地豫。",
+       "ssml": "第十六卦，雷地<phoneme alphabet=\"sapi\" ph=\"yu 4\">豫</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 17,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十七卦，澤雷隨。",
+       "ssml": "第十七卦，澤雷<phoneme alphabet=\"sapi\" ph=\"sui 2\">隨</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 18,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十八卦，山風蠱。",
+       "ssml": "第十八卦，山風<phoneme alphabet=\"sapi\" ph=\"gu 3\">蠱</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 19,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十九卦，地澤臨。",
+       "ssml": "第十九卦，地澤<phoneme alphabet=\"sapi\" ph=\"lin 2\">臨</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 20,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十卦，風地觀。",
+       "ssml": "第二十卦，風地<phoneme alphabet=\"sapi\" ph=\"guan 1\">觀</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 21,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十一卦，火雷噬嗑。",
+       "ssml": "第二十一卦，火雷<phoneme alphabet=\"sapi\" ph=\"shi 4\">噬</phoneme><phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 22,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十二卦，山火賁。",
+       "ssml": "第二十二卦，山火<phoneme alphabet=\"sapi\" ph=\"bi 4\">賁</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 23,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十三卦，山地剝。",
+       "ssml": "第二十三卦，山地<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 24,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十四卦，地雷復。",
+       "ssml": "第二十四卦，地雷<phoneme alphabet=\"sapi\" ph=\"fu 4\">復</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 25,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十五卦，天雷无妄。",
+       "ssml": "第二十五卦，天雷<phoneme alphabet=\"sapi\" ph=\"wu 2\">无</phoneme><phoneme alphabet=\"sapi\" ph=\"wang 4\">妄</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 26,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十六卦，山天大畜。",
+       "ssml": "第二十六卦，山天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 27,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十七卦，山雷頤。",
+       "ssml": "第二十七卦，山雷<phoneme alphabet=\"sapi\" ph=\"yi 2\">頤</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 28,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十八卦，澤風大過。",
+       "ssml": "第二十八卦，澤風<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"guo 4\">過</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 29,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十九卦，坎為水。",
+       "ssml": "第二十九卦，<phoneme alphabet=\"sapi\" ph=\"kan 3\">坎</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>水。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 30,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十卦，離為火。",
+       "ssml": "第三十卦，<phoneme alphabet=\"sapi\" ph=\"li 2\">離</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>火。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 31,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十一卦，澤山咸。",
+       "ssml": "第三十一卦，澤山<phoneme alphabet=\"sapi\" ph=\"xian 2\">咸</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 32,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十二卦，雷風恆。",
+       "ssml": "第三十二卦，雷風<phoneme alphabet=\"sapi\" ph=\"heng 2\">恆</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 33,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十三卦，天山遯。",
+       "ssml": "第三十三卦，天山<phoneme alphabet=\"sapi\" ph=\"dun 4\">遯</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 34,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十四卦，雷天大壯。",
+       "ssml": "第三十四卦，雷天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"zhuang 4\">壯</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 35,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十五卦，火地晉。",
+       "ssml": "第三十五卦，火地<phoneme alphabet=\"sapi\" ph=\"jin 4\">晉</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 36,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十六卦，地火明夷。",
+       "ssml": "第三十六卦，地火<phoneme alphabet=\"sapi\" ph=\"ming 2\">明</phoneme><phoneme alphabet=\"sapi\" ph=\"yi 2\">夷</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 37,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十七卦，風火家人。",
+       "ssml": "第三十七卦，風火<phoneme alphabet=\"sapi\" ph=\"jia 1\">家</phoneme><phoneme alphabet=\"sapi\" ph=\"ren 2\">人</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 38,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十八卦，火澤睽。",
+       "ssml": "第三十八卦，火澤<phoneme alphabet=\"sapi\" ph=\"kui 2\">睽</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 39,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十九卦，水山蹇。",
+       "ssml": "第三十九卦，水山<phoneme alphabet=\"sapi\" ph=\"jian 3\">蹇</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 40,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十卦，雷水解。",
+       "ssml": "第四十卦，雷水<phoneme alphabet=\"sapi\" ph=\"xie 4\">解</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 41,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十一卦，山澤損。",
+       "ssml": "第四十一卦，山澤<phoneme alphabet=\"sapi\" ph=\"sun 3\">損</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 42,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十二卦，風雷益。",
+       "ssml": "第四十二卦，風雷<phoneme alphabet=\"sapi\" ph=\"yi 4\">益</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 43,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十三卦，澤天夬。",
+       "ssml": "第四十三卦，澤天<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 44,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十四卦，天風姤。",
+       "ssml": "第四十四卦，天風<phoneme alphabet=\"sapi\" ph=\"gou 4\">姤</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 45,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十五卦，澤地萃。",
+       "ssml": "第四十五卦，澤地<phoneme alphabet=\"sapi\" ph=\"cui 4\">萃</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 46,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十六卦，地風升。",
+       "ssml": "第四十六卦，地風<phoneme alphabet=\"sapi\" ph=\"sheng 1\">升</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 47,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十七卦，澤水困。",
+       "ssml": "第四十七卦，澤水<phoneme alphabet=\"sapi\" ph=\"kun 4\">困</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 48,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十八卦，水風井。",
+       "ssml": "第四十八卦，水風<phoneme alphabet=\"sapi\" ph=\"jing 3\">井</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 49,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十九卦，澤火革。",
+       "ssml": "第四十九卦，澤火<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 50,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十卦，火風鼎。",
+       "ssml": "第五十卦，火風<phoneme alphabet=\"sapi\" ph=\"ding 3\">鼎</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 51,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十一卦，震為雷。",
+       "ssml": "第五十一卦，<phoneme alphabet=\"sapi\" ph=\"zhen 4\">震</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>雷。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 52,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十二卦，艮為山。",
+       "ssml": "第五十二卦，<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>山。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 53,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十三卦，風山漸。",
+       "ssml": "第五十三卦，風山<phoneme alphabet=\"sapi\" ph=\"jian 4\">漸</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 54,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十四卦，雷澤歸妹。",
+       "ssml": "第五十四卦，雷澤<phoneme alphabet=\"sapi\" ph=\"gui 1\">歸</phoneme><phoneme alphabet=\"sapi\" ph=\"mei 4\">妹</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 55,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十五卦，雷火豐。",
+       "ssml": "第五十五卦，雷火<phoneme alphabet=\"sapi\" ph=\"feng 1\">豐</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 56,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十六卦，火山旅。",
+       "ssml": "第五十六卦，火山旅。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 57,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十七卦，巽為風。",
+       "ssml": "第五十七卦，<phoneme alphabet=\"sapi\" ph=\"xun 4\">巽</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>風。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 58,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十八卦，兌為澤。",
+       "ssml": "第五十八卦，<phoneme alphabet=\"sapi\" ph=\"dui 4\">兌</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>澤。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 59,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十九卦，風水渙。",
+       "ssml": "第五十九卦，風水<phoneme alphabet=\"sapi\" ph=\"huan 4\">渙</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 60,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十卦，水澤節。",
+       "ssml": "第六十卦，水澤<phoneme alphabet=\"sapi\" ph=\"jie 2\">節</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 61,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十一卦，風澤中孚。",
+       "ssml": "第六十一卦，風澤<phoneme alphabet=\"sapi\" ph=\"zhong 1\">中</phoneme><phoneme alphabet=\"sapi\" ph=\"fu 2\">孚</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 62,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十二卦，雷山小過。",
+       "ssml": "第六十二卦，雷山<phoneme alphabet=\"sapi\" ph=\"xiao 3\">小</phoneme><phoneme alphabet=\"sapi\" ph=\"guo 4\">過</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 63,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十三卦，水火既濟。",
+       "ssml": "第六十三卦，水火<phoneme alphabet=\"sapi\" ph=\"ji 4\">既</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 64,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十四卦，火水未濟。",
+       "ssml": "第六十四卦，火水<phoneme alphabet=\"sapi\" ph=\"wei 4\">未</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
+       "pause": 0
+      }
+     ]
     }
    ]
   }

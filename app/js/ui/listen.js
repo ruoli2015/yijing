@@ -3,7 +3,7 @@
 import { html, useState, useEffect } from '../../vendor/preact.js';
 import * as player from '../audiobook.js';
 import { hex, numZh } from '../hex.js';
-import { HexSvg, Bi, L, useEn } from './common.js';
+import { HexSvg, Bi, L, Segmented, useEn } from './common.js';
 
 export function usePlayer() {
   const [, setTick] = useState(0);
@@ -47,12 +47,12 @@ function blocks(cues) {
 function Transcript({ ch, cue, book }) {
   const en = useEn();
   const n = ch.n;
-  const to = n > 0 && n < 64 ? hex(n + 1) : null;
+  const h = n > 0 ? hex(n) : null; // each chapter explains how its own hexagram follows the one before
   const line = ([c, k]) => html`<span class=${`cue${k === cue ? ' on' : ''}`} onClick=${() => player.seek(c.start)}>${c.text}</span>`;
   const english = (role, items) => {
     if (!en) return null;
-    if (role === 'quote') return to?.xugua.en;
-    if (role === 'read') return to?.logicEn;
+    if (role === 'quote') return h?.xugua.en;
+    if (role === 'read') return h?.logicEn;
     if (role === 'intro') return book.introEn;
     if (role === 'outro') return book.outroEn;
     return items[0][0].en || null;
@@ -72,7 +72,8 @@ function Transcript({ ch, cue, book }) {
 export function Listen() {
   const s = usePlayer();
   const en = useEn();
-  const book = player.manifest();
+  const all = player.manifest();
+  const book = player.current();
 
   // While playing, keep the sentence being read clear of the header and the player bar.
   useEffect(() => {
@@ -84,7 +85,7 @@ export function Listen() {
     if (r.bottom > bottom || r.top < 70) window.scrollBy({ top: r.top - Math.max(90, bottom / 3), behavior: 'smooth' });
   }, [s.chapter, s.cue]);
 
-  if (!book) {
+  if (!all || !book) {
     return html`<div class="page listen"><div class="card">
       <h1>聽卦序 <small>The Sequence, Read Aloud</small></h1>
       <p class="muted">${s.error ? `無法載入 Could not load: ${s.error}` : '載入中… Loading…'}</p>
@@ -93,13 +94,18 @@ export function Listen() {
 
   const ch = book.chapters[s.chapter];
   const h = ch.n > 0 ? hex(ch.n) : null;
-  const minutes = Math.round(book.duration / 60);
+  const [full, names] = all.books;
+  const minutes = Math.round(full.duration / 60);
 
   return html`<div class="page listen">
     <div class="card listen-intro">
       <h1>聽卦序 <small>The Sequence, Read Aloud</small></h1>
-      <${Bi} zh=${`六十四卦依序朗讀：每一卦讀出卦序與卦名，引《序卦傳》說明為什麼接下一卦，附上今解。全長約 ${minutes} 分鐘。`}
-        en=${`All sixty-four hexagrams read in order: each one's number and name, the Xugua sentence leading to the next, and the modern reading. About ${minutes} minutes.`} />
+      <${Bi} zh=${`六十四卦依序朗讀：每一卦讀出卦序與卦名，引《序卦傳》說明它為什麼接在前一卦之後，附上今解。全長約 ${minutes} 分鐘。另有只讀卦名的短版，約 ${Math.round(names.duration / 60)} 分鐘，方便背誦卦序。`}
+        en=${`All sixty-four hexagrams read in order: each one's number and name, the Xugua sentence explaining why it follows the one before, and the modern reading. About ${minutes} minutes. A short version reads only the names (${Math.round(names.duration / 60)} minutes), for memorizing the order.`} />
+      <${Segmented} value=${s.book} onChange=${player.setBook} options=${all.books.map((b) => ({
+        value: b.id,
+        label: html`${b.id === 'full' ? '完整版' : '只讀卦名'}${en ? html` <small>${b.id === 'full' ? 'Full' : 'Names only'}</small>` : null}`,
+      }))} />
     </div>
 
     <section class="card now">
@@ -108,8 +114,9 @@ export function Listen() {
           ? html`<a href=${`#/h/${h.n}`} class="now-fig"><${HexSvg} lines=${h.lines} size=${56} /></a>
             <div><div class="now-num">第${numZh(h.n)}卦 <small>No. ${h.n}</small></div>
               <a class="now-name" href=${`#/h/${h.n}`}>${h.full}</a>${en ? html` <small class="muted">${h.en}</small>` : null}</div>`
-          : html`<div><div class="now-num">開場 <small>Introduction</small></div><div class="now-name">${book.titleZh}</div></div>`}
+          : html`<div><div class="now-num">開場 <small>Introduction</small></div><div class="now-name">${full.titleZh}</div></div>`}
       </div>
+      ${book.id === 'names' ? html`<p class="muted small">${book.titleZh} · ${book.titleEn}</p>` : null}
       <${Transcript} ch=${ch} cue=${s.cue} book=${book} />
       ${s.error ? html`<p class="bad small">${s.error}</p>` : null}
     </section>
@@ -117,7 +124,7 @@ export function Listen() {
     <div class="player-bar card">
       <input type="range" class="scrub" min="0" max=${Math.floor(book.duration)} step="1" value=${s.t}
         onInput=${(e) => player.seek(Number(e.target.value))} aria-label="position" />
-      <div class="times"><span>${clock(s.t)}</span><span class="muted">${player.chapterTitle(s.chapter)}</span><span>-${clock(book.duration - s.t)}</span></div>
+      <div class="times"><span>${clock(s.t)}</span><span class="muted">${player.chapterTitle(s.n)}</span><span>-${clock(book.duration - s.t)}</span></div>
       <div class="controls">
         <button type="button" class="speed" onClick=${() => player.setRate(player.RATES[(player.RATES.indexOf(s.rate) + 1) % player.RATES.length])} aria-label="speed">${s.rate}×</button>
         <button type="button" onClick=${player.prev} aria-label="previous hexagram"><${Icon} d=${ICON.prev} /></button>
@@ -133,15 +140,17 @@ export function Listen() {
     <section class="card">
       <h2><${L} zh="章節" en="Chapters" /></h2>
       <div class="ch-grid">
-        <button type="button" class=${`ch-tile ch-intro${s.chapter === 0 ? ' on' : ''}`} onClick=${() => player.playChapter(0)}>開場</button>
-        ${book.chapters.slice(1).map((c) => {
+        ${book.chapters[0].n === 0
+          ? html`<button type="button" class=${`ch-tile ch-intro${s.n === 0 ? ' on' : ''}`} onClick=${() => player.playChapter(0)}>開場</button>`
+          : null}
+        ${book.chapters.filter((c) => c.n > 0).map((c) => {
           const x = hex(c.n);
-          return html`<button type="button" class=${`ch-tile${s.chapter === c.n ? ' on' : ''}`} onClick=${() => player.playChapter(c.n)} aria-label=${player.chapterTitle(c.n)}>
+          return html`<button type="button" class=${`ch-tile${s.n === c.n ? ' on' : ''}`} onClick=${() => player.playChapter(c.n)} aria-label=${player.chapterTitle(c.n)}>
             <span class="tile-num">${c.n}</span><${HexSvg} lines=${x.lines} size=${26} /><span class="tile-name">${x.name}</span>
           </button>`;
         })}
       </div>
-      <p class="muted small">${book.voice.includes('Yunyi') ? 'Azure 雲逸 Yunyi' : book.voice} · 音檔需要網路 · audio streams online</p>
+      <p class="muted small">${all.voice.includes('Yunyi') ? 'Azure 雲逸 Yunyi' : all.voice} · 音檔需要網路 · audio streams online</p>
     </section>
   </div>`;
 }
@@ -150,7 +159,7 @@ export function Listen() {
 export function MiniPlayer() {
   const s = usePlayer();
   if (!s.started || !player.manifest()) return null;
-  const n = s.chapter;
+  const n = s.n;
   return html`<div class="mini-player">
     <a href="#/listen" class="mini-info">
       ${n > 0 ? html`<${HexSvg} lines=${hex(n).lines} size=${24} />` : null}
@@ -165,7 +174,7 @@ export function MiniPlayer() {
 export function ListenFrom({ n }) {
   const s = usePlayer();
   if (!player.manifest()) return null;
-  const here = s.chapter === n && s.playing;
+  const here = s.n === n && s.playing;
   return html`<button type="button" class="listen-from" onClick=${() => {
     if (!here) player.playChapter(n);
     location.hash = '#/listen';

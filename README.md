@@ -9,7 +9,7 @@ A web app for learning the 64 hexagrams of the 周易 and the logic of their ord
 - **六十四卦 Browse:** grid, pairs or trigram table. Search by name, pinyin, number, or by tapping in the lines you remember.
 - **Hexagram pages:** 序卦傳 in and out with modern bilingual explanations, plus 卦辭, 彖傳, 大象 and 爻辭 with 小象.
 - **卦序之理 Logic of the order:** essays, 朱熹's rhyme, and the whole chain in 17 stages.
-- **聽卦序 Listen:** an audiobook of all 64 in order: number and name, the 序卦傳 sentence leading to the next, and the modern reading. The transcript follows along, and it keeps playing while you browse or with the screen locked.
+- **聽卦序 Listen:** an audiobook of all 64 in order: number and name, the 序卦傳 sentence explaining why it follows the one before, and the modern reading. A short version reads only the 64 names, for memorizing the order. The transcript follows along, and it keeps playing while you browse or with the screen locked.
 - **占卦 Divination:** three-coin cast read by 朱熹's rules, with a journal.
 - Works offline (except the audiobook, which streams). Add it to your home screen on iPhone (Safari → Share → Add to Home Screen) or Android (Chrome → Install app).
 
@@ -31,7 +31,7 @@ pronunciation rules that pin polyphonic readings (屯 zhūn, 否 pǐ, 說 yuè�
 ```sh
 # once: .env with AZURE_SPEECH_KEY=… and AZURE_SPEECH_REGION=… (gitignored)
 # Python env with numpy soundfile requests lameenc (the one from sanskrit-buddhist-terms works)
-~/.cache/sbt-tts/env/bin/python scripts/audiobook/make.py   # → app/audio/xugua.mp3 + app/data/audiobook.json
+~/.cache/sbt-tts/env/bin/python scripts/audiobook/make.py   # → app/audio/{full,names}.mp3 + app/data/audiobook.json
 npm run build && npm test
 ```
 

@@ -180,8 +180,8 @@ console.log(`✓ wrote app/data/yijing.json (version ${version})`);
   try {
     recorded = JSON.parse(readFileSync(join(APP, 'data', 'audiobook.json'), 'utf8')).script;
   } catch {}
-  const cues = script.chapters.reduce((k, c) => k + c.cues.length, 0);
-  console.log(`✓ wrote content/audiobook/script.json (${script.chapters.length} chapters, ${cues} cues, script ${scriptHash})`);
+  const books = script.books.map((b) => `${b.id}: ${b.chapters.length} chapters, ${b.chapters.reduce((k, c) => k + c.cues.length, 0)} cues`);
+  console.log(`✓ wrote content/audiobook/script.json (${books.join('; ')}; script ${scriptHash})`);
   if (recorded !== scriptHash)
     console.warn(`⚠ the audiobook was recorded from script ${recorded ?? '(none)'}; re-record with: ~/.cache/sbt-tts/env/bin/python scripts/audiobook/make.py`);
 }

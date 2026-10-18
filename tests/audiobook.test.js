@@ -47,46 +47,58 @@ test('pronunciation rules agree with the pinyin shown in the app', () => {
   assert.equal(r.filter(Boolean).length, 0);
 });
 
-test('script: an introduction and one chapter per hexagram, chained by the 序卦 sentences', () => {
-  assert.equal(S.chapters.length, 65);
-  S.chapters.forEach((ch, i) => assert.equal(ch.n, i));
+test('full script: each hexagram is followed by its own 序卦 sentence and modern reading', () => {
+  const full = S.books.find((b) => b.id === 'full');
+  assert.equal(full.chapters.length, 65);
+  full.chapters.forEach((ch, i) => assert.equal(ch.n, i));
   for (let n = 1; n <= 64; n++) {
-    const cues = S.chapters[n].cues;
-    assert.equal(cues[0].role, 'head');
-    assert.equal(cues[0].text, `第${numZh(n)}卦，${H[n - 1].full}。`);
-    if (n < 64) {
-      const to = H[n];
-      assert.equal(cues.find((c) => c.role === 'quote').text, `序卦傳說：「${to.xugua.zh}」`);
-      assert.equal(cues.filter((c) => c.role === 'read').map((c) => c.text).join(''), tidy(to.logicZh));
-      assert.ok(cues.some((c) => c.role === 'next' && c.text === `下一卦：第${numZh(n + 1)}卦，${to.full}。`), `#${n} names the next hexagram`);
-    }
+    const h = H[n - 1];
+    const cues = full.chapters[n].cues;
+    const head = cues.findIndex((c) => c.role === 'head');
+    assert.equal(head, n === 31 ? 1 : 0, `#${n}: the name opens the chapter (after 下經由此開始 at 31)`);
+    assert.equal(cues[head].text, `第${numZh(n)}卦，${h.full}。`);
+    assert.equal(cues[head + 1].text, `序卦傳說：「${h.xugua.zh}」`);
+    assert.equal(cues.filter((c) => c.role === 'read').map((c) => c.text).join(''), tidy(h.logicZh));
   }
-  for (const ch of S.chapters)
-    for (const c of ch.cues) {
-      const tags = c.ssml.replace(/<phoneme alphabet="sapi" ph="[a-z]+ [1-5]">.<\/phoneme>/g, '');
-      assert.ok(!/[<>]/.test(tags), `only phoneme tags in: ${c.ssml}`);
-      assert.ok(c.pause >= 0);
-    }
+  assert.ok(full.chapters[3].cues[1].text.includes('受之以屯'), '屯 is explained in chapter 3, not after 坤');
+  for (const b of S.books)
+    for (const ch of b.chapters)
+      for (const c of ch.cues) {
+        const tags = c.ssml.replace(/<phoneme alphabet="sapi" ph="[a-z]+ [1-5]">.<\/phoneme>/g, '');
+        assert.ok(!/[<>]/.test(tags), `only phoneme tags in: ${c.ssml}`);
+        assert.ok(c.pause >= 0);
+      }
+});
+
+test('names script: the 64 headings in order, nothing else', () => {
+  const names = S.books.find((b) => b.id === 'names');
+  assert.deepEqual(
+    names.chapters.map((ch) => ch.cues.map((c) => c.text).join('')),
+    H.map((h) => `第${numZh(h.n)}卦，${h.full}。`),
+  );
 });
 
 const manifestUrl = new URL('../app/data/audiobook.json', import.meta.url);
-test('recording: chapters and cues line up with the script', { skip: !existsSync(manifestUrl) && 'not recorded yet' }, () => {
+test('recordings: chapters and cues line up with the script', { skip: !existsSync(manifestUrl) && 'not recorded yet' }, () => {
   const M = JSON.parse(readFileSync(manifestUrl, 'utf8'));
-  const mp3 = new URL(`../app/${M.audio.split('?')[0]}`, import.meta.url);
-  assert.ok(existsSync(mp3), 'mp3 exists');
-  assert.equal(statSync(mp3).size, M.bytes);
-  assert.equal(M.chapters.length, 65);
-  let t = -1;
-  for (const ch of M.chapters)
-    for (const c of ch.cues) {
-      assert.ok(c.start > t && c.end > c.start && c.end <= M.duration, `cue times increase: ${c.text}`);
-      t = c.start;
-    }
-  // a recording of the current script carries exactly its text (build.mjs warns when it is out of date)
+  assert.deepEqual(M.books.map((b) => b.id), ['full', 'names']);
   const current = createHash('sha256').update(scriptJson).digest('hex').slice(0, 10);
   const texts = (chs) => chs.map((ch) => ch.cues.map((c) => c.text));
-  if (M.script === current) assert.deepEqual(texts(M.chapters), texts(S.chapters));
-  const mid = M.chapters[24];
-  assert.deepEqual(locate(mid.start + 0.01, M), { chapter: 24, cue: 0 });
-  assert.equal(locate(0, M).chapter, 0);
+  for (const B of M.books) {
+    const mp3 = new URL(`../app/${B.audio.split('?')[0]}`, import.meta.url);
+    assert.ok(existsSync(mp3), `${B.id}: mp3 exists`);
+    assert.equal(statSync(mp3).size, B.bytes);
+    let t = -1;
+    for (const ch of B.chapters)
+      for (const c of ch.cues) {
+        assert.ok(c.start > t && c.end > c.start && c.end <= B.duration, `${B.id}: cue times increase: ${c.text}`);
+        t = c.start;
+      }
+    // a recording of the current script carries exactly its text (build.mjs warns when it is out of date)
+    if (M.script === current) assert.deepEqual(texts(B.chapters), texts(S.books.find((b) => b.id === B.id).chapters));
+  }
+  const [full, names] = M.books;
+  assert.deepEqual(locate(full.chapters[24].start + 0.01, full), { chapter: 24, n: 24, cue: 0 });
+  assert.deepEqual(locate(names.chapters[2].start + 0.01, names), { chapter: 2, n: 3, cue: 0 });
+  assert.equal(locate(0, full).chapter, 0);
 });
