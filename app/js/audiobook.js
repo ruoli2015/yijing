@@ -16,7 +16,7 @@ let lastSaved = 0;
 const audio = globalThis.Audio ? new Audio() : null; // null under Node, where the tests import locate()
 if (audio) audio.preload = 'none';
 
-let state = { ready: false, started: false, playing: false, waiting: false, book: 'full', t: 0, chapter: 0, n: 0, cue: -1, rate: 1, error: null };
+let state = { ready: false, started: false, playing: false, waiting: false, book: 'full', t: 0, chapter: 0, n: 0, cue: -1, rate: 1, repeat: false, error: null };
 const subs = new Set();
 const set = (patch) => {
   state = { ...state, ...patch };
@@ -41,7 +41,7 @@ function readPos() {
 function savePos() {
   try {
     positions[state.book] = Math.round(state.t);
-    localStorage.setItem(POS_KEY, JSON.stringify({ book: state.book, positions, rate: state.rate }));
+    localStorage.setItem(POS_KEY, JSON.stringify({ book: state.book, positions, rate: state.rate, repeat: state.repeat }));
   } catch {
     /* private mode */
   }
@@ -79,6 +79,8 @@ export function load() {
       const saved = readPos();
       positions = saved.positions || { full: saved.t || 0 };
       state.rate = RATES.includes(saved.rate) ? saved.rate : 1;
+      state.repeat = saved.repeat === true;
+      audio.loop = state.repeat;
       useBook(saved.book || 'full');
       set({ ready: true });
       return m;
@@ -131,6 +133,12 @@ export function playChapter(n) {
   const i = book?.chapters.findIndex((c) => c.n === n) ?? -1;
   goChapter(i >= 0 ? i : 0);
   play();
+}
+// Repeat: when the book ends it starts again from the beginning, for either book, until turned off.
+export function setRepeat(on) {
+  audio.loop = on;
+  set({ repeat: on });
+  savePos();
 }
 export function setRate(r) {
   audio.playbackRate = r;

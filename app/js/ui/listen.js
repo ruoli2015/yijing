@@ -25,6 +25,7 @@ const ICON = {
   pause: 'M7 5h3.5v14H7zm6.5 0H17v14h-3.5z',
   prev: 'M6 5h2v14H6zm3.5 7L19 5.5v13z',
   next: 'M16 5h2v14h-2zM5 5.5 14.5 12 5 18.5z',
+  repeat: 'M7 7h10v3l4-4-4-4v3H5v6h2zm10 10H7v-3l-4 4 4 4v-3h12v-6h-2z',
 };
 const Icon = ({ d }) => html`<svg viewBox="0 0 24 24" aria-hidden="true"><path d=${d} /></svg>`;
 const Skip = ({ back }) => html`<svg viewBox="0 0 24 24" aria-hidden="true" class="skip-icon">
@@ -133,7 +134,8 @@ export function Listen() {
           <${Icon} d=${s.playing ? ICON.pause : ICON.play} /></button>
         <button type="button" onClick=${() => player.skip(15)} aria-label="forward 15 seconds"><${Skip} /></button>
         <button type="button" onClick=${player.next} aria-label="next hexagram"><${Icon} d=${ICON.next} /></button>
-        <span class="speed-pad"></span>
+        <button type="button" class=${`repeat${s.repeat ? ' on' : ''}`} onClick=${() => player.setRepeat(!s.repeat)}
+          aria-label="repeat" aria-pressed=${s.repeat} title=${s.repeat ? '循環播放：開 Repeat on' : '循環播放：關 Repeat off'}><${Icon} d=${ICON.repeat} /></button>
       </div>
     </div>
 

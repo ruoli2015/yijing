@@ -431,7 +431,9 @@ ol.chain { list-style: none; padding: 0; margin: 12px 0 0; border-left: 2px soli
 .controls button.main { width: 56px; height: 56px; background: var(--accent); color: #fff; }
 .controls button.main svg { width: 30px; height: 30px; }
 .controls button.main.busy { opacity: 0.6; }
-.controls .speed, .controls .speed-pad { width: 48px; font-size: 0.85rem; font-weight: 600; color: var(--muted); }
+.controls .repeat svg { width: 22px; height: 22px; }
+.controls .repeat.on { color: var(--accent); background: var(--accent-soft); }
+.controls .speed, .controls .repeat { width: 48px; font-size: 0.85rem; font-weight: 600; color: var(--muted); }
 .skip-icon .ring { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }
 .skip-icon text { font: 700 7px var(--sans); text-anchor: middle; fill: currentColor; }
 .ch-grid { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 4px; }
