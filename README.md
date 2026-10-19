@@ -31,7 +31,7 @@ pronunciation rules that pin polyphonic readings (屯 zhūn, 否 pǐ, 說 yuè�
 ```sh
 # once: .env with AZURE_SPEECH_KEY=… and AZURE_SPEECH_REGION=… (gitignored)
 # Python env with numpy soundfile requests lameenc (the one from sanskrit-buddhist-terms works)
-~/.cache/sbt-tts/env/bin/python scripts/audiobook/make.py   # → app/audio/{full,names}.mp3 + app/data/audiobook.json
+~/.cache/sbt-tts/env/bin/python scripts/audiobook/make.py   # → app/audio/{full,names,names-0.5,…}.mp3 + app/data/audiobook.json
 npm run build && npm test
 ```
 

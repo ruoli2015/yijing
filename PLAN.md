@@ -69,7 +69,7 @@ Hosted on GitHub Pages, installable on iPhone, Android and desktop.
    - A journal with notes, saved on the device.
 9. **聽卦序 Audiobook.**
    - One chapter per hexagram: 「第三卦，水雷屯。」 → its own 序卦傳 sentence (how it follows 坤) → its modern reading; the next chapter opens with the next name.
-   - A second recording reads only the 64 headings (「第一卦，乾為天。第二卦，坤為地。…」, about 3 minutes); the page switches between the two and remembers the place in each.
+   - A second recording reads only the 64 headings (「第一卦，乾為天。第二卦，坤為地。…」, about 3 minutes); the page switches between the two and remembers the place in each. The names-only version also comes with 0.5, 1, 2 or 3 s of silence after each 「第N卦」 and each name (separate recordings, so pauses survive a locked screen).
    - Script generated from the content (`scripts/audiobook/script.mjs`), recorded with Azure Yunyi (`scripts/audiobook/make.py`) into one MP3 plus a timing manifest.
    - Transcript highlights the sentence being read; tap a sentence to jump there. Chapter grid, ±15 s, speed, repeat (loops either version until turned off), lock-screen controls (Media Session), resume where you stopped, mini player on other pages.
    - The MP3 is not precached (about 10 MB); it streams.

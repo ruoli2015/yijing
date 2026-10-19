@@ -70,18 +70,27 @@ test('full script: each hexagram is followed by its own 序卦 sentence and mode
       }
 });
 
-test('names script: the 64 headings in order, nothing else', () => {
+test('names scripts: the 64 headings in order, nothing else; the paused ones split number and name', () => {
   const names = S.books.find((b) => b.id === 'names');
   assert.deepEqual(
     names.chapters.map((ch) => ch.cues.map((c) => c.text).join('')),
     H.map((h) => `第${numZh(h.n)}卦，${h.full}。`),
   );
+  const paused = S.books.filter((b) => b.group === 'names' && b.pause);
+  assert.deepEqual(paused.map((b) => b.pause), [0.5, 1, 2, 3]);
+  for (const b of paused) {
+    assert.equal(b.gap, b.pause, `${b.id}: the same pause before the next hexagram`);
+    b.chapters.forEach((ch, i) => {
+      assert.deepEqual(ch.cues.map((c) => c.text), [`第${numZh(i + 1)}卦。`, `${H[i].full}。`]);
+      assert.equal(ch.cues[0].pause, b.pause);
+    });
+  }
 });
 
 const manifestUrl = new URL('../app/data/audiobook.json', import.meta.url);
 test('recordings: chapters and cues line up with the script', { skip: !existsSync(manifestUrl) && 'not recorded yet' }, () => {
   const M = JSON.parse(readFileSync(manifestUrl, 'utf8'));
-  assert.deepEqual(M.books.map((b) => b.id), ['full', 'names']);
+  assert.deepEqual(M.books.map((b) => b.id), S.books.map((b) => b.id));
   const current = createHash('sha256').update(scriptJson).digest('hex').slice(0, 10);
   const texts = (chs) => chs.map((ch) => ch.cues.map((c) => c.text));
   for (const B of M.books) {
@@ -98,6 +107,9 @@ test('recordings: chapters and cues line up with the script', { skip: !existsSyn
     if (M.script === current) assert.deepEqual(texts(B.chapters), texts(S.books.find((b) => b.id === B.id).chapters));
   }
   const [full, names] = M.books;
+  const two = M.books.find((b) => b.id === 'names-2');
+  const gap = two.chapters[5].cues[1].start - two.chapters[5].cues[0].end;
+  assert.ok(gap > 1.9 && gap < 2.3, `names-2: about 2 s between number and name (${gap.toFixed(2)})`);
   assert.deepEqual(locate(full.chapters[24].start + 0.01, full), { chapter: 24, n: 24, cue: 0 });
   assert.deepEqual(locate(names.chapters[2].start + 0.01, names), { chapter: 2, n: 3, cue: 0 });
   assert.equal(locate(0, full).chapter, 0);

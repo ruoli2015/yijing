@@ -5,11 +5,12 @@
 import { hex, numZh } from './hex.js';
 
 const POS_KEY = 'yijing.audiobook';
-export const RATES = [0.8, 1, 1.25, 1.5];
+export const RATES = [0.5, 0.8, 1, 1.25, 1.5];
 
 let all = null; // the manifest
 let book = null; // the book being played
 let positions = {}; // book id → seconds
+let last = {}; // group → the book last played in it (which pause length)
 let loading = null;
 let pendingSeek = null;
 let lastSaved = 0;
@@ -26,6 +27,7 @@ const set = (patch) => {
 export const get = () => state;
 export const manifest = () => all;
 export const current = () => book;
+export const lastOf = (group) => last[group];
 export function subscribe(fn) {
   subs.add(fn);
   return () => subs.delete(fn);
@@ -41,7 +43,7 @@ function readPos() {
 function savePos() {
   try {
     positions[state.book] = Math.round(state.t);
-    localStorage.setItem(POS_KEY, JSON.stringify({ book: state.book, positions, rate: state.rate, repeat: state.repeat }));
+    localStorage.setItem(POS_KEY, JSON.stringify({ book: state.book, positions, last, rate: state.rate, repeat: state.repeat }));
   } catch {
     /* private mode */
   }
@@ -61,6 +63,7 @@ export function locate(t, b = book) {
 // Point the audio element at book `id`, at its remembered position.
 function useBook(id) {
   book = all.books.find((b) => b.id === id) || all.books[0];
+  if (book.group) last[book.group] = book.id;
   const t = Math.min(positions[book.id] || 0, book.duration - 1);
   audio.src = book.audio;
   audio.playbackRate = state.rate;
@@ -78,6 +81,7 @@ export function load() {
       all = m;
       const saved = readPos();
       positions = saved.positions || { full: saved.t || 0 };
+      last = saved.last || {};
       state.rate = RATES.includes(saved.rate) ? saved.rate : 1;
       state.repeat = saved.repeat === true;
       audio.loop = state.repeat;
@@ -119,8 +123,11 @@ export const next = () => goChapter(state.chapter + 1);
 export function setBook(id) {
   if (!all || id === state.book) return;
   const wasPlaying = !audio.paused;
+  const n = state.n;
+  const sameText = book.group && book.group === all.books.find((b) => b.id === id)?.group;
   savePos();
   useBook(id);
+  if (sameText) goChapter(book.chapters.findIndex((c) => c.n === n)); // another pause length: stay on this hexagram
   savePos();
   if (wasPlaying) play();
 }

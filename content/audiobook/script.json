@@ -2667,6 +2667,8 @@
   },
   {
    "id": "names",
+   "group": "names",
+   "pause": 0,
    "titleZh": "六十四卦卦名",
    "titleEn": "The 64 Names",
    "gap": 0.8,
@@ -3371,6 +3373,4398 @@
        "role": "head",
        "text": "第六十四卦，火水未濟。",
        "ssml": "第六十四卦，火水<phoneme alphabet=\"sapi\" ph=\"wei 4\">未</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
+       "pause": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "names-0.5",
+   "group": "names",
+   "pause": 0.5,
+   "titleZh": "六十四卦卦名",
+   "titleEn": "The 64 Names",
+   "gap": 0.5,
+   "chapters": [
+    {
+     "n": 1,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第一卦。",
+       "ssml": "第一卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "乾為天。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>天。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二卦。",
+       "ssml": "第二卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "坤為地。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>地。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三卦。",
+       "ssml": "第三卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "水雷屯。",
+       "ssml": "水雷<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四卦。",
+       "ssml": "第四卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "山水蒙。",
+       "ssml": "山水<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五卦。",
+       "ssml": "第五卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "水天需。",
+       "ssml": "水天<phoneme alphabet=\"sapi\" ph=\"xu 1\">需</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六卦。",
+       "ssml": "第六卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "天水訟。",
+       "ssml": "天水<phoneme alphabet=\"sapi\" ph=\"song 4\">訟</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第七卦。",
+       "ssml": "第七卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "地水師。",
+       "ssml": "地水<phoneme alphabet=\"sapi\" ph=\"shi 1\">師</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第八卦。",
+       "ssml": "第八卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "水地比。",
+       "ssml": "水地<phoneme alphabet=\"sapi\" ph=\"bi 3\">比</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第九卦。",
+       "ssml": "第九卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "風天小畜。",
+       "ssml": "風天<phoneme alphabet=\"sapi\" ph=\"xiao 3\">小</phoneme><phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十卦。",
+       "ssml": "第十卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "天澤履。",
+       "ssml": "天澤履。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十一卦。",
+       "ssml": "第十一卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "地天泰。",
+       "ssml": "地天<phoneme alphabet=\"sapi\" ph=\"tai 4\">泰</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十二卦。",
+       "ssml": "第十二卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "天地否。",
+       "ssml": "天地<phoneme alphabet=\"sapi\" ph=\"pi 3\">否</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 13,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十三卦。",
+       "ssml": "第十三卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "天火同人。",
+       "ssml": "天火<phoneme alphabet=\"sapi\" ph=\"tong 2\">同</phoneme><phoneme alphabet=\"sapi\" ph=\"ren 2\">人</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 14,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十四卦。",
+       "ssml": "第十四卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "火天大有。",
+       "ssml": "火天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 15,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十五卦。",
+       "ssml": "第十五卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "地山謙。",
+       "ssml": "地山<phoneme alphabet=\"sapi\" ph=\"qian 1\">謙</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 16,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十六卦。",
+       "ssml": "第十六卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "雷地豫。",
+       "ssml": "雷地<phoneme alphabet=\"sapi\" ph=\"yu 4\">豫</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 17,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十七卦。",
+       "ssml": "第十七卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "澤雷隨。",
+       "ssml": "澤雷<phoneme alphabet=\"sapi\" ph=\"sui 2\">隨</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 18,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十八卦。",
+       "ssml": "第十八卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "山風蠱。",
+       "ssml": "山風<phoneme alphabet=\"sapi\" ph=\"gu 3\">蠱</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 19,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十九卦。",
+       "ssml": "第十九卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "地澤臨。",
+       "ssml": "地澤<phoneme alphabet=\"sapi\" ph=\"lin 2\">臨</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 20,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十卦。",
+       "ssml": "第二十卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "風地觀。",
+       "ssml": "風地<phoneme alphabet=\"sapi\" ph=\"guan 1\">觀</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 21,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十一卦。",
+       "ssml": "第二十一卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "火雷噬嗑。",
+       "ssml": "火雷<phoneme alphabet=\"sapi\" ph=\"shi 4\">噬</phoneme><phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 22,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十二卦。",
+       "ssml": "第二十二卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "山火賁。",
+       "ssml": "山火<phoneme alphabet=\"sapi\" ph=\"bi 4\">賁</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 23,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十三卦。",
+       "ssml": "第二十三卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "山地剝。",
+       "ssml": "山地<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 24,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十四卦。",
+       "ssml": "第二十四卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "地雷復。",
+       "ssml": "地雷<phoneme alphabet=\"sapi\" ph=\"fu 4\">復</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 25,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十五卦。",
+       "ssml": "第二十五卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "天雷无妄。",
+       "ssml": "天雷<phoneme alphabet=\"sapi\" ph=\"wu 2\">无</phoneme><phoneme alphabet=\"sapi\" ph=\"wang 4\">妄</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 26,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十六卦。",
+       "ssml": "第二十六卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "山天大畜。",
+       "ssml": "山天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 27,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十七卦。",
+       "ssml": "第二十七卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "山雷頤。",
+       "ssml": "山雷<phoneme alphabet=\"sapi\" ph=\"yi 2\">頤</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 28,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十八卦。",
+       "ssml": "第二十八卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "澤風大過。",
+       "ssml": "澤風<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"guo 4\">過</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 29,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十九卦。",
+       "ssml": "第二十九卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "坎為水。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"kan 3\">坎</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>水。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 30,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十卦。",
+       "ssml": "第三十卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "離為火。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"li 2\">離</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>火。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 31,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十一卦。",
+       "ssml": "第三十一卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "澤山咸。",
+       "ssml": "澤山<phoneme alphabet=\"sapi\" ph=\"xian 2\">咸</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 32,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十二卦。",
+       "ssml": "第三十二卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "雷風恆。",
+       "ssml": "雷風<phoneme alphabet=\"sapi\" ph=\"heng 2\">恆</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 33,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十三卦。",
+       "ssml": "第三十三卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "天山遯。",
+       "ssml": "天山<phoneme alphabet=\"sapi\" ph=\"dun 4\">遯</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 34,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十四卦。",
+       "ssml": "第三十四卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "雷天大壯。",
+       "ssml": "雷天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"zhuang 4\">壯</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 35,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十五卦。",
+       "ssml": "第三十五卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "火地晉。",
+       "ssml": "火地<phoneme alphabet=\"sapi\" ph=\"jin 4\">晉</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 36,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十六卦。",
+       "ssml": "第三十六卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "地火明夷。",
+       "ssml": "地火<phoneme alphabet=\"sapi\" ph=\"ming 2\">明</phoneme><phoneme alphabet=\"sapi\" ph=\"yi 2\">夷</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 37,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十七卦。",
+       "ssml": "第三十七卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "風火家人。",
+       "ssml": "風火<phoneme alphabet=\"sapi\" ph=\"jia 1\">家</phoneme><phoneme alphabet=\"sapi\" ph=\"ren 2\">人</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 38,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十八卦。",
+       "ssml": "第三十八卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "火澤睽。",
+       "ssml": "火澤<phoneme alphabet=\"sapi\" ph=\"kui 2\">睽</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 39,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十九卦。",
+       "ssml": "第三十九卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "水山蹇。",
+       "ssml": "水山<phoneme alphabet=\"sapi\" ph=\"jian 3\">蹇</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 40,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十卦。",
+       "ssml": "第四十卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "雷水解。",
+       "ssml": "雷水<phoneme alphabet=\"sapi\" ph=\"xie 4\">解</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 41,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十一卦。",
+       "ssml": "第四十一卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "山澤損。",
+       "ssml": "山澤<phoneme alphabet=\"sapi\" ph=\"sun 3\">損</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 42,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十二卦。",
+       "ssml": "第四十二卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "風雷益。",
+       "ssml": "風雷<phoneme alphabet=\"sapi\" ph=\"yi 4\">益</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 43,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十三卦。",
+       "ssml": "第四十三卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "澤天夬。",
+       "ssml": "澤天<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 44,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十四卦。",
+       "ssml": "第四十四卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "天風姤。",
+       "ssml": "天風<phoneme alphabet=\"sapi\" ph=\"gou 4\">姤</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 45,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十五卦。",
+       "ssml": "第四十五卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "澤地萃。",
+       "ssml": "澤地<phoneme alphabet=\"sapi\" ph=\"cui 4\">萃</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 46,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十六卦。",
+       "ssml": "第四十六卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "地風升。",
+       "ssml": "地風<phoneme alphabet=\"sapi\" ph=\"sheng 1\">升</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 47,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十七卦。",
+       "ssml": "第四十七卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "澤水困。",
+       "ssml": "澤水<phoneme alphabet=\"sapi\" ph=\"kun 4\">困</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 48,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十八卦。",
+       "ssml": "第四十八卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "水風井。",
+       "ssml": "水風<phoneme alphabet=\"sapi\" ph=\"jing 3\">井</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 49,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十九卦。",
+       "ssml": "第四十九卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "澤火革。",
+       "ssml": "澤火<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 50,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十卦。",
+       "ssml": "第五十卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "火風鼎。",
+       "ssml": "火風<phoneme alphabet=\"sapi\" ph=\"ding 3\">鼎</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 51,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十一卦。",
+       "ssml": "第五十一卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "震為雷。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"zhen 4\">震</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>雷。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 52,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十二卦。",
+       "ssml": "第五十二卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "艮為山。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>山。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 53,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十三卦。",
+       "ssml": "第五十三卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "風山漸。",
+       "ssml": "風山<phoneme alphabet=\"sapi\" ph=\"jian 4\">漸</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 54,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十四卦。",
+       "ssml": "第五十四卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "雷澤歸妹。",
+       "ssml": "雷澤<phoneme alphabet=\"sapi\" ph=\"gui 1\">歸</phoneme><phoneme alphabet=\"sapi\" ph=\"mei 4\">妹</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 55,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十五卦。",
+       "ssml": "第五十五卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "雷火豐。",
+       "ssml": "雷火<phoneme alphabet=\"sapi\" ph=\"feng 1\">豐</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 56,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十六卦。",
+       "ssml": "第五十六卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "火山旅。",
+       "ssml": "火山旅。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 57,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十七卦。",
+       "ssml": "第五十七卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "巽為風。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"xun 4\">巽</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>風。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 58,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十八卦。",
+       "ssml": "第五十八卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "兌為澤。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"dui 4\">兌</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>澤。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 59,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十九卦。",
+       "ssml": "第五十九卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "風水渙。",
+       "ssml": "風水<phoneme alphabet=\"sapi\" ph=\"huan 4\">渙</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 60,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十卦。",
+       "ssml": "第六十卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "水澤節。",
+       "ssml": "水澤<phoneme alphabet=\"sapi\" ph=\"jie 2\">節</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 61,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十一卦。",
+       "ssml": "第六十一卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "風澤中孚。",
+       "ssml": "風澤<phoneme alphabet=\"sapi\" ph=\"zhong 1\">中</phoneme><phoneme alphabet=\"sapi\" ph=\"fu 2\">孚</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 62,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十二卦。",
+       "ssml": "第六十二卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "雷山小過。",
+       "ssml": "雷山<phoneme alphabet=\"sapi\" ph=\"xiao 3\">小</phoneme><phoneme alphabet=\"sapi\" ph=\"guo 4\">過</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 63,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十三卦。",
+       "ssml": "第六十三卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "水火既濟。",
+       "ssml": "水火<phoneme alphabet=\"sapi\" ph=\"ji 4\">既</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 64,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十四卦。",
+       "ssml": "第六十四卦。",
+       "pause": 0.5
+      },
+      {
+       "role": "head",
+       "text": "火水未濟。",
+       "ssml": "火水<phoneme alphabet=\"sapi\" ph=\"wei 4\">未</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
+       "pause": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "names-1",
+   "group": "names",
+   "pause": 1,
+   "titleZh": "六十四卦卦名",
+   "titleEn": "The 64 Names",
+   "gap": 1,
+   "chapters": [
+    {
+     "n": 1,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第一卦。",
+       "ssml": "第一卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "乾為天。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>天。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二卦。",
+       "ssml": "第二卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "坤為地。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>地。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三卦。",
+       "ssml": "第三卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "水雷屯。",
+       "ssml": "水雷<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四卦。",
+       "ssml": "第四卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "山水蒙。",
+       "ssml": "山水<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五卦。",
+       "ssml": "第五卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "水天需。",
+       "ssml": "水天<phoneme alphabet=\"sapi\" ph=\"xu 1\">需</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六卦。",
+       "ssml": "第六卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "天水訟。",
+       "ssml": "天水<phoneme alphabet=\"sapi\" ph=\"song 4\">訟</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第七卦。",
+       "ssml": "第七卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "地水師。",
+       "ssml": "地水<phoneme alphabet=\"sapi\" ph=\"shi 1\">師</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第八卦。",
+       "ssml": "第八卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "水地比。",
+       "ssml": "水地<phoneme alphabet=\"sapi\" ph=\"bi 3\">比</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第九卦。",
+       "ssml": "第九卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "風天小畜。",
+       "ssml": "風天<phoneme alphabet=\"sapi\" ph=\"xiao 3\">小</phoneme><phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十卦。",
+       "ssml": "第十卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "天澤履。",
+       "ssml": "天澤履。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十一卦。",
+       "ssml": "第十一卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "地天泰。",
+       "ssml": "地天<phoneme alphabet=\"sapi\" ph=\"tai 4\">泰</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十二卦。",
+       "ssml": "第十二卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "天地否。",
+       "ssml": "天地<phoneme alphabet=\"sapi\" ph=\"pi 3\">否</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 13,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十三卦。",
+       "ssml": "第十三卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "天火同人。",
+       "ssml": "天火<phoneme alphabet=\"sapi\" ph=\"tong 2\">同</phoneme><phoneme alphabet=\"sapi\" ph=\"ren 2\">人</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 14,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十四卦。",
+       "ssml": "第十四卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "火天大有。",
+       "ssml": "火天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 15,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十五卦。",
+       "ssml": "第十五卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "地山謙。",
+       "ssml": "地山<phoneme alphabet=\"sapi\" ph=\"qian 1\">謙</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 16,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十六卦。",
+       "ssml": "第十六卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "雷地豫。",
+       "ssml": "雷地<phoneme alphabet=\"sapi\" ph=\"yu 4\">豫</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 17,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十七卦。",
+       "ssml": "第十七卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "澤雷隨。",
+       "ssml": "澤雷<phoneme alphabet=\"sapi\" ph=\"sui 2\">隨</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 18,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十八卦。",
+       "ssml": "第十八卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "山風蠱。",
+       "ssml": "山風<phoneme alphabet=\"sapi\" ph=\"gu 3\">蠱</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 19,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十九卦。",
+       "ssml": "第十九卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "地澤臨。",
+       "ssml": "地澤<phoneme alphabet=\"sapi\" ph=\"lin 2\">臨</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 20,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十卦。",
+       "ssml": "第二十卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "風地觀。",
+       "ssml": "風地<phoneme alphabet=\"sapi\" ph=\"guan 1\">觀</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 21,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十一卦。",
+       "ssml": "第二十一卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "火雷噬嗑。",
+       "ssml": "火雷<phoneme alphabet=\"sapi\" ph=\"shi 4\">噬</phoneme><phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 22,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十二卦。",
+       "ssml": "第二十二卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "山火賁。",
+       "ssml": "山火<phoneme alphabet=\"sapi\" ph=\"bi 4\">賁</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 23,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十三卦。",
+       "ssml": "第二十三卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "山地剝。",
+       "ssml": "山地<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 24,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十四卦。",
+       "ssml": "第二十四卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "地雷復。",
+       "ssml": "地雷<phoneme alphabet=\"sapi\" ph=\"fu 4\">復</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 25,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十五卦。",
+       "ssml": "第二十五卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "天雷无妄。",
+       "ssml": "天雷<phoneme alphabet=\"sapi\" ph=\"wu 2\">无</phoneme><phoneme alphabet=\"sapi\" ph=\"wang 4\">妄</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 26,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十六卦。",
+       "ssml": "第二十六卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "山天大畜。",
+       "ssml": "山天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 27,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十七卦。",
+       "ssml": "第二十七卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "山雷頤。",
+       "ssml": "山雷<phoneme alphabet=\"sapi\" ph=\"yi 2\">頤</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 28,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十八卦。",
+       "ssml": "第二十八卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "澤風大過。",
+       "ssml": "澤風<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"guo 4\">過</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 29,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十九卦。",
+       "ssml": "第二十九卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "坎為水。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"kan 3\">坎</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>水。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 30,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十卦。",
+       "ssml": "第三十卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "離為火。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"li 2\">離</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>火。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 31,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十一卦。",
+       "ssml": "第三十一卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "澤山咸。",
+       "ssml": "澤山<phoneme alphabet=\"sapi\" ph=\"xian 2\">咸</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 32,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十二卦。",
+       "ssml": "第三十二卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "雷風恆。",
+       "ssml": "雷風<phoneme alphabet=\"sapi\" ph=\"heng 2\">恆</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 33,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十三卦。",
+       "ssml": "第三十三卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "天山遯。",
+       "ssml": "天山<phoneme alphabet=\"sapi\" ph=\"dun 4\">遯</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 34,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十四卦。",
+       "ssml": "第三十四卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "雷天大壯。",
+       "ssml": "雷天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"zhuang 4\">壯</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 35,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十五卦。",
+       "ssml": "第三十五卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "火地晉。",
+       "ssml": "火地<phoneme alphabet=\"sapi\" ph=\"jin 4\">晉</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 36,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十六卦。",
+       "ssml": "第三十六卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "地火明夷。",
+       "ssml": "地火<phoneme alphabet=\"sapi\" ph=\"ming 2\">明</phoneme><phoneme alphabet=\"sapi\" ph=\"yi 2\">夷</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 37,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十七卦。",
+       "ssml": "第三十七卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "風火家人。",
+       "ssml": "風火<phoneme alphabet=\"sapi\" ph=\"jia 1\">家</phoneme><phoneme alphabet=\"sapi\" ph=\"ren 2\">人</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 38,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十八卦。",
+       "ssml": "第三十八卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "火澤睽。",
+       "ssml": "火澤<phoneme alphabet=\"sapi\" ph=\"kui 2\">睽</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 39,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十九卦。",
+       "ssml": "第三十九卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "水山蹇。",
+       "ssml": "水山<phoneme alphabet=\"sapi\" ph=\"jian 3\">蹇</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 40,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十卦。",
+       "ssml": "第四十卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "雷水解。",
+       "ssml": "雷水<phoneme alphabet=\"sapi\" ph=\"xie 4\">解</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 41,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十一卦。",
+       "ssml": "第四十一卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "山澤損。",
+       "ssml": "山澤<phoneme alphabet=\"sapi\" ph=\"sun 3\">損</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 42,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十二卦。",
+       "ssml": "第四十二卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "風雷益。",
+       "ssml": "風雷<phoneme alphabet=\"sapi\" ph=\"yi 4\">益</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 43,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十三卦。",
+       "ssml": "第四十三卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "澤天夬。",
+       "ssml": "澤天<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 44,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十四卦。",
+       "ssml": "第四十四卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "天風姤。",
+       "ssml": "天風<phoneme alphabet=\"sapi\" ph=\"gou 4\">姤</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 45,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十五卦。",
+       "ssml": "第四十五卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "澤地萃。",
+       "ssml": "澤地<phoneme alphabet=\"sapi\" ph=\"cui 4\">萃</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 46,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十六卦。",
+       "ssml": "第四十六卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "地風升。",
+       "ssml": "地風<phoneme alphabet=\"sapi\" ph=\"sheng 1\">升</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 47,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十七卦。",
+       "ssml": "第四十七卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "澤水困。",
+       "ssml": "澤水<phoneme alphabet=\"sapi\" ph=\"kun 4\">困</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 48,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十八卦。",
+       "ssml": "第四十八卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "水風井。",
+       "ssml": "水風<phoneme alphabet=\"sapi\" ph=\"jing 3\">井</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 49,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十九卦。",
+       "ssml": "第四十九卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "澤火革。",
+       "ssml": "澤火<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 50,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十卦。",
+       "ssml": "第五十卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "火風鼎。",
+       "ssml": "火風<phoneme alphabet=\"sapi\" ph=\"ding 3\">鼎</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 51,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十一卦。",
+       "ssml": "第五十一卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "震為雷。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"zhen 4\">震</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>雷。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 52,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十二卦。",
+       "ssml": "第五十二卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "艮為山。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>山。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 53,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十三卦。",
+       "ssml": "第五十三卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "風山漸。",
+       "ssml": "風山<phoneme alphabet=\"sapi\" ph=\"jian 4\">漸</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 54,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十四卦。",
+       "ssml": "第五十四卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "雷澤歸妹。",
+       "ssml": "雷澤<phoneme alphabet=\"sapi\" ph=\"gui 1\">歸</phoneme><phoneme alphabet=\"sapi\" ph=\"mei 4\">妹</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 55,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十五卦。",
+       "ssml": "第五十五卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "雷火豐。",
+       "ssml": "雷火<phoneme alphabet=\"sapi\" ph=\"feng 1\">豐</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 56,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十六卦。",
+       "ssml": "第五十六卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "火山旅。",
+       "ssml": "火山旅。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 57,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十七卦。",
+       "ssml": "第五十七卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "巽為風。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"xun 4\">巽</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>風。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 58,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十八卦。",
+       "ssml": "第五十八卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "兌為澤。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"dui 4\">兌</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>澤。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 59,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十九卦。",
+       "ssml": "第五十九卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "風水渙。",
+       "ssml": "風水<phoneme alphabet=\"sapi\" ph=\"huan 4\">渙</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 60,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十卦。",
+       "ssml": "第六十卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "水澤節。",
+       "ssml": "水澤<phoneme alphabet=\"sapi\" ph=\"jie 2\">節</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 61,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十一卦。",
+       "ssml": "第六十一卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "風澤中孚。",
+       "ssml": "風澤<phoneme alphabet=\"sapi\" ph=\"zhong 1\">中</phoneme><phoneme alphabet=\"sapi\" ph=\"fu 2\">孚</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 62,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十二卦。",
+       "ssml": "第六十二卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "雷山小過。",
+       "ssml": "雷山<phoneme alphabet=\"sapi\" ph=\"xiao 3\">小</phoneme><phoneme alphabet=\"sapi\" ph=\"guo 4\">過</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 63,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十三卦。",
+       "ssml": "第六十三卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "水火既濟。",
+       "ssml": "水火<phoneme alphabet=\"sapi\" ph=\"ji 4\">既</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 64,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十四卦。",
+       "ssml": "第六十四卦。",
+       "pause": 1
+      },
+      {
+       "role": "head",
+       "text": "火水未濟。",
+       "ssml": "火水<phoneme alphabet=\"sapi\" ph=\"wei 4\">未</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
+       "pause": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "names-2",
+   "group": "names",
+   "pause": 2,
+   "titleZh": "六十四卦卦名",
+   "titleEn": "The 64 Names",
+   "gap": 2,
+   "chapters": [
+    {
+     "n": 1,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第一卦。",
+       "ssml": "第一卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "乾為天。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>天。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二卦。",
+       "ssml": "第二卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "坤為地。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>地。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三卦。",
+       "ssml": "第三卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "水雷屯。",
+       "ssml": "水雷<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四卦。",
+       "ssml": "第四卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "山水蒙。",
+       "ssml": "山水<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五卦。",
+       "ssml": "第五卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "水天需。",
+       "ssml": "水天<phoneme alphabet=\"sapi\" ph=\"xu 1\">需</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六卦。",
+       "ssml": "第六卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "天水訟。",
+       "ssml": "天水<phoneme alphabet=\"sapi\" ph=\"song 4\">訟</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第七卦。",
+       "ssml": "第七卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "地水師。",
+       "ssml": "地水<phoneme alphabet=\"sapi\" ph=\"shi 1\">師</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第八卦。",
+       "ssml": "第八卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "水地比。",
+       "ssml": "水地<phoneme alphabet=\"sapi\" ph=\"bi 3\">比</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第九卦。",
+       "ssml": "第九卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "風天小畜。",
+       "ssml": "風天<phoneme alphabet=\"sapi\" ph=\"xiao 3\">小</phoneme><phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十卦。",
+       "ssml": "第十卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "天澤履。",
+       "ssml": "天澤履。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十一卦。",
+       "ssml": "第十一卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "地天泰。",
+       "ssml": "地天<phoneme alphabet=\"sapi\" ph=\"tai 4\">泰</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十二卦。",
+       "ssml": "第十二卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "天地否。",
+       "ssml": "天地<phoneme alphabet=\"sapi\" ph=\"pi 3\">否</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 13,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十三卦。",
+       "ssml": "第十三卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "天火同人。",
+       "ssml": "天火<phoneme alphabet=\"sapi\" ph=\"tong 2\">同</phoneme><phoneme alphabet=\"sapi\" ph=\"ren 2\">人</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 14,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十四卦。",
+       "ssml": "第十四卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "火天大有。",
+       "ssml": "火天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 15,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十五卦。",
+       "ssml": "第十五卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "地山謙。",
+       "ssml": "地山<phoneme alphabet=\"sapi\" ph=\"qian 1\">謙</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 16,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十六卦。",
+       "ssml": "第十六卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "雷地豫。",
+       "ssml": "雷地<phoneme alphabet=\"sapi\" ph=\"yu 4\">豫</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 17,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十七卦。",
+       "ssml": "第十七卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "澤雷隨。",
+       "ssml": "澤雷<phoneme alphabet=\"sapi\" ph=\"sui 2\">隨</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 18,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十八卦。",
+       "ssml": "第十八卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "山風蠱。",
+       "ssml": "山風<phoneme alphabet=\"sapi\" ph=\"gu 3\">蠱</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 19,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十九卦。",
+       "ssml": "第十九卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "地澤臨。",
+       "ssml": "地澤<phoneme alphabet=\"sapi\" ph=\"lin 2\">臨</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 20,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十卦。",
+       "ssml": "第二十卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "風地觀。",
+       "ssml": "風地<phoneme alphabet=\"sapi\" ph=\"guan 1\">觀</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 21,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十一卦。",
+       "ssml": "第二十一卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "火雷噬嗑。",
+       "ssml": "火雷<phoneme alphabet=\"sapi\" ph=\"shi 4\">噬</phoneme><phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 22,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十二卦。",
+       "ssml": "第二十二卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "山火賁。",
+       "ssml": "山火<phoneme alphabet=\"sapi\" ph=\"bi 4\">賁</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 23,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十三卦。",
+       "ssml": "第二十三卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "山地剝。",
+       "ssml": "山地<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 24,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十四卦。",
+       "ssml": "第二十四卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "地雷復。",
+       "ssml": "地雷<phoneme alphabet=\"sapi\" ph=\"fu 4\">復</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 25,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十五卦。",
+       "ssml": "第二十五卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "天雷无妄。",
+       "ssml": "天雷<phoneme alphabet=\"sapi\" ph=\"wu 2\">无</phoneme><phoneme alphabet=\"sapi\" ph=\"wang 4\">妄</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 26,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十六卦。",
+       "ssml": "第二十六卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "山天大畜。",
+       "ssml": "山天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 27,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十七卦。",
+       "ssml": "第二十七卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "山雷頤。",
+       "ssml": "山雷<phoneme alphabet=\"sapi\" ph=\"yi 2\">頤</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 28,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十八卦。",
+       "ssml": "第二十八卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "澤風大過。",
+       "ssml": "澤風<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"guo 4\">過</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 29,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十九卦。",
+       "ssml": "第二十九卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "坎為水。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"kan 3\">坎</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>水。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 30,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十卦。",
+       "ssml": "第三十卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "離為火。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"li 2\">離</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>火。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 31,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十一卦。",
+       "ssml": "第三十一卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "澤山咸。",
+       "ssml": "澤山<phoneme alphabet=\"sapi\" ph=\"xian 2\">咸</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 32,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十二卦。",
+       "ssml": "第三十二卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "雷風恆。",
+       "ssml": "雷風<phoneme alphabet=\"sapi\" ph=\"heng 2\">恆</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 33,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十三卦。",
+       "ssml": "第三十三卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "天山遯。",
+       "ssml": "天山<phoneme alphabet=\"sapi\" ph=\"dun 4\">遯</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 34,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十四卦。",
+       "ssml": "第三十四卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "雷天大壯。",
+       "ssml": "雷天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"zhuang 4\">壯</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 35,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十五卦。",
+       "ssml": "第三十五卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "火地晉。",
+       "ssml": "火地<phoneme alphabet=\"sapi\" ph=\"jin 4\">晉</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 36,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十六卦。",
+       "ssml": "第三十六卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "地火明夷。",
+       "ssml": "地火<phoneme alphabet=\"sapi\" ph=\"ming 2\">明</phoneme><phoneme alphabet=\"sapi\" ph=\"yi 2\">夷</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 37,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十七卦。",
+       "ssml": "第三十七卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "風火家人。",
+       "ssml": "風火<phoneme alphabet=\"sapi\" ph=\"jia 1\">家</phoneme><phoneme alphabet=\"sapi\" ph=\"ren 2\">人</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 38,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十八卦。",
+       "ssml": "第三十八卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "火澤睽。",
+       "ssml": "火澤<phoneme alphabet=\"sapi\" ph=\"kui 2\">睽</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 39,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十九卦。",
+       "ssml": "第三十九卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "水山蹇。",
+       "ssml": "水山<phoneme alphabet=\"sapi\" ph=\"jian 3\">蹇</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 40,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十卦。",
+       "ssml": "第四十卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "雷水解。",
+       "ssml": "雷水<phoneme alphabet=\"sapi\" ph=\"xie 4\">解</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 41,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十一卦。",
+       "ssml": "第四十一卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "山澤損。",
+       "ssml": "山澤<phoneme alphabet=\"sapi\" ph=\"sun 3\">損</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 42,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十二卦。",
+       "ssml": "第四十二卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "風雷益。",
+       "ssml": "風雷<phoneme alphabet=\"sapi\" ph=\"yi 4\">益</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 43,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十三卦。",
+       "ssml": "第四十三卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "澤天夬。",
+       "ssml": "澤天<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 44,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十四卦。",
+       "ssml": "第四十四卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "天風姤。",
+       "ssml": "天風<phoneme alphabet=\"sapi\" ph=\"gou 4\">姤</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 45,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十五卦。",
+       "ssml": "第四十五卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "澤地萃。",
+       "ssml": "澤地<phoneme alphabet=\"sapi\" ph=\"cui 4\">萃</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 46,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十六卦。",
+       "ssml": "第四十六卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "地風升。",
+       "ssml": "地風<phoneme alphabet=\"sapi\" ph=\"sheng 1\">升</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 47,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十七卦。",
+       "ssml": "第四十七卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "澤水困。",
+       "ssml": "澤水<phoneme alphabet=\"sapi\" ph=\"kun 4\">困</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 48,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十八卦。",
+       "ssml": "第四十八卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "水風井。",
+       "ssml": "水風<phoneme alphabet=\"sapi\" ph=\"jing 3\">井</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 49,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十九卦。",
+       "ssml": "第四十九卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "澤火革。",
+       "ssml": "澤火<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 50,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十卦。",
+       "ssml": "第五十卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "火風鼎。",
+       "ssml": "火風<phoneme alphabet=\"sapi\" ph=\"ding 3\">鼎</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 51,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十一卦。",
+       "ssml": "第五十一卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "震為雷。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"zhen 4\">震</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>雷。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 52,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十二卦。",
+       "ssml": "第五十二卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "艮為山。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>山。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 53,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十三卦。",
+       "ssml": "第五十三卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "風山漸。",
+       "ssml": "風山<phoneme alphabet=\"sapi\" ph=\"jian 4\">漸</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 54,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十四卦。",
+       "ssml": "第五十四卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "雷澤歸妹。",
+       "ssml": "雷澤<phoneme alphabet=\"sapi\" ph=\"gui 1\">歸</phoneme><phoneme alphabet=\"sapi\" ph=\"mei 4\">妹</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 55,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十五卦。",
+       "ssml": "第五十五卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "雷火豐。",
+       "ssml": "雷火<phoneme alphabet=\"sapi\" ph=\"feng 1\">豐</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 56,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十六卦。",
+       "ssml": "第五十六卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "火山旅。",
+       "ssml": "火山旅。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 57,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十七卦。",
+       "ssml": "第五十七卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "巽為風。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"xun 4\">巽</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>風。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 58,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十八卦。",
+       "ssml": "第五十八卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "兌為澤。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"dui 4\">兌</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>澤。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 59,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十九卦。",
+       "ssml": "第五十九卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "風水渙。",
+       "ssml": "風水<phoneme alphabet=\"sapi\" ph=\"huan 4\">渙</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 60,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十卦。",
+       "ssml": "第六十卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "水澤節。",
+       "ssml": "水澤<phoneme alphabet=\"sapi\" ph=\"jie 2\">節</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 61,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十一卦。",
+       "ssml": "第六十一卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "風澤中孚。",
+       "ssml": "風澤<phoneme alphabet=\"sapi\" ph=\"zhong 1\">中</phoneme><phoneme alphabet=\"sapi\" ph=\"fu 2\">孚</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 62,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十二卦。",
+       "ssml": "第六十二卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "雷山小過。",
+       "ssml": "雷山<phoneme alphabet=\"sapi\" ph=\"xiao 3\">小</phoneme><phoneme alphabet=\"sapi\" ph=\"guo 4\">過</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 63,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十三卦。",
+       "ssml": "第六十三卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "水火既濟。",
+       "ssml": "水火<phoneme alphabet=\"sapi\" ph=\"ji 4\">既</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 64,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十四卦。",
+       "ssml": "第六十四卦。",
+       "pause": 2
+      },
+      {
+       "role": "head",
+       "text": "火水未濟。",
+       "ssml": "火水<phoneme alphabet=\"sapi\" ph=\"wei 4\">未</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
+       "pause": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "names-3",
+   "group": "names",
+   "pause": 3,
+   "titleZh": "六十四卦卦名",
+   "titleEn": "The 64 Names",
+   "gap": 3,
+   "chapters": [
+    {
+     "n": 1,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第一卦。",
+       "ssml": "第一卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "乾為天。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"qian 2\">乾</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>天。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二卦。",
+       "ssml": "第二卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "坤為地。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"kun 1\">坤</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>地。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三卦。",
+       "ssml": "第三卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "水雷屯。",
+       "ssml": "水雷<phoneme alphabet=\"sapi\" ph=\"zhun 1\">屯</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四卦。",
+       "ssml": "第四卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "山水蒙。",
+       "ssml": "山水<phoneme alphabet=\"sapi\" ph=\"meng 2\">蒙</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五卦。",
+       "ssml": "第五卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "水天需。",
+       "ssml": "水天<phoneme alphabet=\"sapi\" ph=\"xu 1\">需</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六卦。",
+       "ssml": "第六卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "天水訟。",
+       "ssml": "天水<phoneme alphabet=\"sapi\" ph=\"song 4\">訟</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第七卦。",
+       "ssml": "第七卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "地水師。",
+       "ssml": "地水<phoneme alphabet=\"sapi\" ph=\"shi 1\">師</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第八卦。",
+       "ssml": "第八卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "水地比。",
+       "ssml": "水地<phoneme alphabet=\"sapi\" ph=\"bi 3\">比</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第九卦。",
+       "ssml": "第九卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "風天小畜。",
+       "ssml": "風天<phoneme alphabet=\"sapi\" ph=\"xiao 3\">小</phoneme><phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 10,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十卦。",
+       "ssml": "第十卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "天澤履。",
+       "ssml": "天澤履。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 11,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十一卦。",
+       "ssml": "第十一卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "地天泰。",
+       "ssml": "地天<phoneme alphabet=\"sapi\" ph=\"tai 4\">泰</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 12,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十二卦。",
+       "ssml": "第十二卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "天地否。",
+       "ssml": "天地<phoneme alphabet=\"sapi\" ph=\"pi 3\">否</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 13,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十三卦。",
+       "ssml": "第十三卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "天火同人。",
+       "ssml": "天火<phoneme alphabet=\"sapi\" ph=\"tong 2\">同</phoneme><phoneme alphabet=\"sapi\" ph=\"ren 2\">人</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 14,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十四卦。",
+       "ssml": "第十四卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "火天大有。",
+       "ssml": "火天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"you 3\">有</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 15,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十五卦。",
+       "ssml": "第十五卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "地山謙。",
+       "ssml": "地山<phoneme alphabet=\"sapi\" ph=\"qian 1\">謙</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 16,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十六卦。",
+       "ssml": "第十六卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "雷地豫。",
+       "ssml": "雷地<phoneme alphabet=\"sapi\" ph=\"yu 4\">豫</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 17,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十七卦。",
+       "ssml": "第十七卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "澤雷隨。",
+       "ssml": "澤雷<phoneme alphabet=\"sapi\" ph=\"sui 2\">隨</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 18,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十八卦。",
+       "ssml": "第十八卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "山風蠱。",
+       "ssml": "山風<phoneme alphabet=\"sapi\" ph=\"gu 3\">蠱</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 19,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第十九卦。",
+       "ssml": "第十九卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "地澤臨。",
+       "ssml": "地澤<phoneme alphabet=\"sapi\" ph=\"lin 2\">臨</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 20,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十卦。",
+       "ssml": "第二十卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "風地觀。",
+       "ssml": "風地<phoneme alphabet=\"sapi\" ph=\"guan 1\">觀</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 21,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十一卦。",
+       "ssml": "第二十一卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "火雷噬嗑。",
+       "ssml": "火雷<phoneme alphabet=\"sapi\" ph=\"shi 4\">噬</phoneme><phoneme alphabet=\"sapi\" ph=\"ke 4\">嗑</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 22,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十二卦。",
+       "ssml": "第二十二卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "山火賁。",
+       "ssml": "山火<phoneme alphabet=\"sapi\" ph=\"bi 4\">賁</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 23,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十三卦。",
+       "ssml": "第二十三卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "山地剝。",
+       "ssml": "山地<phoneme alphabet=\"sapi\" ph=\"bo 1\">剝</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 24,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十四卦。",
+       "ssml": "第二十四卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "地雷復。",
+       "ssml": "地雷<phoneme alphabet=\"sapi\" ph=\"fu 4\">復</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 25,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十五卦。",
+       "ssml": "第二十五卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "天雷无妄。",
+       "ssml": "天雷<phoneme alphabet=\"sapi\" ph=\"wu 2\">无</phoneme><phoneme alphabet=\"sapi\" ph=\"wang 4\">妄</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 26,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十六卦。",
+       "ssml": "第二十六卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "山天大畜。",
+       "ssml": "山天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"chu 4\">畜</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 27,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十七卦。",
+       "ssml": "第二十七卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "山雷頤。",
+       "ssml": "山雷<phoneme alphabet=\"sapi\" ph=\"yi 2\">頤</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 28,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十八卦。",
+       "ssml": "第二十八卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "澤風大過。",
+       "ssml": "澤風<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"guo 4\">過</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 29,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第二十九卦。",
+       "ssml": "第二十九卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "坎為水。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"kan 3\">坎</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>水。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 30,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十卦。",
+       "ssml": "第三十卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "離為火。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"li 2\">離</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>火。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 31,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十一卦。",
+       "ssml": "第三十一卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "澤山咸。",
+       "ssml": "澤山<phoneme alphabet=\"sapi\" ph=\"xian 2\">咸</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 32,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十二卦。",
+       "ssml": "第三十二卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "雷風恆。",
+       "ssml": "雷風<phoneme alphabet=\"sapi\" ph=\"heng 2\">恆</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 33,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十三卦。",
+       "ssml": "第三十三卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "天山遯。",
+       "ssml": "天山<phoneme alphabet=\"sapi\" ph=\"dun 4\">遯</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 34,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十四卦。",
+       "ssml": "第三十四卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "雷天大壯。",
+       "ssml": "雷天<phoneme alphabet=\"sapi\" ph=\"da 4\">大</phoneme><phoneme alphabet=\"sapi\" ph=\"zhuang 4\">壯</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 35,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十五卦。",
+       "ssml": "第三十五卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "火地晉。",
+       "ssml": "火地<phoneme alphabet=\"sapi\" ph=\"jin 4\">晉</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 36,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十六卦。",
+       "ssml": "第三十六卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "地火明夷。",
+       "ssml": "地火<phoneme alphabet=\"sapi\" ph=\"ming 2\">明</phoneme><phoneme alphabet=\"sapi\" ph=\"yi 2\">夷</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 37,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十七卦。",
+       "ssml": "第三十七卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "風火家人。",
+       "ssml": "風火<phoneme alphabet=\"sapi\" ph=\"jia 1\">家</phoneme><phoneme alphabet=\"sapi\" ph=\"ren 2\">人</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 38,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十八卦。",
+       "ssml": "第三十八卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "火澤睽。",
+       "ssml": "火澤<phoneme alphabet=\"sapi\" ph=\"kui 2\">睽</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 39,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第三十九卦。",
+       "ssml": "第三十九卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "水山蹇。",
+       "ssml": "水山<phoneme alphabet=\"sapi\" ph=\"jian 3\">蹇</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 40,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十卦。",
+       "ssml": "第四十卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "雷水解。",
+       "ssml": "雷水<phoneme alphabet=\"sapi\" ph=\"xie 4\">解</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 41,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十一卦。",
+       "ssml": "第四十一卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "山澤損。",
+       "ssml": "山澤<phoneme alphabet=\"sapi\" ph=\"sun 3\">損</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 42,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十二卦。",
+       "ssml": "第四十二卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "風雷益。",
+       "ssml": "風雷<phoneme alphabet=\"sapi\" ph=\"yi 4\">益</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 43,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十三卦。",
+       "ssml": "第四十三卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "澤天夬。",
+       "ssml": "澤天<phoneme alphabet=\"sapi\" ph=\"guai 4\">夬</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 44,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十四卦。",
+       "ssml": "第四十四卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "天風姤。",
+       "ssml": "天風<phoneme alphabet=\"sapi\" ph=\"gou 4\">姤</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 45,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十五卦。",
+       "ssml": "第四十五卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "澤地萃。",
+       "ssml": "澤地<phoneme alphabet=\"sapi\" ph=\"cui 4\">萃</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 46,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十六卦。",
+       "ssml": "第四十六卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "地風升。",
+       "ssml": "地風<phoneme alphabet=\"sapi\" ph=\"sheng 1\">升</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 47,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十七卦。",
+       "ssml": "第四十七卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "澤水困。",
+       "ssml": "澤水<phoneme alphabet=\"sapi\" ph=\"kun 4\">困</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 48,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十八卦。",
+       "ssml": "第四十八卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "水風井。",
+       "ssml": "水風<phoneme alphabet=\"sapi\" ph=\"jing 3\">井</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 49,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第四十九卦。",
+       "ssml": "第四十九卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "澤火革。",
+       "ssml": "澤火<phoneme alphabet=\"sapi\" ph=\"ge 2\">革</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 50,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十卦。",
+       "ssml": "第五十卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "火風鼎。",
+       "ssml": "火風<phoneme alphabet=\"sapi\" ph=\"ding 3\">鼎</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 51,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十一卦。",
+       "ssml": "第五十一卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "震為雷。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"zhen 4\">震</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>雷。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 52,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十二卦。",
+       "ssml": "第五十二卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "艮為山。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"gen 4\">艮</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>山。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 53,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十三卦。",
+       "ssml": "第五十三卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "風山漸。",
+       "ssml": "風山<phoneme alphabet=\"sapi\" ph=\"jian 4\">漸</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 54,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十四卦。",
+       "ssml": "第五十四卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "雷澤歸妹。",
+       "ssml": "雷澤<phoneme alphabet=\"sapi\" ph=\"gui 1\">歸</phoneme><phoneme alphabet=\"sapi\" ph=\"mei 4\">妹</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 55,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十五卦。",
+       "ssml": "第五十五卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "雷火豐。",
+       "ssml": "雷火<phoneme alphabet=\"sapi\" ph=\"feng 1\">豐</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 56,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十六卦。",
+       "ssml": "第五十六卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "火山旅。",
+       "ssml": "火山旅。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 57,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十七卦。",
+       "ssml": "第五十七卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "巽為風。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"xun 4\">巽</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>風。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 58,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十八卦。",
+       "ssml": "第五十八卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "兌為澤。",
+       "ssml": "<phoneme alphabet=\"sapi\" ph=\"dui 4\">兌</phoneme><phoneme alphabet=\"sapi\" ph=\"wei 2\">為</phoneme>澤。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 59,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第五十九卦。",
+       "ssml": "第五十九卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "風水渙。",
+       "ssml": "風水<phoneme alphabet=\"sapi\" ph=\"huan 4\">渙</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 60,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十卦。",
+       "ssml": "第六十卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "水澤節。",
+       "ssml": "水澤<phoneme alphabet=\"sapi\" ph=\"jie 2\">節</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 61,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十一卦。",
+       "ssml": "第六十一卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "風澤中孚。",
+       "ssml": "風澤<phoneme alphabet=\"sapi\" ph=\"zhong 1\">中</phoneme><phoneme alphabet=\"sapi\" ph=\"fu 2\">孚</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 62,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十二卦。",
+       "ssml": "第六十二卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "雷山小過。",
+       "ssml": "雷山<phoneme alphabet=\"sapi\" ph=\"xiao 3\">小</phoneme><phoneme alphabet=\"sapi\" ph=\"guo 4\">過</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 63,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十三卦。",
+       "ssml": "第六十三卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "水火既濟。",
+       "ssml": "水火<phoneme alphabet=\"sapi\" ph=\"ji 4\">既</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
+       "pause": 0
+      }
+     ]
+    },
+    {
+     "n": 64,
+     "cues": [
+      {
+       "role": "head",
+       "text": "第六十四卦。",
+       "ssml": "第六十四卦。",
+       "pause": 3
+      },
+      {
+       "role": "head",
+       "text": "火水未濟。",
+       "ssml": "火水<phoneme alphabet=\"sapi\" ph=\"wei 4\">未</phoneme><phoneme alphabet=\"sapi\" ph=\"ji 4\">濟</phoneme>。",
        "pause": 0
       }
      ]

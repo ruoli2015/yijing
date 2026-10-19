@@ -95,7 +95,11 @@ export function Listen() {
 
   const ch = book.chapters[s.chapter];
   const h = ch.n > 0 ? hex(ch.n) : null;
-  const [full, names] = all.books;
+  const full = all.books.find((b) => b.id === 'full');
+  const names = all.books.find((b) => b.id === 'names');
+  const variants = all.books.filter((b) => b.group === 'names'); // the same names, with different pauses
+  const group = book.group || book.id;
+  const lastNames = () => variants.find((b) => b.id === player.lastOf('names')) || names;
   const minutes = Math.round(full.duration / 60);
 
   return html`<div class="page listen">
@@ -103,10 +107,16 @@ export function Listen() {
       <h1>聽卦序 <small>The Sequence, Read Aloud</small></h1>
       <${Bi} zh=${`六十四卦依序朗讀：每一卦讀出卦序與卦名，引《序卦傳》說明它為什麼接在前一卦之後，附上今解。全長約 ${minutes} 分鐘。另有只讀卦名的短版，約 ${Math.round(names.duration / 60)} 分鐘，方便背誦卦序。`}
         en=${`All sixty-four hexagrams read in order: each one's number and name, the Xugua sentence explaining why it follows the one before, and the modern reading. About ${minutes} minutes. A short version reads only the names (${Math.round(names.duration / 60)} minutes), for memorizing the order.`} />
-      <${Segmented} value=${s.book} onChange=${player.setBook} options=${all.books.map((b) => ({
-        value: b.id,
-        label: html`${b.id === 'full' ? '完整版' : '只讀卦名'}${en ? html` <small>${b.id === 'full' ? 'Full' : 'Names only'}</small>` : null}`,
-      }))} />
+      <${Segmented} value=${group} onChange=${(g) => player.setBook(g === 'full' ? 'full' : lastNames().id)} options=${[
+        { value: 'full', label: html`完整版${en ? html` <small>Full</small>` : null}` },
+        { value: 'names', label: html`只讀卦名${en ? html` <small>Names only</small>` : null}` },
+      ]} />
+      ${group === 'names'
+        ? html`<div class="pause-row"><span class="muted small">停頓${en ? ' Pause' : ''}</span>
+          <div class="chips-row">${variants.map((b) => html`<button type="button" class=${`chip-btn${b.id === book.id ? ' on' : ''}`} onClick=${() => player.setBook(b.id)}>
+            ${b.pause ? `${b.pause} 秒` : '無'}${en && !b.pause ? html` <small>none</small>` : null}</button>`)}</div>
+          </div>`
+        : null}
     </div>
 
     <section class="card now">
@@ -117,7 +127,7 @@ export function Listen() {
               <a class="now-name" href=${`#/h/${h.n}`}>${h.full}</a>${en ? html` <small class="muted">${h.en}</small>` : null}</div>`
           : html`<div><div class="now-num">開場 <small>Introduction</small></div><div class="now-name">${full.titleZh}</div></div>`}
       </div>
-      ${book.id === 'names' ? html`<p class="muted small">${book.titleZh} · ${book.titleEn}</p>` : null}
+      ${group === 'names' ? html`<p class="muted small">${book.titleZh} · ${book.titleEn}${book.pause ? ` · 停頓 ${book.pause} 秒` : ''}</p>` : null}
       <${Transcript} ch=${ch} cue=${s.cue} book=${book} />
       ${s.error ? html`<p class="bad small">${s.error}</p>` : null}
     </section>
