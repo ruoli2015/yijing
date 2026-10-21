@@ -9,9 +9,9 @@ A web app for learning the 64 hexagrams of the 周易 and the logic of their ord
 - **六十四卦 Browse:** grid, pairs or trigram table. Search by name, pinyin, number, or by tapping in the lines you remember.
 - **Hexagram pages:** 序卦傳 in and out with modern bilingual explanations, plus 卦辭, 彖傳, 大象 and 爻辭 with 小象.
 - **卦序之理 Logic of the order:** essays, 朱熹's rhyme, and the whole chain in 17 stages.
-- **聽卦序 Listen:** an audiobook of all 64 in order: number and name, the 序卦傳 sentence explaining why it follows the one before, and the modern reading. A short version reads only the 64 names, for memorizing the order. The transcript follows along, and it keeps playing while you browse or with the screen locked.
+- **聽卦序 Listen:** an audiobook of all 64 in order: number and name, the 序卦傳 sentence explaining why it follows the one before, and the modern reading. A short version reads only the 64 names, for memorizing the order. The transcript follows along, and it keeps playing while you browse or with the screen locked. 區間循環 loops any stretch of hexagrams (e.g. 3–10) in either version.
 - **占卦 Divination:** three-coin cast read by 朱熹's rules, with a journal.
-- Works offline (except the audiobook, which streams). Add it to your home screen on iPhone (Safari → Share → Add to Home Screen) or Android (Chrome → Install app).
+- Works offline. The audiobook streams, or tap 下載音檔 on the 聽卦序 page to save it (about 15 MB) for listening with no connection. Add it to your home screen on iPhone (Safari → Share → Add to Home Screen) or Android (Chrome → Install app).
 
 ## Develop
 

@@ -6,7 +6,7 @@ import { createHash } from 'node:crypto';
 import { parse } from 'yaml';
 import { sentences, sapi, compileRules, readings, tidy } from '../scripts/audiobook/script.mjs';
 import { setData, numZh } from '../app/js/hex.js';
-import { locate } from '../app/js/audiobook.js';
+import { locate, span } from '../app/js/audiobook.js';
 
 const read = (p) => readFileSync(new URL(p, import.meta.url), 'utf8');
 const D = JSON.parse(read('../app/data/yijing.json'));
@@ -113,4 +113,14 @@ test('recordings: chapters and cues line up with the script', { skip: !existsSyn
   assert.deepEqual(locate(full.chapters[24].start + 0.01, full), { chapter: 24, n: 24, cue: 0 });
   assert.deepEqual(locate(names.chapters[2].start + 0.01, names), { chapter: 2, n: 3, cue: 0 });
   assert.equal(locate(0, full).chapter, 0);
+  // a range loop stops in the silence after its last hexagram, before the next one (or the closing words) begins
+  for (const B of M.books)
+    for (const [from, to] of [[3, 10], [1, 64], [64, 64]]) {
+      const { start, stop } = span(B, from, to);
+      const i = B.chapters.findIndex((c) => c.n === to);
+      const said = B.chapters[i].cues.filter((c) => c.role !== 'outro');
+      const next = B.chapters[i].cues.find((c) => c.role === 'outro')?.start ?? B.chapters[i + 1]?.start ?? B.duration;
+      assert.equal(start, B.chapters.find((c) => c.n === from).start);
+      assert.ok(stop > said.at(-1).end && stop < next, `${B.id} ${from}–${to}: stop ${stop} between ${said.at(-1).end} and ${next}`);
+    }
 });

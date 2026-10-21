@@ -434,6 +434,11 @@ ol.chain { list-style: none; padding: 0; margin: 12px 0 0; border-left: 2px soli
 .pause-row { display: flex; align-items: center; gap: 8px; margin-top: 2px; min-width: 0; }
 .pause-row .chips-row { min-width: 0; flex-wrap: wrap; overflow: visible; }
 .pause-row > .muted { white-space: nowrap; }
+.range-row, .offline-row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.range-row select { font: inherit; font-family: var(--serif-zh); font-size: 0.9rem; padding: 4px 6px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); max-width: 7.5em; }
+.offline-row progress { flex: 1; max-width: 220px; accent-color: var(--accent); }
+.offline-row .ok { color: var(--good); }
+.link-btn { border: 0; background: none; padding: 0; color: var(--accent); text-decoration: underline; cursor: pointer; }
 .controls .repeat svg { width: 22px; height: 22px; }
 .controls .repeat.on { color: var(--accent); background: var(--accent-soft); }
 .controls .speed, .controls .repeat { width: 48px; font-size: 0.85rem; font-weight: 600; color: var(--muted); }
@@ -443,6 +448,7 @@ ol.chain { list-style: none; padding: 0; margin: 12px 0 0; border-left: 2px soli
 .ch-tile { display: flex; flex-direction: column; align-items: center; gap: 2px; border: 1px solid transparent; background: none; border-radius: 8px; padding: 4px 0; color: var(--ink); min-width: 0; }
 .ch-tile .tile-num { font-size: 0.65rem; color: var(--muted); line-height: 1; }
 .ch-tile .tile-name { font-family: var(--serif-zh); font-size: 0.8rem; line-height: 1.2; white-space: nowrap; }
+.ch-tile.in-range { background: var(--accent-soft); }
 .ch-tile.on { border-color: var(--accent); background: var(--accent-soft); }
 .ch-intro { grid-column: 1 / -1; font-family: var(--serif-zh); font-size: 0.9rem; padding: 6px; }
 .mini-player {

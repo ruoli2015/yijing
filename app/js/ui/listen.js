@@ -15,6 +15,7 @@ export function usePlayer() {
   return player.get();
 }
 
+const mb = (bytes) => `${Math.round(bytes / 1e6)} MB`;
 const clock = (t) => {
   t = Math.max(0, Math.round(t));
   return `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`;
@@ -99,6 +100,7 @@ export function Listen() {
   const names = all.books.find((b) => b.id === 'names');
   const variants = all.books.filter((b) => b.group === 'names'); // the same names, with different pauses
   const group = book.group || book.id;
+  const looped = (n) => s.range.on && n >= s.range.from && n <= s.range.to;
   const lastNames = () => variants.find((b) => b.id === player.lastOf('names')) || names;
   const minutes = Math.round(full.duration / 60);
 
@@ -117,6 +119,8 @@ export function Listen() {
             ${b.pause ? `${b.pause} 秒` : '無'}${en && !b.pause ? html` <small>none</small>` : null}</button>`)}</div>
           </div>`
         : null}
+      <${RangeRow} s=${s} en=${en} />
+      <${OfflineRow} s=${s} en=${en} />
     </div>
 
     <section class="card now">
@@ -157,14 +161,48 @@ export function Listen() {
           : null}
         ${book.chapters.filter((c) => c.n > 0).map((c) => {
           const x = hex(c.n);
-          return html`<button type="button" class=${`ch-tile${s.n === c.n ? ' on' : ''}`} onClick=${() => player.playChapter(c.n)} aria-label=${player.chapterTitle(c.n)}>
+          return html`<button type="button" class=${`ch-tile${s.n === c.n ? ' on' : ''}${looped(c.n) ? ' in-range' : ''}`} onClick=${() => player.playChapter(c.n)} aria-label=${player.chapterTitle(c.n)}>
             <span class="tile-num">${c.n}</span><${HexSvg} lines=${x.lines} size=${26} /><span class="tile-name">${x.name}</span>
           </button>`;
         })}
       </div>
-      <p class="muted small">${all.voice.includes('Yunyi') ? 'Azure 雲逸 Yunyi' : all.voice} · 音檔需要網路 · audio streams online</p>
+      <p class="muted small">${all.voice.includes('Yunyi') ? 'Azure 雲逸 Yunyi' : all.voice} · ${all.books.every((b) => s.saved[b.id]) ? '已下載，可離線收聽 · saved for offline' : '音檔需要網路 · audio streams online'}</p>
     </section>
   </div>`;
+}
+
+// Loop between two hexagrams, in either version. Picking an end turns the loop on.
+function RangeRow({ s, en }) {
+  const { on, from, to } = s.range;
+  const options = (sel) => Array.from({ length: 64 }, (_, i) => html`<option value=${i + 1} selected=${i + 1 === sel}>${i + 1} ${hex(i + 1).name}</option>`);
+  return html`<div class="range-row">
+    <button type="button" class=${`chip-btn${on ? ' on' : ''}`} onClick=${() => player.setRange({ on: !on })} aria-pressed=${on}>
+      區間循環${en ? html` <small>Loop</small>` : null}</button>
+    <select value=${from} onChange=${(e) => player.setRange({ on: true, from: Number(e.target.value) })} aria-label="loop from">${options(from)}</select>
+    <span class="muted small">至${en ? ' to' : ''}</span>
+    <select value=${to} onChange=${(e) => player.setRange({ on: true, to: Number(e.target.value) })} aria-label="loop to">${options(to)}</select>
+  </div>`;
+}
+
+// Save the recordings on this device so they play without a connection.
+function OfflineRow({ s, en }) {
+  if (!player.canDownload()) return null;
+  const all = player.manifest();
+  const saved = all.books.every((b) => s.saved[b.id]);
+  let body;
+  if (s.dl) {
+    const pct = Math.floor((100 * s.dl.got) / s.dl.total);
+    body = html`<progress max="100" value=${pct}></progress><span class="muted small">下載中 ${pct}%${en ? ' Downloading' : ''}</span>`;
+  } else if (saved) {
+    body = html`<span class="small ok">✓ 已存在這部裝置，可離線收聽${en ? html` <span class="muted">Saved on this device for offline listening</span>` : null}</span>
+      <button type="button" class="link-btn small" onClick=${player.removeDownload}>移除${en ? ' Remove' : ''}</button>`;
+  } else {
+    const again = s.savedOld || Object.values(s.saved).some(Boolean);
+    body = html`<button type="button" class="chip-btn" onClick=${player.download}>
+        ⤓ ${again ? '更新下載' : '下載音檔'}${en ? html` <small>${again ? 'Update download' : 'Download'}</small>` : null}</button>
+      <span class="muted small">${again ? '錄音已更新 · ' : ''}離線收聽 · ${en ? 'listen offline · ' : ''}${mb(player.downloadSize())}</span>`;
+  }
+  return html`<div class="offline-row">${body}${s.dlError ? html`<span class="bad small">${s.dlError}</span>` : null}</div>`;
 }
 
 // Shown above the tabs on other pages once the audiobook has been started.
